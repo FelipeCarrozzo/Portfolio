@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de Películas: a jugar!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Trivia de Películas: a jugar {{ usuario }}!</h1>
+    <h2>Pregunta {{ indice + 1 }} de {{ total_preguntas }}</h2>
+    
+    <form method="POST" action="{{ url_for('p_iniciar_trivia') }}">
+        <p>{{ pregunta['frase'] }}</p>
+
+        {% for opcion in pregunta['opciones'] %}
+            <label>
+                <input type="radio" name="respuesta" value="{{ opcion }}" 
+                    {% if opcion == seleccion %} checked {% endif %}
+                    {% if estado == "evaluando" %} disabled {% endif %}
+                    required> {{ opcion }}
+            </label><br>
+        {% endfor %}
+
+        <br>
+
+        {% if mensaje %}
+            <p><strong>{{ mensaje }}</strong></p>
+        {% endif %}
+
+        {% if estado == "evaluando" %}
+            <button type="submit" name="accion" value="siguiente">Siguiente</button>
+        {% else %}
+            <button type="submit" name="accion" value="responder">Responder</button>
+        {% endif %}
+    </form>
+
+    <br>
+    <form method="GET" action="{{ url_for('p_inicio') }}">
+        <button type="submit">Volver al Inicio</button>
+    </form>
+</body>
+</html>
