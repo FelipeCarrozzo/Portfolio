@@ -1,0 +1,15 @@
+conda install -c conda-forge r-rstatix (instalada) #aunque no anda bien
+
+conda install -c conda-forge r-dmwr2 (instalada) pero me dejó instalar en Visual una llamada 'DMwR2'
+
+conda install -c conda-forge r-scatterplot3d (instalada)
+
+conda install -c conda-forge r-ggally (instalada) no pude de ninguna forma
+
+conda install -c conda-forge r-devtools(instalada)
+
+conda install -c conda-forge r-aplpack (instalada)
+
+conda install -c conda-forge r-hotelling (instalada)
+
+conda install -c conda-forge r-heplots (instalada)

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestioná tus reclamos|Registrate</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <img src="{{ url_for('static', filename='logoFiuner.png') }}" alt="Logo de la Facultad De Ingeniería UNER" class="logo" width="150" height="50">
+        <div class="separator"></div>
+        <h1>Gestor de reclamos | Registrate</h1>
+    </div>
+
+    <!-- Sección para mensajes flash -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="mensajes-flash">
+                {% for category, message in messages %}
+                    <p class="{{ category }}">{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div class="grid-form">
+            <div class="left-column">
+                <p>{{ form.nombre.label }}<br>{{ form.nombre() }}</p>
+                <p>{{ form.apellido.label }}<br>{{ form.apellido() }}</p>
+                <p>{{ form.email.label }}<br>{{ form.email() }}</p>
+            </div>
+            <div class="right-column">
+                <p>{{ form.nombreUsuario.label }}<br>{{ form.nombreUsuario() }}</p>
+                <p>{{ form.password.label }}<br>{{ form.password() }}</p>
+                <p>{{ form.confirmacion.label }}<br>{{ form.confirmacion() }}</p>
+            </div>
+        </div>
+        <div class="submit-container">
+            <p>{{ form.submit() }}</p>
+        </div>
+
+        <p>¿Ya tenés cuenta? <a href="{{ url_for('login') }}">Iniciar sesión</a></p>
+        <p><a href="{{ url_for('inicio') }}">Volver al inicio</a></p>
+
+        {% for field, errors in form.errors.items() %}
+            {% for error in errors %}
+                <p style="color:red;">Error en {{ field }}: {{ error }}</p>
+            {% endfor %}
+        {% endfor %}
+    </form>
+
+</body>
+</html>

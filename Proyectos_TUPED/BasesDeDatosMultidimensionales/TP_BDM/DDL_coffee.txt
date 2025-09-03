@@ -1,0 +1,103 @@
+-- Table: public.fecha
+
+-- DROP TABLE IF EXISTS public.fecha;
+
+CREATE TABLE IF NOT EXISTS public.fecha
+(
+    id_fecha integer NOT NULL DEFAULT nextval('fecha_id_fecha_seq'::regclass),
+    fecha date,
+    CONSTRAINT fecha_pkey PRIMARY KEY (id_fecha)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.fecha
+    OWNER to postgres;
+
+-- Table: public.mercado
+
+-- DROP TABLE IF EXISTS public.mercado;
+
+CREATE TABLE IF NOT EXISTS public.mercado
+(
+    id_mercado integer NOT NULL DEFAULT nextval('mercado_id_mercado_seq'::regclass),
+    mercado character varying(100) COLLATE pg_catalog."default",
+    tam_mercado character varying(100) COLLATE pg_catalog."default",
+    CONSTRAINT mercado_pkey PRIMARY KEY (id_mercado)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.mercado
+    OWNER to postgres;
+
+-- Table: public.producto
+
+-- DROP TABLE IF EXISTS public.producto;
+
+CREATE TABLE IF NOT EXISTS public.producto
+(
+    id_producto integer NOT NULL DEFAULT nextval('producto_id_producto_seq'::regclass),
+    producto character varying(100) COLLATE pg_catalog."default",
+    tipo_producto character varying(100) COLLATE pg_catalog."default",
+    CONSTRAINT producto_pkey PRIMARY KEY (id_producto)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.producto
+    OWNER to postgres;
+
+-- Table: public.ubicacion
+
+-- DROP TABLE IF EXISTS public.ubicacion;
+
+CREATE TABLE IF NOT EXISTS public.ubicacion
+(
+    id_estado integer NOT NULL DEFAULT nextval('ubicacion_id_estado_seq'::regclass),
+    estado character varying COLLATE pg_catalog."default",
+    cod_area integer,
+    CONSTRAINT ubicacion_pkey PRIMARY KEY (id_estado)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.ubicacion
+    OWNER to postgres;
+
+-- Table: public.contabilidad
+
+-- DROP TABLE IF EXISTS public.contabilidad;
+
+CREATE TABLE IF NOT EXISTS public.contabilidad
+(
+    id_contabilidad integer NOT NULL DEFAULT nextval('contabilidad_id_contabilidad_seq'::regclass),
+    id_fecha integer NOT NULL DEFAULT nextval('contabilidad_id_fecha_seq'::regclass),
+    id_producto integer NOT NULL DEFAULT nextval('contabilidad_id_producto_seq'::regclass),
+    id_mercado integer NOT NULL DEFAULT nextval('contabilidad_id_mercado_seq'::regclass),
+    id_estado integer NOT NULL DEFAULT nextval('contabilidad_id_estado_seq'::regclass),
+    ventas integer,
+    ventas_estimacion integer,
+    CONSTRAINT contabilidad_pkey PRIMARY KEY (id_contabilidad),
+    CONSTRAINT id_estado FOREIGN KEY (id_estado)
+        REFERENCES public.ubicacion (id_estado) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT id_fecha FOREIGN KEY (id_fecha)
+        REFERENCES public.fecha (id_fecha) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT id_mercado FOREIGN KEY (id_mercado)
+        REFERENCES public.mercado (id_mercado) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT id_producto FOREIGN KEY (id_producto)
+        REFERENCES public.producto (id_producto) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.contabilidad
+    OWNER to postgres;

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adherite a un reclamo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container-inicio">
+
+        <!-- Header -->
+        <div class="header">
+            <img src="{{ url_for('static', filename='logoFiuner.png') }}" alt="Logo de la Facultad De Ingeniería UNER" class="logo" width="150" height="50">
+            <div class="separator"></div>
+            <h1>Gestor de reclamos</h1>
+        </div>
+
+        <!-- Título -->
+        <h2 class="intro">Reclamos similares encontrados</h2>
+
+        <!-- Tabla de reclamos -->
+        <table class="reclamos-table">
+            <thead>
+                <tr>
+                    <th>Descripción</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for reclamo in reclamos %}
+                <tr>
+                    <td>{{ reclamo['descripcion'] }}</td>
+                    <td>
+                        <div class="acciones">
+                            <form method="POST" action="{{ url_for('adherir_a_reclamo', idReclamo=reclamo['id']) }}">
+                                <input type="hidden" name="rutaImagen" value="{{ rutaImagen }}">
+                                {% if idUsuario in reclamo['usuariosAdheridos'] or idUsuario == reclamo['idUsuario'] %}
+                                    <span class="ya-adherido">Ya adherido</span>
+                                {% else %}
+                                    <button type="submit" class="btn-registro">Adherirme</button>
+                                {% endif %}
+                            </form>
+
+                            <form method="POST" action="{{ url_for('adherir_a_reclamo', idReclamo=0) }}">
+                                <input type="hidden" name="descripcion" value="{{ descripcionOriginal }}">
+                                
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Botones cancelar y crear reclamo de todas formas -->
+        <div class="botones">
+            <form method="POST" action="{{ url_for('adherir_a_reclamo', idReclamo=0) }}" enctype="multipart/form-data" style="display:inline;">
+                <input type="hidden" name="descripcion" value="{{ descripcionOriginal }}">
+                <input type="hidden" name="rutaImagen" value="{{ rutaImagen }}">
+                <button type="submit" class="btn-crear-detodasformas">Crear mi reclamo de todas formas</button>
+            </form>
+            <form method="POST" action="{{ url_for('adherir_a_reclamo', idReclamo=99999999) }}" style="display:inline;">
+                <input type="hidden" name="rutaImagen" value="{{ rutaImagen }}">
+                <button type="submit" class="btn-registro">Cancelar y volver</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

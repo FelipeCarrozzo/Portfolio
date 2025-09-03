@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Trivia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Resultados de la Trivia</h1>
+    <p><strong>{{ usuario }}</strong>, su puntuación final es <strong>{{ puntaje }}</strong> respuestas correctas de <strong>{{ intentos }}</strong> intentos.</p>
+
+    <form action="{{ url_for('p_inicio') }}">
+        <input type='submit' value='Volver al menú inicial'>
+    </form>
+</body>
+</html>

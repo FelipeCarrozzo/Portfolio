@@ -1,0 +1,17 @@
+Flask
+Flask-Login
+flask_session
+Flask-WTF
+flask_bootstrap
+nltk
+numpy
+scikit-learn
+scipy
+SQLAlchemy
+Werkzeug
+WTForms
+email-validator
+pytest
+wordcloud
+matplotlib
+reportlab

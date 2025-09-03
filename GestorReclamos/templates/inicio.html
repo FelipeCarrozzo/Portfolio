@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestioná tus reclamos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container-inicio">
+        <div class="error text-center">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+        <div class="header">
+            <img src="{{ url_for('static', filename='logoFiuner.png') }}" alt="Logo de la Facultad De Ingeniería UNER" class="logo" width="150" height="50">
+            <div class="separator"></div>
+            <h1>Gestor de reclamos</h1>
+        </div>
+
+        <p class="intro">Bienvenido al sistema de gestión de reclamos. Aquí podrás registrar y gestionar tus reclamos de manera eficiente.</p>
+
+        <div class="botones">
+            <a class="btn-registro" href="{{ url_for('login') }}">Iniciar sesión</a>
+            <a class="btn-registro" href="{{ url_for('register') }}">Registrarse</a>
+        </div>
+    </div>
+
+</body>
+</html>

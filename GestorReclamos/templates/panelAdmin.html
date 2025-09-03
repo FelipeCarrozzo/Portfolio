@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administrativo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <img src="{{ url_for('static', filename='logoFiuner.png') }}" alt="Logo de la Facultad De Ingeniería UNER" class="logo" width="150" height="50">
+        <div class="separator"></div>
+        <h1>Gestor de reclamos</h1>
+    </div>
+
+
+    {% if es_secretario %}
+        <p>Hola {{ username }}, estás gestionando todos los reclamos del sistema.</p>
+    {% else %}
+        <p>Hola {{ username }}, estás gestionando reclamos del departamento <strong>{{ departamento }}</strong>.</p>
+    {% endif %}
+
+    {% if reclamos %}
+    <div class="tabla-reclamos">
+        <form method="post" action="{{ url_for('panelAdmin') }}">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>ID Creador</th>
+                        <th>ID Usuarios adheridos</th>
+                        <th>Descripción</th>
+                        <th>Fecha/Hora</th>
+                        <th>Estado</th>
+                        <th>Tiempo Resolución</th>
+                        {% if es_secretario %}
+                            <th>Departamento</th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for reclamo in reclamos %}
+                        <tr>
+                            <td>{{ reclamo.id }}</td>
+                            <td>{{ reclamo.idUsuario }}</td>
+                            <td>
+                                {% if reclamo.usuariosAdheridos %}
+                                    {{ reclamo.usuariosAdheridos | join(' - ') }}
+                                {% else %}
+                                    Ninguno
+                                {% endif %}
+                            <td>{{ reclamo.descripcion }}</td>
+                            <td>{{ reclamo.fechaYHora }}</td>
+
+                            <td>
+                                <select name="estado_{{ reclamo.id }}">
+                                    {% for estado in ['pendiente', 'en proceso', 'resuelto', 'inválido'] %}
+                                        <option value="{{ estado }}" {% if reclamo.estado == estado %}selected{% endif %}>
+                                            {{ estado.capitalize() }}
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                            </td>
+
+                            <td>
+                                <input type="number" name="tiempo_{{ reclamo.id }}" value="{{ reclamo.tiempoResolucion or '' }}" min="1" max="15">
+                            </td>
+
+                            {% if es_secretario %}
+                            <td>
+                                <select name="departamento_{{ reclamo.id }}">
+                                    {% for d in ['maestranza', 'soporte informático', 'secretaría técnica'] %}
+                                        <option value="{{ d }}" {% if reclamo.departamento == d %}selected{% endif %}>
+                                            {{ d.capitalize() }}
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                            </td>
+                            {% endif %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <!-- Bloque de mensajes flash -->
+            <div class="error text-center">
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        {% for category, message in messages %}
+                            <div class="{{ category }}">{{ message }}</div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+            </div>
+            <div class="submit-container">
+                <input type="submit" value="Guardar cambios">
+            </div>
+        </form>
+    </div>
+    {% else %}
+        <p>No hay reclamos para mostrar.</p>
+    {% endif %}
+
+
+    <div class="botones">
+        <a href="{{ url_for('logout') }}" class="btn-registro">Cerrar sesión</a>
+        <a href="{{ url_for('analitica') }}" class="btn-registro">Analítica</a>
+        <a href="{{ url_for('ayuda') }}" class="btn-registro">Ayuda</a>
+    </div>
+
+</body>
+</html>
