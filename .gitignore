@@ -1,2 +1,5 @@
-*.csv
+casos_covid19_2022.csv
+Electric_Vehicle_Population_Data.csv
+enroll_districts_raw.csv
+enroll_districts.csv
 *.tar
