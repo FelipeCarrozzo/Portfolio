@@ -1,0 +1,6 @@
+id_tipo_procedimiento,nombre_tipo_procedimiento
+1,Consulta
+2,Estudio
+3,Cirugía
+4,Terapia
+5,Intervención

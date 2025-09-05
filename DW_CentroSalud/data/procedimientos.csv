@@ -1,0 +1,31 @@
+id_procedimiento,nombre_procedimiento,id_tipo_procedimiento,nombre_tipo_procedimiento,id_categoria_procedimiento,nombre_categoria_procedimiento,nivel_complejidad
+1,Electrocardiograma,1,Consulta,3,Diagnóstico,Baja
+2,Hemograma,4,Terapia,1,Cardiología,Media
+3,Radiografía,1,Consulta,6,Neurología,Alta
+4,Resonancia magnética,2,Estudio,5,Ginecología,Baja
+5,Cirugía menor,4,Terapia,8,Odontología,Baja
+6,Cirugía mayor,4,Terapia,7,Oncología,Alta
+7,Ecografía obstétrica,5,Intervención,2,Laboratorio,Baja
+8,Terapia respiratoria,5,Intervención,5,Ginecología,Baja
+9,Implante dental,3,Cirugía,8,Odontología,Media
+10,Biopsia,5,Intervención,8,Odontología,Media
+11,Colocación de yeso,4,Terapia,8,Odontología,Baja
+12,Endoscopía,5,Intervención,3,Diagnóstico,Baja
+13,Papanicolau,1,Consulta,5,Ginecología,Baja
+14,Consulta pediátrica,5,Intervención,2,Laboratorio,Baja
+15,Consulta ginecológica,1,Consulta,3,Diagnóstico,Alta
+16,Consulta traumatológica,2,Estudio,1,Cardiología,Baja
+17,Consulta neurológica,4,Terapia,1,Cardiología,Alta
+18,Análisis de glucosa,1,Consulta,3,Diagnóstico,Media
+19,Tomografía axial computada,5,Intervención,7,Oncología,Alta
+20,Consulta odontológica,2,Estudio,8,Odontología,Media
+21,Extracción de muela,5,Intervención,2,Laboratorio,Baja
+22,Consulta cardiológica,3,Cirugía,2,Laboratorio,Baja
+23,Tratamiento oncológico,1,Consulta,6,Neurología,Alta
+24,Consulta dermatológica,3,Cirugía,8,Odontología,Alta
+25,Consulta de laboratorio,1,Consulta,4,Traumatología,Media
+26,Ecografía abdominal,2,Estudio,5,Ginecología,Media
+27,Estudio de sangre,3,Cirugía,4,Traumatología,Media
+28,Consulta de control,2,Estudio,8,Odontología,Alta
+29,Consulta de guardia,1,Consulta,8,Odontología,Alta
+30,Consulta médica,5,Intervención,3,Diagnóstico,Baja

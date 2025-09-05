@@ -1,0 +1,101 @@
+id_medico,nombre,id_especialidad,nombre_especialidad,id_area,nombre_area,tipo_contrato
+1,Benjamin Miranda,10,Oftalmología,4,Quirófano,Temporario
+2,Martina Gomez,2,Pediatría,3,Guardia,Temporario
+3,Juliana Paz,4,Traumatología,4,Quirófano,Permanente
+4,Abril Molina,7,Otorrinolaringología,4,Quirófano,Honorarios
+5,Santino Luna,6,Neurología,5,Laboratorio,Permanente
+6,Lautaro Benjamin Romero,1,Clínica Médica,5,Laboratorio,Permanente
+7,Juliana Ledesma,6,Neurología,3,Guardia,Temporario
+8,Mateo Benjamin Martinez,9,Oncología,2,Internación,Permanente
+9,Felipe Fernandez,3,Cardiología,3,Guardia,Residente
+10,Bruno Rodriguez,4,Traumatología,2,Internación,Temporario
+11,Isabella Molina,7,Otorrinolaringología,3,Guardia,Permanente
+12,Thiago Nicolas Sosa,3,Cardiología,4,Quirófano,Temporario
+13,Valentina  Mendez,10,Oftalmología,5,Laboratorio,Honorarios
+14,Ian Hernandez,2,Pediatría,4,Quirófano,Honorarios
+15,Lautaro Rodriguez,4,Traumatología,4,Quirófano,Temporario
+16,Juana Benitez,4,Traumatología,4,Quirófano,Residente
+17,Lucía Fernandez,9,Oncología,5,Laboratorio,Residente
+18,Maximo Alvarez,4,Traumatología,2,Internación,Temporario
+19,Guadalupe Lopez,6,Neurología,1,Consultorio,Permanente
+20,Alma Benitez,3,Cardiología,3,Guardia,Honorarios
+21,Tomàs Ruiz,4,Traumatología,4,Quirófano,Permanente
+22,Bautista Benjamin Velazquez,8,Dermatología,4,Quirófano,Temporario
+23,Maria Victoria Pereyra,7,Otorrinolaringología,3,Guardia,Residente
+24,Sara Bravo,2,Pediatría,5,Laboratorio,Temporario
+25,Florencia Martinez,8,Dermatología,2,Internación,Honorarios
+26,Valentina Maldonado,3,Cardiología,4,Quirófano,Permanente
+27,Gael Gomez,10,Oftalmología,5,Laboratorio,Temporario
+28,Nahiara Moyano,3,Cardiología,4,Quirófano,Temporario
+29,Maximo Martinez,6,Neurología,5,Laboratorio,Temporario
+30,Emilia Perez,5,Ginecología,2,Internación,Residente
+31,Isabella Soria,3,Cardiología,5,Laboratorio,Honorarios
+32,Guillermina Diaz,2,Pediatría,1,Consultorio,Permanente
+33,Victoria Rojas,2,Pediatría,1,Consultorio,Permanente
+34,Ramiro Vargas,8,Dermatología,3,Guardia,Honorarios
+35,Candela Lopez,5,Ginecología,3,Guardia,Residente
+36,Sofia Silva,10,Oftalmología,2,Internación,Honorarios
+37,Joaquín Flores,4,Traumatología,4,Quirófano,Residente
+38,Genaro Dominguez,3,Cardiología,4,Quirófano,Honorarios
+39,Isabel Castillo,9,Oncología,4,Quirófano,Permanente
+40,Maximo Perez,4,Traumatología,1,Consultorio,Honorarios
+41,Mateo Godoy,1,Clínica Médica,1,Consultorio,Permanente
+42,Francesca Fernandez,3,Cardiología,2,Internación,Temporario
+43,Valentina Vargas,7,Otorrinolaringología,5,Laboratorio,Permanente
+44,Santino Suarez,7,Otorrinolaringología,4,Quirófano,Permanente
+45,Thiago Valentin Benitez,2,Pediatría,1,Consultorio,Permanente
+46,Lorenzo Carrizo,4,Traumatología,1,Consultorio,Permanente
+47,Nahiara Farias,6,Neurología,4,Quirófano,Permanente
+48,Lautaro Gomez,8,Dermatología,2,Internación,Honorarios
+49,Renata Paez,9,Oncología,5,Laboratorio,Temporario
+50,Lucía Navarro,9,Oncología,4,Quirófano,Honorarios
+51,Faustino Lopez,3,Cardiología,5,Laboratorio,Permanente
+52,Clara Gonzalez,8,Dermatología,2,Internación,Temporario
+53,Agustin Garcia,4,Traumatología,3,Guardia,Residente
+54,Thiago Emanuel Velazquez,6,Neurología,5,Laboratorio,Permanente
+55,Giovanni Diaz,6,Neurología,1,Consultorio,Temporario
+56,Thiago Juarez,3,Cardiología,5,Laboratorio,Residente
+57,Luciano Benjamin Gonzalez,3,Cardiología,3,Guardia,Residente
+58,Santino Torres,2,Pediatría,3,Guardia,Permanente
+59,Renata Rodriguez,6,Neurología,5,Laboratorio,Residente
+60,Valentina  Carrizo,7,Otorrinolaringología,1,Consultorio,Temporario
+61,Sofia Sanchez,3,Cardiología,5,Laboratorio,Temporario
+62,Renata Maldonado,3,Cardiología,1,Consultorio,Honorarios
+63,Francesca Martinez,10,Oftalmología,4,Quirófano,Temporario
+64,Luz Milagros Sanchez,2,Pediatría,5,Laboratorio,Residente
+65,Federico Blanco,6,Neurología,2,Internación,Permanente
+66,Emilia Rodriguez,8,Dermatología,4,Quirófano,Permanente
+67,Nina Pereyra,3,Cardiología,3,Guardia,Temporario
+68,Malena Bustos,4,Traumatología,1,Consultorio,Temporario
+69,Pedro Ruiz,10,Oftalmología,5,Laboratorio,Permanente
+70,Benjamin Rodriguez,4,Traumatología,1,Consultorio,Honorarios
+71,Fausto Arias,4,Traumatología,3,Guardia,Residente
+72,Guadalupe Ojeda,3,Cardiología,2,Internación,Residente
+73,Bruno Velazquez,8,Dermatología,2,Internación,Temporario
+74,Lautaro Ezequiel Gonzalez,8,Dermatología,3,Guardia,Permanente
+75,Benjamin Nuñez,1,Clínica Médica,1,Consultorio,Residente
+76,Catalina Gonzalez,1,Clínica Médica,2,Internación,Honorarios
+77,Luana Gomez,5,Ginecología,3,Guardia,Honorarios
+78,Bautista Mendez,8,Dermatología,4,Quirófano,Permanente
+79,Lautaro Benjamin Gonzalez,1,Clínica Médica,1,Consultorio,Temporario
+80,Helena Cruz,1,Clínica Médica,5,Laboratorio,Residente
+81,Isabel Arias,10,Oftalmología,4,Quirófano,Residente
+82,Bastian Castro,7,Otorrinolaringología,5,Laboratorio,Temporario
+83,Juan Ignacio Castillo,1,Clínica Médica,4,Quirófano,Temporario
+84,Maria Victoria Vega,9,Oncología,5,Laboratorio,Temporario
+85,Sol Castillo,3,Cardiología,3,Guardia,Temporario
+86,Santino Rios,6,Neurología,2,Internación,Honorarios
+87,Zoe Gonzalez,3,Cardiología,4,Quirófano,Residente
+88,Juana Lopez,7,Otorrinolaringología,4,Quirófano,Residente
+89,Ignacio Silva,3,Cardiología,1,Consultorio,Permanente
+90,Camila Duarte,7,Otorrinolaringología,1,Consultorio,Residente
+91,Isabella Carrizo,6,Neurología,3,Guardia,Honorarios
+92,Felipe Cordoba,7,Otorrinolaringología,3,Guardia,Temporario
+93,León Vega,2,Pediatría,3,Guardia,Residente
+94,Benicio Alvarez,2,Pediatría,2,Internación,Residente
+95,Bianca Carrizo,7,Otorrinolaringología,3,Guardia,Permanente
+96,Emma Rodriguez,10,Oftalmología,2,Internación,Temporario
+97,Alfonsina Barrios,7,Otorrinolaringología,3,Guardia,Temporario
+98,Maria Belen Benitez,9,Oncología,3,Guardia,Honorarios
+99,Mora Ferreyra,2,Pediatría,1,Consultorio,Honorarios
+100,Francisco Silva,3,Cardiología,4,Quirófano,Residente
