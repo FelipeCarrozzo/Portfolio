@@ -1,0 +1,101 @@
+id,estado,monto,descripcion
+1,error_conexion,574.86,fallo en operación
+2,ok,827.72,completado
+3,ok,903.17,operación exitosa
+4,ok,216.03,fallo en operación
+5,ok,65.47,reintentar
+6,error_conexion,548.46,fallo en operación
+7,ok,342.98,fallo en operación
+8,ok,856.61,operación exitosa
+9,error_timeout,483.64,reintentar
+10,ok,372.62,operación exitosa
+11,ok,944.85,completado
+12,ok,347.8,fallo en operación
+13,ok,572.22,fallo en operación
+14,ok,389.23,reintentar
+15,error_conexion,243.77,operación exitosa
+16,ok,143.93,reintentar
+17,ok,64.65,completado
+18,ok,31.8,fallo en operación
+19,ok,440.73,operación exitosa
+20,ok,726.91,fallo en operación
+21,ok,614.67,fallo en operación
+22,error_conexion,202.63,fallo en operación
+23,ok,952.78,fallo en operación
+24,error_conexion,730.3,completado
+25,error_conexion,427.92,reintentar
+26,error_conexion,320.99,fallo en operación
+27,error_conexion,11.1,fallo en operación
+28,error_timeout,637.76,fallo en operación
+29,ok,817.81,completado
+30,error_timeout,529.89,completado
+31,error_timeout,999.52,fallo en operación
+32,error_timeout,803.94,completado
+33,ok,87.4,completado
+34,error_conexion,446.73,reintentar
+35,error_conexion,345.5,reintentar
+36,ok,558.36,fallo en operación
+37,error_timeout,885.53,completado
+38,error_timeout,778.09,reintentar
+39,ok,40.05,completado
+40,ok,222.93,operación exitosa
+41,ok,212.98,operación exitosa
+42,ok,369.15,reintentar
+43,ok,902.23,reintentar
+44,ok,33.46,completado
+45,ok,649.25,completado
+46,ok,979.71,fallo en operación
+47,ok,262.27,reintentar
+48,ok,320.47,fallo en operación
+49,ok,603.13,fallo en operación
+50,error_timeout,173.99,reintentar
+51,error_timeout,505.94,completado
+52,error_conexion,432.32,reintentar
+53,ok,45.96,operación exitosa
+54,ok,961.9,completado
+55,ok,599.65,operación exitosa
+56,ok,75.12,completado
+57,ok,362.23,operación exitosa
+58,ok,215.83,reintentar
+59,error_timeout,815.21,reintentar
+60,error_timeout,32.7,fallo en operación
+61,ok,107.2,reintentar
+62,ok,594.61,operación exitosa
+63,ok,513.15,operación exitosa
+64,error_conexion,165.07,fallo en operación
+65,error_conexion,886.19,operación exitosa
+66,error_timeout,915.41,fallo en operación
+67,ok,971.27,fallo en operación
+68,ok,431.05,completado
+69,ok,186.73,reintentar
+70,ok,975.09,reintentar
+71,ok,39.45,reintentar
+72,ok,26.44,fallo en operación
+73,error_conexion,764.03,fallo en operación
+74,ok,962.25,reintentar
+75,ok,341.96,completado
+76,ok,301.34,operación exitosa
+77,ok,386.11,reintentar
+78,ok,893.02,completado
+79,ok,354.19,reintentar
+80,error_timeout,193.7,completado
+81,error_conexion,732.29,operación exitosa
+82,error_timeout,376.68,operación exitosa
+83,error_conexion,638.96,fallo en operación
+84,error_conexion,952.64,operación exitosa
+85,ok,995.64,operación exitosa
+86,ok,953.96,fallo en operación
+87,ok,439.47,fallo en operación
+88,ok,736.15,reintentar
+89,ok,749.25,reintentar
+90,error_conexion,925.88,reintentar
+91,ok,844.29,operación exitosa
+92,ok,21.86,completado
+93,ok,597.07,fallo en operación
+94,error_timeout,515.82,completado
+95,error_timeout,796.38,fallo en operación
+96,error_timeout,176.92,fallo en operación
+97,ok,272.57,completado
+98,error_conexion,107.69,reintentar
+99,error_conexion,388.31,fallo en operación
+100,ok,458.13,operación exitosa
