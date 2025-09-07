@@ -31,8 +31,8 @@ N_MEDICOS = 100
 tipos_contrato = ['Permanente', 'Temporario', 'Residente', 'Honorarios']
 
 # Cargar dimensiones
-df_esp = pd.read_csv('data/dependences/especialidades.csv')
-df_area = pd.read_csv('data/dependences/areas.csv')
+df_esp = pd.read_csv('data/especialidades.csv')
+df_area = pd.read_csv('data/areas.csv')
 
 # Generar médicos
 medicos = []

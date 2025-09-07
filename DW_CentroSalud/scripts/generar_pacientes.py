@@ -43,8 +43,8 @@ N_PACIENTES = 1000
 generos = ['Masculino', 'Femenino', 'Otro']
 
 # Cargar dimensiones
-df_deptos = pd.read_csv('data/dependences/departamentos_provincias.csv')
-df_obras = pd.read_csv('data/dependences/oss.csv')
+df_deptos = pd.read_csv('data/departamentos_provincias.csv')
+df_obras = pd.read_csv('data/oss.csv')
 
 # Generar pacientes
 pacientes = []

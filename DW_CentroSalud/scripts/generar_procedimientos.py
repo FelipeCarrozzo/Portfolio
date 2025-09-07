@@ -33,8 +33,8 @@ N_PROCEDIMIENTOS = 30
 niveles_complejidad = ['Baja', 'Media', 'Alta']
 
 # Cargar dimensiones
-df_tipo = pd.read_csv('data/dependences/tipos_procedimientos.csv')
-df_cat = pd.read_csv('data/dependences/cat_procedimientos.csv')
+df_tipo = pd.read_csv('data/tipos_procedimientos.csv')
+df_cat = pd.read_csv('data/cat_procedimientos.csv')
 
 # Posibles nombres base para procedimientos (puedes extender la lista)
 nombres_base = [
