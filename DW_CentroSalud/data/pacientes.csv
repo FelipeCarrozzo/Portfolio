@@ -1,1001 +1,1001 @@
-id_paciente,nombre,genero,fecha_nacimiento,dni,id_departamento,departamento,id_provincia,provincia,id_obra_social,obra_social
-1,Camila Correa,Masculino,1996-02-27,87032212,7,Río Cuarto,2,Córdoba,28,Bristol Medicine
-2,Juan Martin Rojas,Otro,1987-07-08,29163939,13,Capital,4,San Juan,16,Hospital Británico
-3,Matias Ojeda,Masculino,1969-06-23,72851224,41,Villaguay,7,Entre Ríos,23,Medin S.A.S.M.A
-4,Agustina Molina,Masculino,2013-10-02,92893725,22,Centenario,6,Neuquén,20,OSDEPYM
-5,Ambar Martinez,Masculino,1940-06-02,35302128,12,San Rafael,3,Mendoza,9,Unión Personal
-6,Santino Torres,Otro,1994-08-15,74845226,17,Capital,5,Salta,2,Swiss Medical
-7,Martina Moyano,Otro,2010-02-03,87667537,6,San Justo,2,Córdoba,15,Grupo DDM
-8,Milagros Ramirez,Otro,1948-06-09,14532055,39,Uruguay,7,Entre Ríos,6,Medifé
-9,Julieta Paez,Masculino,1963-08-03,79377080,23,Plottier,6,Neuquén,27,Asistencia Sanitaria Integral
-10,Gonzalo Martinez,Otro,1944-07-26,76182599,23,Plottier,6,Neuquén,17,Círculo Médico de Lomas de Zamora
-11,Valentina  Toledo,Masculino,1941-05-26,78361094,12,San Rafael,3,Mendoza,12,Prevención Salud
-12,Isabella Lopez,Masculino,1949-04-10,36424734,17,Capital,5,Salta,25,Medical´s
-13,Tiziano Peralta,Femenino,1943-02-12,99489942,27,Diamante,7,Entre Ríos,21,ENSALUD
-14,Ignacio Gomez,Otro,2006-07-15,84899708,11,Luján de Cuyo,3,Mendoza,2,Swiss Medical
-15,Santiago Torres,Masculino,1951-02-10,41947533,15,Pocito,4,San Juan,24,Programa de Salud
-16,Mateo Agustin Benitez,Femenino,2010-10-08,43199931,6,San Justo,2,Córdoba,22,COBENSIL
-17,Felipe Perez,Otro,1945-02-22,53975968,38,Tala,7,Entre Ríos,14,Hospital Alemán
-18,Maria Victoria Romero,Otro,1979-08-25,16057016,22,Centenario,6,Neuquén,7,Hospital Italiano
-19,Emilia Rios,Otro,1965-11-01,61043285,41,Villaguay,7,Entre Ríos,7,Hospital Italiano
-20,Sol Sanchez,Masculino,1958-11-13,46042233,25,Colón,7,Entre Ríos,12,Prevención Salud
-21,Martina Lopez,Femenino,1978-03-20,80085881,2,Avellaneda,1,Buenos Aires,13,MET Córdoba
-22,Juana Garcia,Otro,1963-07-01,76156258,15,Pocito,4,San Juan,3,Medicus
-23,Emilia Martin,Otro,1973-08-04,40763476,30,Feliciano,7,Entre Ríos,7,Hospital Italiano
-24,Santino Godoy,Femenino,1964-03-06,10669358,18,San Martín,5,Salta,9,Unión Personal
-25,Ignacio Ortiz,Masculino,2020-05-18,19187029,18,San Martín,5,Salta,15,Grupo DDM
-26,Genaro Velazquez,Otro,1943-04-24,98183261,26,Concordia,7,Entre Ríos,16,Hospital Británico
-27,Valentino Sanchez,Masculino,2013-07-20,56639611,28,Federación,7,Entre Ríos,28,Bristol Medicine
-28,Agustina Roldan,Femenino,2019-06-01,97734642,26,Concordia,7,Entre Ríos,23,Medin S.A.S.M.A
-29,Valentina  Vazquez,Masculino,1984-01-16,83542158,27,Diamante,7,Entre Ríos,21,ENSALUD
-30,Benjamin Roldan,Masculino,2010-03-30,24466121,23,Plottier,6,Neuquén,21,ENSALUD
-31,Santiago Hernandez,Otro,1936-02-18,33052296,15,Pocito,4,San Juan,21,ENSALUD
-32,Tomàs Paez,Femenino,1974-04-13,24899494,10,Guaymallén,3,Mendoza,1,OSDE
-33,Abril Sosa,Femenino,1938-11-14,16092608,4,Tandil,1,Buenos Aires,27,Asistencia Sanitaria Integral
-34,Ciro Benjamin Pereyra,Otro,1995-07-31,36763167,11,Luján de Cuyo,3,Mendoza,3,Medicus
-35,Thiago Lionel Flores,Otro,1981-10-13,64554332,24,Zapala,6,Neuquén,13,MET Córdoba
-36,Juan Ignacio Mansilla,Otro,1945-12-22,63262207,34,La Paz,7,Entre Ríos,24,Programa de Salud
-37,Facundo Ledesma,Otro,1962-02-23,59867418,28,Federación,7,Entre Ríos,23,Medin S.A.S.M.A
-38,Bautista Benjamin Gonzalez,Masculino,1997-04-05,51096455,10,Guaymallén,3,Mendoza,23,Medin S.A.S.M.A
-39,Valentina Blanco,Otro,1941-10-31,45484780,12,San Rafael,3,Mendoza,20,OSDEPYM
-40,Renata Franco,Femenino,2014-08-25,13729185,11,Luján de Cuyo,3,Mendoza,16,Hospital Británico
-41,Julieta Bustos,Femenino,2010-02-22,51376055,13,Capital,4,San Juan,15,Grupo DDM
-42,Julieta Ortiz,Masculino,1967-06-03,72574996,31,Gualeguay,7,Entre Ríos,22,COBENSIL
-43,Mateo Ezequiel Cardozo,Masculino,1961-10-24,72584091,25,Colón,7,Entre Ríos,26,OSDIPP
-44,Mateo Silva,Otro,2022-03-27,30490931,20,Metán,5,Salta,26,OSDIPP
-45,Francisco Rodriguez,Femenino,2022-12-31,87029910,18,San Martín,5,Salta,19,OPDEA
-46,Benjamin Benitez,Femenino,1948-12-10,36032257,3,General Pueyrredón,1,Buenos Aires,20,OSDEPYM
-47,Benjamin Gimenez,Masculino,1947-07-07,30433400,33,Islas del Ibicuy,7,Entre Ríos,13,MET Córdoba
-48,Alma Rodriguez,Otro,1994-07-05,60412257,4,Tandil,1,Buenos Aires,23,Medin S.A.S.M.A
-49,Lucía Ramirez,Masculino,1944-07-22,40488805,38,Tala,7,Entre Ríos,15,Grupo DDM
-50,Bruno Navarro,Otro,1999-06-28,93992811,3,General Pueyrredón,1,Buenos Aires,13,MET Córdoba
-51,Catalina Gomez,Masculino,2007-08-05,74382831,22,Centenario,6,Neuquén,2,Swiss Medical
-52,Pedro Duarte,Otro,1940-11-05,65001882,40,Victoria,7,Entre Ríos,8,Jerárquico
-53,Bastian Escobar,Masculino,2000-01-16,57525614,18,San Martín,5,Salta,18,Obra Social YPF
-54,Salvador Blanco,Femenino,2003-09-26,83223767,25,Colón,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-55,Emma Luna,Otro,1944-06-22,27326070,11,Luján de Cuyo,3,Mendoza,19,OPDEA
-56,Julia Lucero,Masculino,1979-10-09,24471206,4,Tandil,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
-57,Emma Vazquez,Masculino,1966-08-21,69762302,38,Tala,7,Entre Ríos,18,Obra Social YPF
-58,Isabella Castillo,Masculino,1958-01-07,61008599,15,Pocito,4,San Juan,1,OSDE
-59,Bianca Ortiz,Masculino,2000-09-18,53151126,8,Villa María,2,Córdoba,20,OSDEPYM
-60,Benjamin Fernandez,Femenino,1983-04-28,95448031,2,Avellaneda,1,Buenos Aires,15,Grupo DDM
-61,Benjamin Dominguez,Otro,1961-08-27,45988728,41,Villaguay,7,Entre Ríos,1,OSDE
-62,Valentino Caceres,Masculino,1974-05-10,93726964,30,Feliciano,7,Entre Ríos,22,COBENSIL
-63,Santiago Flores,Femenino,1978-08-25,31745993,3,General Pueyrredón,1,Buenos Aires,28,Bristol Medicine
-64,Santiago Benjamin Ojeda,Femenino,2000-03-20,65468774,8,Villa María,2,Córdoba,28,Bristol Medicine
-65,Alexander Gonzalez,Masculino,1946-03-28,26595374,38,Tala,7,Entre Ríos,18,Obra Social YPF
-66,Luisana Gonzalez,Femenino,1953-02-12,39911002,20,Metán,5,Salta,9,Unión Personal
-67,Antonia Torres,Masculino,1968-08-15,27819813,2,Avellaneda,1,Buenos Aires,24,Programa de Salud
-68,Bruno Sanchez,Femenino,1950-06-10,34690267,27,Diamante,7,Entre Ríos,26,OSDIPP
-69,Ciro Correa,Masculino,2008-04-27,68409344,38,Tala,7,Entre Ríos,16,Hospital Británico
-70,Mia Morena Muñoz,Masculino,1935-03-23,47849145,35,Nogoyá,7,Entre Ríos,7,Hospital Italiano
-71,Agustina Ponce,Otro,1940-02-07,54939577,36,Paraná,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-72,Valentino Perez,Masculino,1939-12-10,44131566,37,San Salvador,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-73,Amparo Luna,Femenino,1973-11-07,54425944,20,Metán,5,Salta,8,Jerárquico
-74,Catalina Gonzalez,Otro,1976-09-03,65476709,9,Godoy Cruz,3,Mendoza,13,MET Córdoba
-75,Paula Martinez,Femenino,2001-08-20,60823798,41,Villaguay,7,Entre Ríos,4,Omint
-76,Luca Diaz,Masculino,1987-04-13,67034277,25,Colón,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-77,Francesco Torres,Masculino,1959-11-17,75636909,8,Villa María,2,Córdoba,3,Medicus
-78,Tiziana Gomez,Otro,1974-08-06,64560907,37,San Salvador,7,Entre Ríos,12,Prevención Salud
-79,Ludmila Gomez,Femenino,1939-06-06,35396799,27,Diamante,7,Entre Ríos,25,Medical´s
-80,Olivia Medina,Masculino,1977-11-18,26582059,29,Federal,7,Entre Ríos,10,ACA Salud
-81,Juan Ignacio Perez,Otro,1975-05-07,71061919,23,Plottier,6,Neuquén,25,Medical´s
-82,Lucía Ramirez,Femenino,1949-09-15,24020632,13,Capital,4,San Juan,9,Unión Personal
-83,Felipe Villalba,Otro,1941-03-12,22552730,32,Gualeguaychú,7,Entre Ríos,15,Grupo DDM
-84,Juliana Perez,Masculino,2003-01-06,74651291,1,La Plata,1,Buenos Aires,20,OSDEPYM
-85,Morena Perez,Otro,1935-05-23,42471364,33,Islas del Ibicuy,7,Entre Ríos,1,OSDE
-86,Dante Cordoba,Femenino,2020-11-19,57693938,16,Rawson,4,San Juan,11,Sancor Salud
-87,Joaquín Ruiz,Otro,2004-09-18,37908516,15,Pocito,4,San Juan,28,Bristol Medicine
-88,Morena Mendez,Femenino,2004-06-14,47098423,10,Guaymallén,3,Mendoza,15,Grupo DDM
-89,Martina Romero,Masculino,2010-05-18,39900977,25,Colón,7,Entre Ríos,26,OSDIPP
-90,Pedro Acosta,Masculino,1958-12-27,62782041,1,La Plata,1,Buenos Aires,6,Medifé
-91,Valentina Gomez,Femenino,1994-04-09,52400988,30,Feliciano,7,Entre Ríos,4,Omint
-92,Pilar Rojas,Masculino,1940-03-14,90446243,33,Islas del Ibicuy,7,Entre Ríos,25,Medical´s
-93,Lautaro Diaz,Femenino,1947-04-29,29995660,36,Paraná,7,Entre Ríos,4,Omint
-94,Isabella Medina,Femenino,1950-05-09,56441718,30,Feliciano,7,Entre Ríos,8,Jerárquico
-95,Isabella Godoy,Masculino,1988-11-08,81785126,25,Colón,7,Entre Ríos,22,COBENSIL
-96,Lautaro Roldan,Femenino,2001-02-18,57466448,22,Centenario,6,Neuquén,23,Medin S.A.S.M.A
-97,Jazmin Gomez,Masculino,1943-04-13,72415406,38,Tala,7,Entre Ríos,4,Omint
-98,Juan Ignacio Sosa,Otro,1993-07-17,22141873,5,Córdoba Capital,2,Córdoba,8,Jerárquico
-99,Nina Gonzalez,Otro,2001-11-06,25800628,33,Islas del Ibicuy,7,Entre Ríos,4,Omint
-100,Julieta Moreno,Femenino,1942-05-02,81005534,3,General Pueyrredón,1,Buenos Aires,8,Jerárquico
-101,Delfina Acosta,Femenino,1959-01-13,69317180,34,La Paz,7,Entre Ríos,9,Unión Personal
-102,Lola Ponce,Femenino,1962-09-21,66848987,15,Pocito,4,San Juan,5,Galeno
-103,Tiziano Valentin Figueroa,Femenino,1982-03-21,80503123,15,Pocito,4,San Juan,29,Federación Médica Gremial de la Capital Federal
-104,Catalina Juarez,Femenino,2019-10-09,89579370,12,San Rafael,3,Mendoza,23,Medin S.A.S.M.A
-105,Juliana Silva,Masculino,1976-03-02,87207439,33,Islas del Ibicuy,7,Entre Ríos,1,OSDE
-106,Julian Gomez,Otro,1970-03-08,95494569,37,San Salvador,7,Entre Ríos,11,Sancor Salud
-107,Guillermina Fernandez,Masculino,1943-11-17,76526109,33,Islas del Ibicuy,7,Entre Ríos,24,Programa de Salud
-108,Pilar Gonzalez,Masculino,1951-08-24,50798571,1,La Plata,1,Buenos Aires,19,OPDEA
-109,Guillermina Mendoza,Femenino,2012-05-07,28117491,36,Paraná,7,Entre Ríos,13,MET Córdoba
-110,Zoe Valentina Gomez,Masculino,2003-07-31,39563652,38,Tala,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-111,Tomas Guzman,Masculino,1937-04-30,42059001,14,Chimbas,4,San Juan,7,Hospital Italiano
-112,Thiago Nahuel Carrizo,Otro,1985-02-12,99240534,35,Nogoyá,7,Entre Ríos,8,Jerárquico
-113,Maximo Lopez,Femenino,2007-12-23,79412557,27,Diamante,7,Entre Ríos,16,Hospital Británico
-114,Gonzalo Fernandez,Otro,1960-06-04,63616793,16,Rawson,4,San Juan,7,Hospital Italiano
-115,Morena Jazmin Aguero,Otro,2013-03-23,87947120,3,General Pueyrredón,1,Buenos Aires,19,OPDEA
-116,Renata Ramos,Otro,1962-01-27,40957108,39,Uruguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-117,Francesco Ruiz,Femenino,2015-04-14,13531772,24,Zapala,6,Neuquén,27,Asistencia Sanitaria Integral
-118,Alfonsina Aguero,Masculino,1963-07-18,93122549,28,Federación,7,Entre Ríos,26,OSDIPP
-119,Thiago Daniel Peralta,Masculino,1948-03-09,25458719,5,Córdoba Capital,2,Córdoba,22,COBENSIL
-120,Valentino Peralta,Masculino,1996-08-14,17515869,16,Rawson,4,San Juan,15,Grupo DDM
-121,Emiliano Suarez,Femenino,1964-07-13,29488866,30,Feliciano,7,Entre Ríos,5,Galeno
-122,Benjamin Quiroga,Masculino,1972-05-12,59883738,8,Villa María,2,Córdoba,10,ACA Salud
-123,Dylan Ezequiel Romero,Otro,1942-10-06,94865681,28,Federación,7,Entre Ríos,23,Medin S.A.S.M.A
-124,Victoria Guzman,Femenino,1975-06-29,75147119,27,Diamante,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-125,Maximiliano Romero,Masculino,1997-02-02,93997358,4,Tandil,1,Buenos Aires,16,Hospital Británico
-126,Valentina Peralta,Otro,1940-04-23,15467891,7,Río Cuarto,2,Córdoba,7,Hospital Italiano
-127,Martina Alvarez,Otro,2007-03-31,98419871,24,Zapala,6,Neuquén,26,OSDIPP
-128,Mia Suarez,Femenino,1946-07-12,20589442,23,Plottier,6,Neuquén,27,Asistencia Sanitaria Integral
-129,Isabella Escobar,Otro,1983-03-18,18392768,22,Centenario,6,Neuquén,22,COBENSIL
-130,Francisco Rivero,Femenino,1971-11-08,27552673,2,Avellaneda,1,Buenos Aires,30,Asociación Civil de Estudios Superiores
-131,Ezequiel Correa,Masculino,1938-10-28,69810790,35,Nogoyá,7,Entre Ríos,13,MET Córdoba
-132,Benjamin Vega,Masculino,1997-12-04,31959077,18,San Martín,5,Salta,10,ACA Salud
-133,Santino Benjamin Gonzalez,Masculino,1952-02-29,70461393,5,Córdoba Capital,2,Córdoba,13,MET Córdoba
-134,Gabriel Rios,Masculino,1964-02-17,70859962,8,Villa María,2,Córdoba,19,OPDEA
-135,Ludmila Cordoba,Femenino,2001-01-20,49884839,35,Nogoyá,7,Entre Ríos,26,OSDIPP
-136,Ciro Soria,Femenino,2024-11-12,88252852,8,Villa María,2,Córdoba,2,Swiss Medical
-137,Paloma Silva,Masculino,1937-09-08,49997981,38,Tala,7,Entre Ríos,24,Programa de Salud
-138,Franco Sanchez,Otro,2019-03-10,40913707,41,Villaguay,7,Entre Ríos,28,Bristol Medicine
-139,Dylan Benjamin Dominguez,Femenino,2014-01-02,14638140,21,Capital,6,Neuquén,14,Hospital Alemán
-140,Joaquin Torres,Masculino,1951-03-28,72690424,9,Godoy Cruz,3,Mendoza,18,Obra Social YPF
-141,Constanza Fernandez,Femenino,2006-09-17,37158709,38,Tala,7,Entre Ríos,3,Medicus
-142,Jeronimo Ponce,Masculino,2006-10-31,27839356,25,Colón,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-143,Luca Mansilla,Masculino,1973-08-11,26093798,15,Pocito,4,San Juan,22,COBENSIL
-144,Geronimo Castro,Femenino,2008-06-01,56704022,1,La Plata,1,Buenos Aires,1,OSDE
-145,Juan Manuel Gonzalez,Masculino,1959-06-24,75415271,20,Metán,5,Salta,23,Medin S.A.S.M.A
-146,Emma Escobar,Femenino,1951-03-19,45834613,7,Río Cuarto,2,Córdoba,2,Swiss Medical
-147,Victoria Perez,Femenino,1986-10-01,65831408,38,Tala,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-148,Dante Cardozo,Femenino,1962-01-19,35493816,21,Capital,6,Neuquén,5,Galeno
-149,Benjamin Arias,Masculino,1958-01-09,37279351,13,Capital,4,San Juan,12,Prevención Salud
-150,Nahiara Jazmin Castillo,Femenino,1987-04-28,51016030,18,San Martín,5,Salta,30,Asociación Civil de Estudios Superiores
-151,Victoria Lopez,Masculino,2024-03-19,12872677,13,Capital,4,San Juan,6,Medifé
-152,Emma Perez,Femenino,2004-01-01,56897767,7,Río Cuarto,2,Córdoba,10,ACA Salud
-153,Matias Medina,Femenino,1949-06-14,78332673,19,Orán,5,Salta,7,Hospital Italiano
-154,Joaquín Aguero,Femenino,1959-02-13,91801629,39,Uruguay,7,Entre Ríos,8,Jerárquico
-155,Florencia Cardozo,Masculino,1971-07-06,19830597,14,Chimbas,4,San Juan,7,Hospital Italiano
-156,Benjamin Ezequiel Muñoz,Femenino,1938-03-30,11563880,33,Islas del Ibicuy,7,Entre Ríos,1,OSDE
-157,Paula Martinez,Otro,2023-04-10,91793700,4,Tandil,1,Buenos Aires,6,Medifé
-158,Delfina Paez,Femenino,1986-07-12,83641202,12,San Rafael,3,Mendoza,6,Medifé
-159,Juan Ignacio Gonzalez,Otro,2021-11-30,79709667,16,Rawson,4,San Juan,3,Medicus
-160,Lorenzo Ruiz,Masculino,1967-11-23,73247481,28,Federación,7,Entre Ríos,15,Grupo DDM
-161,Ian Ezequiel Castro,Masculino,1963-11-23,51636953,16,Rawson,4,San Juan,24,Programa de Salud
-162,Bruno Rodriguez,Otro,1938-02-06,14047323,25,Colón,7,Entre Ríos,20,OSDEPYM
-163,Luciano Ramos,Femenino,1984-11-22,55437194,12,San Rafael,3,Mendoza,17,Círculo Médico de Lomas de Zamora
-164,Felipe Garcia,Masculino,1984-03-09,75067310,37,San Salvador,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-165,Julieta Rojas,Femenino,2001-05-23,58400055,22,Centenario,6,Neuquén,14,Hospital Alemán
-166,Angel Gabriel Diaz,Masculino,2000-05-30,74954510,25,Colón,7,Entre Ríos,21,ENSALUD
-167,Juan Manuel Muñoz,Femenino,1940-09-18,56892713,37,San Salvador,7,Entre Ríos,28,Bristol Medicine
-168,Lola Garcia,Femenino,1977-12-10,47445558,31,Gualeguay,7,Entre Ríos,26,OSDIPP
-169,Juan Pablo Ortiz,Femenino,1939-07-03,57689276,33,Islas del Ibicuy,7,Entre Ríos,15,Grupo DDM
-170,Nicolas Ledesma,Otro,1981-10-16,36578498,20,Metán,5,Salta,22,COBENSIL
-171,Victoria Toledo,Masculino,1970-11-28,50324066,1,La Plata,1,Buenos Aires,13,MET Córdoba
-172,Guadalupe Rivero,Femenino,2005-10-23,13102658,9,Godoy Cruz,3,Mendoza,18,Obra Social YPF
-173,Maximo Rodriguez,Otro,1990-03-11,22777683,21,Capital,6,Neuquén,16,Hospital Británico
-174,Martín Avila,Otro,1996-12-25,32709164,22,Centenario,6,Neuquén,12,Prevención Salud
-175,Catalina Fernandez,Masculino,1966-10-14,17331782,31,Gualeguay,7,Entre Ríos,20,OSDEPYM
-176,Milagros Cardozo,Masculino,1961-03-03,55907242,40,Victoria,7,Entre Ríos,5,Galeno
-177,Zoe Sanchez,Masculino,1999-03-19,85138785,17,Capital,5,Salta,26,OSDIPP
-178,Dylan Cardozo,Otro,2017-11-29,59379654,17,Capital,5,Salta,12,Prevención Salud
-179,Jazmin Sosa,Femenino,1942-03-26,39166584,27,Diamante,7,Entre Ríos,4,Omint
-180,Mateo Rodriguez,Masculino,1947-10-26,78205995,12,San Rafael,3,Mendoza,25,Medical´s
-181,Francesca Juarez,Otro,1990-09-19,80554421,8,Villa María,2,Córdoba,20,OSDEPYM
-182,Josefina Dominguez,Otro,1956-04-02,70995177,40,Victoria,7,Entre Ríos,3,Medicus
-183,Ignacio Godoy,Otro,2006-07-18,98434970,1,La Plata,1,Buenos Aires,30,Asociación Civil de Estudios Superiores
-184,Maria Emilia Castro,Otro,1943-02-04,47235493,30,Feliciano,7,Entre Ríos,9,Unión Personal
-185,Sofia Gomez,Femenino,1994-12-07,96279807,10,Guaymallén,3,Mendoza,15,Grupo DDM
-186,Mateo Benjamin Mansilla,Otro,1974-04-10,76748664,26,Concordia,7,Entre Ríos,13,MET Córdoba
-187,Dante Luna,Otro,1953-03-16,83978324,3,General Pueyrredón,1,Buenos Aires,26,OSDIPP
-188,Camila Aguero,Femenino,2010-11-11,21035020,25,Colón,7,Entre Ríos,19,OPDEA
-189,Sofia Coronel,Masculino,1954-12-21,48736814,12,San Rafael,3,Mendoza,4,Omint
-190,Bianca Muñoz,Femenino,1951-08-02,47184313,39,Uruguay,7,Entre Ríos,10,ACA Salud
-191,Bautista Ojeda,Otro,1969-12-31,17175780,40,Victoria,7,Entre Ríos,20,OSDEPYM
-192,Federico Castro,Masculino,1989-03-28,84343257,14,Chimbas,4,San Juan,13,MET Córdoba
-193,Josefina Peralta,Femenino,1960-07-14,36579694,11,Luján de Cuyo,3,Mendoza,17,Círculo Médico de Lomas de Zamora
-194,Guadalupe Lucero,Masculino,1996-07-26,95128212,24,Zapala,6,Neuquén,19,OPDEA
-195,Bautista Gonzalez,Otro,1986-12-13,29197302,41,Villaguay,7,Entre Ríos,28,Bristol Medicine
-196,Julieta Gomez,Otro,2007-12-16,55149737,2,Avellaneda,1,Buenos Aires,5,Galeno
-197,Lucía  Silva,Femenino,1964-10-01,35645868,37,San Salvador,7,Entre Ríos,1,OSDE
-198,Mateo Gomez,Masculino,1988-06-30,88305202,15,Pocito,4,San Juan,22,COBENSIL
-199,Thiago Caceres,Femenino,2001-04-08,66784624,26,Concordia,7,Entre Ríos,4,Omint
-200,Simon Rodriguez,Otro,2016-02-17,37835994,4,Tandil,1,Buenos Aires,5,Galeno
-201,Dylan Bravo,Masculino,2021-02-28,10248629,24,Zapala,6,Neuquén,7,Hospital Italiano
-202,Santino Herrera,Femenino,2023-02-22,66409298,38,Tala,7,Entre Ríos,28,Bristol Medicine
-203,Ludmila Ruiz,Femenino,1969-10-10,90448814,34,La Paz,7,Entre Ríos,2,Swiss Medical
-204,Isabella Toledo,Masculino,1946-08-06,65358204,22,Centenario,6,Neuquén,10,ACA Salud
-205,Santiago Maidana,Masculino,1950-11-11,44209073,24,Zapala,6,Neuquén,27,Asistencia Sanitaria Integral
-206,Francesca Torres,Masculino,1994-12-17,89929150,15,Pocito,4,San Juan,23,Medin S.A.S.M.A
-207,Francesca Aguirre,Femenino,2004-04-12,26724867,10,Guaymallén,3,Mendoza,4,Omint
-208,Nicolas Duarte,Otro,1970-07-21,49506559,14,Chimbas,4,San Juan,18,Obra Social YPF
-209,Malena Arias,Femenino,2005-09-01,82986620,10,Guaymallén,3,Mendoza,17,Círculo Médico de Lomas de Zamora
-210,Juan Cruz Garcia,Femenino,1967-03-28,39914558,31,Gualeguay,7,Entre Ríos,11,Sancor Salud
-211,Tobias Garcia,Masculino,2007-02-17,16353762,14,Chimbas,4,San Juan,3,Medicus
-212,Bautista Suarez,Masculino,2023-06-23,23841848,8,Villa María,2,Córdoba,15,Grupo DDM
-213,Matias Perez,Masculino,1979-01-03,51912079,16,Rawson,4,San Juan,14,Hospital Alemán
-214,Gonzalo Ortiz,Otro,1979-11-12,59639801,14,Chimbas,4,San Juan,10,ACA Salud
-215,Paulina Gomez,Masculino,1999-01-18,71325698,41,Villaguay,7,Entre Ríos,9,Unión Personal
-216,Ian Ezequiel Rodriguez,Otro,2020-12-16,77128453,40,Victoria,7,Entre Ríos,7,Hospital Italiano
-217,Lara Medina,Masculino,1955-05-28,26842351,36,Paraná,7,Entre Ríos,8,Jerárquico
-218,Dylan Martinez,Femenino,1951-04-24,30604280,29,Federal,7,Entre Ríos,1,OSDE
-219,Santino Diaz,Femenino,1952-10-14,52720920,27,Diamante,7,Entre Ríos,8,Jerárquico
-220,Valentino Vega,Otro,1955-05-27,68609878,22,Centenario,6,Neuquén,26,OSDIPP
-221,Felipe Gonzalez,Masculino,1972-12-12,67741954,36,Paraná,7,Entre Ríos,26,OSDIPP
-222,Vicente Cabrera,Femenino,1935-08-03,28948914,15,Pocito,4,San Juan,9,Unión Personal
-223,Juan Ignacio Ayala,Otro,1935-11-26,64470761,33,Islas del Ibicuy,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-224,Ezequiel Perez,Otro,2018-06-14,50468393,7,Río Cuarto,2,Córdoba,12,Prevención Salud
-225,Benjamin Acosta,Masculino,1963-02-13,90960487,10,Guaymallén,3,Mendoza,19,OPDEA
-226,Martina Cordoba,Masculino,1944-04-10,96515755,17,Capital,5,Salta,26,OSDIPP
-227,Juan David Gonzalez,Femenino,1979-04-28,92206213,1,La Plata,1,Buenos Aires,27,Asistencia Sanitaria Integral
-228,Tiziano Benjamin Gonzalez,Otro,1978-05-01,13442674,9,Godoy Cruz,3,Mendoza,18,Obra Social YPF
-229,Lara Godoy,Masculino,1999-10-26,13980412,18,San Martín,5,Salta,14,Hospital Alemán
-230,Helena Medina,Masculino,1947-02-06,96093641,11,Luján de Cuyo,3,Mendoza,30,Asociación Civil de Estudios Superiores
-231,Rosario Gomez,Masculino,2011-12-28,60089055,20,Metán,5,Salta,7,Hospital Italiano
-232,Victoria Lopez,Masculino,1941-08-21,23429259,31,Gualeguay,7,Entre Ríos,16,Hospital Británico
-233,Sebastian Gonzalez,Femenino,1960-01-25,64756122,23,Plottier,6,Neuquén,20,OSDEPYM
-234,Santiago Rojas,Masculino,1990-02-19,10825106,36,Paraná,7,Entre Ríos,25,Medical´s
-235,Maite Vazquez,Otro,2009-05-20,93128277,26,Concordia,7,Entre Ríos,19,OPDEA
-236,Thiago Ezequiel Avila,Masculino,2011-09-08,41698779,9,Godoy Cruz,3,Mendoza,8,Jerárquico
-237,Santino Gabriel Villalba,Femenino,1967-07-12,29817443,29,Federal,7,Entre Ríos,20,OSDEPYM
-238,Mateo Gomez,Masculino,1976-02-08,11077360,33,Islas del Ibicuy,7,Entre Ríos,6,Medifé
-239,Sol Ortiz,Femenino,1960-07-04,45220494,2,Avellaneda,1,Buenos Aires,15,Grupo DDM
-240,Lola Ponce,Femenino,2013-01-10,75239496,33,Islas del Ibicuy,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-241,Alma Ramirez,Otro,2001-05-04,24488998,19,Orán,5,Salta,16,Hospital Británico
-242,Tobias Benitez,Otro,2016-06-10,67854467,18,San Martín,5,Salta,6,Medifé
-243,Maria Paz Rojas,Otro,1995-01-31,22300280,24,Zapala,6,Neuquén,23,Medin S.A.S.M.A
-244,Benjamin Cordoba,Femenino,1979-10-03,81951974,21,Capital,6,Neuquén,22,COBENSIL
-245,Ignacio Duarte,Masculino,1969-07-23,30005776,37,San Salvador,7,Entre Ríos,13,MET Córdoba
-246,Martina Caceres,Femenino,2005-09-30,48457586,11,Luján de Cuyo,3,Mendoza,7,Hospital Italiano
-247,Sofia Martinez,Otro,1992-04-05,23979665,18,San Martín,5,Salta,27,Asistencia Sanitaria Integral
-248,Valentino Gonzalez,Femenino,2000-02-21,17208619,3,General Pueyrredón,1,Buenos Aires,20,OSDEPYM
-249,Morena Alvarez,Otro,1982-04-24,65038159,10,Guaymallén,3,Mendoza,30,Asociación Civil de Estudios Superiores
-250,Mateo Luna,Masculino,1975-06-11,69202038,17,Capital,5,Salta,11,Sancor Salud
-251,Josefina Juarez,Femenino,2016-09-01,84085279,23,Plottier,6,Neuquén,25,Medical´s
-252,Lucas Benjamin Gimenez,Masculino,1955-01-16,27238025,10,Guaymallén,3,Mendoza,21,ENSALUD
-253,Santino Luna,Otro,1938-04-02,81548519,7,Río Cuarto,2,Córdoba,24,Programa de Salud
-254,Thiago Benjamin Torres,Femenino,2008-08-14,42238822,4,Tandil,1,Buenos Aires,28,Bristol Medicine
-255,Milo Benitez,Femenino,2012-08-27,14329359,28,Federación,7,Entre Ríos,21,ENSALUD
-256,Victoria Muñoz,Femenino,2000-08-07,23842729,30,Feliciano,7,Entre Ríos,26,OSDIPP
-257,Juan Cruz Carrizo,Femenino,1936-02-17,94066092,33,Islas del Ibicuy,7,Entre Ríos,4,Omint
-258,Benicio Perez,Femenino,2007-06-02,89861352,32,Gualeguaychú,7,Entre Ríos,4,Omint
-259,Martina Miranda,Otro,1947-03-29,62327840,6,San Justo,2,Córdoba,19,OPDEA
-260,Catalina Rodriguez,Otro,1974-01-26,41254241,37,San Salvador,7,Entre Ríos,5,Galeno
-261,Josefina Bravo,Femenino,1987-06-30,41761826,41,Villaguay,7,Entre Ríos,8,Jerárquico
-262,Rafael Escobar,Otro,1993-07-24,90746374,11,Luján de Cuyo,3,Mendoza,1,OSDE
-263,Lorenzo Ojeda,Masculino,1946-08-15,62620960,36,Paraná,7,Entre Ríos,13,MET Córdoba
-264,Juan Ignacio Lopez,Otro,1939-06-30,72833563,12,San Rafael,3,Mendoza,24,Programa de Salud
-265,Alma Mendez,Masculino,1952-06-02,21368518,37,San Salvador,7,Entre Ríos,16,Hospital Británico
-266,Benjamin Rodriguez,Otro,1994-09-08,73902236,2,Avellaneda,1,Buenos Aires,9,Unión Personal
-267,Lola Blanco,Masculino,2016-02-17,55643052,10,Guaymallén,3,Mendoza,14,Hospital Alemán
-268,Julieta Diaz,Femenino,1969-08-19,69274907,15,Pocito,4,San Juan,16,Hospital Británico
-269,Juliana Peralta,Otro,1988-04-30,84828982,14,Chimbas,4,San Juan,23,Medin S.A.S.M.A
-270,Sofia Belen Gimenez,Masculino,1993-10-19,21459520,29,Federal,7,Entre Ríos,28,Bristol Medicine
-271,Delfina Sosa,Otro,2021-06-07,16260184,14,Chimbas,4,San Juan,16,Hospital Británico
-272,Paloma Chavez,Otro,1947-03-08,99080689,24,Zapala,6,Neuquén,29,Federación Médica Gremial de la Capital Federal
-273,Agostina Roldan,Femenino,1955-04-13,95790704,20,Metán,5,Salta,1,OSDE
-274,Juan Ignacio Martinez,Otro,1950-03-02,79767856,29,Federal,7,Entre Ríos,4,Omint
-275,Guadalupe Aguero,Femenino,1951-11-16,52892034,8,Villa María,2,Córdoba,4,Omint
-276,Juana Juarez,Femenino,2003-02-02,13083814,30,Feliciano,7,Entre Ríos,2,Swiss Medical
-277,Santino Agustin Soto,Masculino,1998-07-09,60810396,2,Avellaneda,1,Buenos Aires,26,OSDIPP
-278,Agustina Torres,Masculino,2015-03-23,40295173,32,Gualeguaychú,7,Entre Ríos,11,Sancor Salud
-279,Mateo Benjamin Campos,Femenino,2001-06-13,72964627,26,Concordia,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-280,Sofia Vera,Femenino,1965-07-07,10217005,34,La Paz,7,Entre Ríos,8,Jerárquico
-281,Francesca Moreno,Masculino,1965-06-18,13547054,24,Zapala,6,Neuquén,7,Hospital Italiano
-282,Mateo Benjamin Castro,Masculino,2000-04-08,99358161,28,Federación,7,Entre Ríos,11,Sancor Salud
-283,Samuel Sosa,Otro,2013-06-04,66873249,38,Tala,7,Entre Ríos,25,Medical´s
-284,Thiago Nicolas Molina,Otro,2018-04-02,32102862,36,Paraná,7,Entre Ríos,16,Hospital Británico
-285,Santino Benjamin Moreno,Masculino,1980-08-13,98987162,22,Centenario,6,Neuquén,24,Programa de Salud
-286,Sofia Belen Herrera,Femenino,1982-02-07,10184550,31,Gualeguay,7,Entre Ríos,12,Prevención Salud
-287,Bautista Suarez,Masculino,1972-04-05,27515017,7,Río Cuarto,2,Córdoba,28,Bristol Medicine
-288,Victoria Maidana,Femenino,1993-10-23,90495059,31,Gualeguay,7,Entre Ríos,22,COBENSIL
-289,Ignacio Avila,Femenino,1951-12-16,69580349,6,San Justo,2,Córdoba,28,Bristol Medicine
-290,Camilo Gutierrez,Masculino,1939-01-25,82187826,2,Avellaneda,1,Buenos Aires,14,Hospital Alemán
-291,Mia Fernandez,Otro,1956-06-30,23313592,21,Capital,6,Neuquén,22,COBENSIL
-292,Bautista Blanco,Otro,1995-07-21,88400161,26,Concordia,7,Entre Ríos,28,Bristol Medicine
-293,Geronimo Diaz,Otro,2012-05-14,20370828,40,Victoria,7,Entre Ríos,21,ENSALUD
-294,Mia Valentina Gomez,Masculino,1938-12-24,70275122,26,Concordia,7,Entre Ríos,2,Swiss Medical
-295,Francesca Acosta,Femenino,1966-10-14,42552303,37,San Salvador,7,Entre Ríos,6,Medifé
-296,Maximo Paz,Femenino,2002-04-02,14974224,16,Rawson,4,San Juan,17,Círculo Médico de Lomas de Zamora
-297,Emilia Figueroa,Masculino,1948-11-04,16760427,35,Nogoyá,7,Entre Ríos,9,Unión Personal
-298,Maria Victoria Rodriguez,Otro,1972-05-17,62816134,4,Tandil,1,Buenos Aires,29,Federación Médica Gremial de la Capital Federal
-299,Lola Villalba,Otro,2006-04-17,82118171,17,Capital,5,Salta,15,Grupo DDM
-300,Josefina Herrera,Masculino,1999-07-24,46706440,28,Federación,7,Entre Ríos,28,Bristol Medicine
-301,Constanza Lucero,Femenino,2000-11-16,98842877,7,Río Cuarto,2,Córdoba,22,COBENSIL
-302,Emiliano Rojas,Femenino,1984-05-05,94330058,2,Avellaneda,1,Buenos Aires,7,Hospital Italiano
-303,Tiziana Herrera,Femenino,1965-08-10,92504618,26,Concordia,7,Entre Ríos,23,Medin S.A.S.M.A
-304,Bautista Benjamin Mansilla,Femenino,2010-03-29,47231793,7,Río Cuarto,2,Córdoba,19,OPDEA
-305,Mateo Fernandez,Masculino,1948-01-24,67467581,3,General Pueyrredón,1,Buenos Aires,18,Obra Social YPF
-306,Santiago Benjamin Molina,Masculino,1989-05-05,44283615,26,Concordia,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-307,Pedro Maldonado,Femenino,2000-10-21,38171091,12,San Rafael,3,Mendoza,19,OPDEA
-308,Sofia Gomez,Otro,1937-09-14,77145873,11,Luján de Cuyo,3,Mendoza,9,Unión Personal
-309,Thiago Benjamin Lopez,Masculino,1958-07-09,83256338,2,Avellaneda,1,Buenos Aires,6,Medifé
-310,Juan Gabriel Cabrera,Otro,1977-08-04,56035050,34,La Paz,7,Entre Ríos,12,Prevención Salud
-311,Sara Cardozo,Otro,1982-01-09,33067919,8,Villa María,2,Córdoba,21,ENSALUD
-312,Joaquin Guzman,Otro,1947-02-09,25745006,30,Feliciano,7,Entre Ríos,2,Swiss Medical
-313,Luciano Benjamin Silva,Femenino,1963-07-10,80518569,32,Gualeguaychú,7,Entre Ríos,19,OPDEA
-314,Lucía Gutierrez,Femenino,1951-07-15,80726594,36,Paraná,7,Entre Ríos,24,Programa de Salud
-315,Malena Velazquez,Otro,1975-07-25,98436866,8,Villa María,2,Córdoba,14,Hospital Alemán
-316,Constanza Rodriguez,Otro,1989-09-20,64782239,20,Metán,5,Salta,6,Medifé
-317,Catalina Ruiz,Femenino,2018-09-16,51241720,31,Gualeguay,7,Entre Ríos,16,Hospital Británico
-318,Thiago Ezequiel Martinez,Femenino,2014-06-05,27742598,27,Diamante,7,Entre Ríos,18,Obra Social YPF
-319,Delfina Mendoza,Femenino,2003-09-30,71233186,17,Capital,5,Salta,7,Hospital Italiano
-320,Pilar Hernandez,Masculino,1969-09-06,52490549,4,Tandil,1,Buenos Aires,19,OPDEA
-321,Juana Aguirre,Femenino,1974-06-08,58099245,15,Pocito,4,San Juan,12,Prevención Salud
-322,Benicio Medina,Masculino,1991-05-30,61550881,40,Victoria,7,Entre Ríos,26,OSDIPP
-323,Juan Gabriel Blanco,Femenino,1986-08-10,25053719,19,Orán,5,Salta,21,ENSALUD
-324,Ana Paula Aguirre,Femenino,2017-04-22,75211874,31,Gualeguay,7,Entre Ríos,15,Grupo DDM
-325,Matias Rodriguez,Otro,2008-03-10,31079782,8,Villa María,2,Córdoba,16,Hospital Británico
-326,Francesca Miranda,Femenino,1957-06-12,99314776,39,Uruguay,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-327,Julian Rivero,Femenino,1995-06-16,94706469,19,Orán,5,Salta,25,Medical´s
-328,Bautista Lopez,Masculino,1949-12-19,84026140,39,Uruguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-329,Benicio Suarez,Femenino,2015-01-30,37710312,22,Centenario,6,Neuquén,28,Bristol Medicine
-330,Franco Flores,Masculino,1955-05-18,16964652,2,Avellaneda,1,Buenos Aires,13,MET Córdoba
-331,Valentina Jazmin Moreno,Otro,2007-07-11,25422989,28,Federación,7,Entre Ríos,11,Sancor Salud
-332,Pilar Soto,Masculino,1959-05-05,74248435,5,Córdoba Capital,2,Córdoba,28,Bristol Medicine
-333,Agustín Lopez,Otro,1997-04-27,98312921,41,Villaguay,7,Entre Ríos,9,Unión Personal
-334,Simon Muñoz,Femenino,1940-10-17,79491066,38,Tala,7,Entre Ríos,11,Sancor Salud
-335,Sofia Suarez,Femenino,1975-06-13,26957557,19,Orán,5,Salta,25,Medical´s
-336,Sol Romero,Femenino,1991-08-14,79781857,16,Rawson,4,San Juan,19,OPDEA
-337,Thiago Leonel Sanchez,Otro,1998-01-15,66550763,30,Feliciano,7,Entre Ríos,10,ACA Salud
-338,Nicolas Sosa,Femenino,2004-01-20,88079496,34,La Paz,7,Entre Ríos,15,Grupo DDM
-339,Bautista Gonzalez,Femenino,1950-04-10,81980761,32,Gualeguaychú,7,Entre Ríos,8,Jerárquico
-340,Lola Figueroa,Femenino,1948-03-25,22236622,21,Capital,6,Neuquén,26,OSDIPP
-341,Josefina Sanchez,Masculino,2013-07-26,52865018,31,Gualeguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-342,Mora Cordoba,Femenino,1990-10-04,74930561,33,Islas del Ibicuy,7,Entre Ríos,4,Omint
-343,Lucas Juarez,Femenino,1964-01-21,72082187,41,Villaguay,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-344,Lautaro Castro,Otro,1984-05-06,67860397,19,Orán,5,Salta,16,Hospital Británico
-345,Alfonsina Fernandez,Femenino,1971-01-28,88647193,7,Río Cuarto,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
-346,Thiago Benjamin Cordoba,Femenino,1943-07-13,65941086,3,General Pueyrredón,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
-347,Nina Gomez,Femenino,1961-01-07,93853318,38,Tala,7,Entre Ríos,20,OSDEPYM
-348,Franco Gimenez,Femenino,1986-10-01,35722673,26,Concordia,7,Entre Ríos,3,Medicus
-349,Catalina Escobar,Otro,1951-08-26,51295309,36,Paraná,7,Entre Ríos,28,Bristol Medicine
-350,Valentina  Franco,Masculino,2007-08-05,90482560,21,Capital,6,Neuquén,8,Jerárquico
-351,Alma Ramirez,Otro,1992-09-24,65352429,22,Centenario,6,Neuquén,2,Swiss Medical
-352,Martina Ayala,Masculino,1981-12-28,27573275,13,Capital,4,San Juan,27,Asistencia Sanitaria Integral
-353,Benjamin Gonzalez,Otro,1978-10-13,77053926,32,Gualeguaychú,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-354,Francisco Diaz,Femenino,1956-01-09,56361232,40,Victoria,7,Entre Ríos,4,Omint
-355,Octavio Ojeda,Otro,2004-02-18,64674979,22,Centenario,6,Neuquén,9,Unión Personal
-356,Bruno Acosta,Masculino,2016-04-04,58126434,17,Capital,5,Salta,8,Jerárquico
-357,Julieta Perez,Femenino,2023-10-06,26759197,16,Rawson,4,San Juan,30,Asociación Civil de Estudios Superiores
-358,Sofia Herrera,Femenino,2009-10-16,54220689,31,Gualeguay,7,Entre Ríos,25,Medical´s
-359,Agustina Quiroga,Femenino,2015-04-23,54061397,29,Federal,7,Entre Ríos,24,Programa de Salud
-360,Bautista Ortiz,Masculino,2023-04-23,11727405,38,Tala,7,Entre Ríos,21,ENSALUD
-361,Matilda Gonzalez,Femenino,2013-12-12,70429948,39,Uruguay,7,Entre Ríos,11,Sancor Salud
-362,Oriana Lopez,Masculino,1985-03-22,48553600,31,Gualeguay,7,Entre Ríos,24,Programa de Salud
-363,Josefina Escobar,Masculino,2015-09-17,37471245,21,Capital,6,Neuquén,29,Federación Médica Gremial de la Capital Federal
-364,Isabella Navarro,Masculino,2000-08-11,60921954,11,Luján de Cuyo,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
-365,Bruno Sosa,Masculino,2015-07-19,93810237,6,San Justo,2,Córdoba,6,Medifé
-366,Julia Avila,Masculino,1986-07-13,67664049,41,Villaguay,7,Entre Ríos,13,MET Córdoba
-367,Ana Paula Alvarez,Femenino,1992-07-18,65095063,39,Uruguay,7,Entre Ríos,20,OSDEPYM
-368,Manuel Rodriguez,Masculino,1960-08-30,68571951,29,Federal,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-369,Jazmin Cardozo,Otro,1959-05-06,50749717,28,Federación,7,Entre Ríos,1,OSDE
-370,Oriana Ramirez,Femenino,1970-07-18,90491219,4,Tandil,1,Buenos Aires,22,COBENSIL
-371,Jazmin Gomez,Masculino,2007-02-16,75664867,30,Feliciano,7,Entre Ríos,6,Medifé
-372,Guadalupe Rodriguez,Otro,1958-07-10,44740697,4,Tandil,1,Buenos Aires,11,Sancor Salud
-373,Luciana Navarro,Otro,1978-03-10,74466803,33,Islas del Ibicuy,7,Entre Ríos,10,ACA Salud
-374,Lautaro Ezequiel Gimenez,Otro,2011-04-16,73971518,26,Concordia,7,Entre Ríos,19,OPDEA
-375,Mateo Rodriguez,Femenino,2011-02-11,47208444,13,Capital,4,San Juan,2,Swiss Medical
-376,Lautaro Ezequiel Suarez,Otro,2016-01-22,81796984,11,Luján de Cuyo,3,Mendoza,24,Programa de Salud
-377,Luciana Gonzalez,Masculino,1969-08-03,61785788,20,Metán,5,Salta,24,Programa de Salud
-378,Joaquin Sosa,Femenino,1946-12-12,59486484,40,Victoria,7,Entre Ríos,11,Sancor Salud
-379,Alma Mia Coronel,Masculino,1956-04-03,49170472,6,San Justo,2,Córdoba,14,Hospital Alemán
-380,Ian Cruz,Masculino,1994-07-15,37131721,14,Chimbas,4,San Juan,30,Asociación Civil de Estudios Superiores
-381,Lautaro Benjamin Ayala,Femenino,1969-03-31,34716010,23,Plottier,6,Neuquén,9,Unión Personal
-382,Lola Ruiz,Otro,2015-10-22,40250084,16,Rawson,4,San Juan,17,Círculo Médico de Lomas de Zamora
-383,Martina Perez,Otro,2012-11-05,28748862,11,Luján de Cuyo,3,Mendoza,22,COBENSIL
-384,Paloma Perez,Otro,1935-03-21,61212261,26,Concordia,7,Entre Ríos,14,Hospital Alemán
-385,Sofia Belen Sosa,Masculino,2007-07-04,43624114,34,La Paz,7,Entre Ríos,8,Jerárquico
-386,Maria Paz Garcia,Masculino,1957-06-18,42011758,1,La Plata,1,Buenos Aires,24,Programa de Salud
-387,Luca Gomez,Femenino,1953-06-02,33008142,6,San Justo,2,Córdoba,7,Hospital Italiano
-388,Franco Leiva,Femenino,2020-11-28,32461027,9,Godoy Cruz,3,Mendoza,10,ACA Salud
-389,Felipe Garcia,Masculino,1990-10-18,26827531,14,Chimbas,4,San Juan,20,OSDEPYM
-390,Valentina  Fernandez,Masculino,2000-06-14,42147675,6,San Justo,2,Córdoba,15,Grupo DDM
-391,Tiziano Valentin Diaz,Masculino,1993-09-19,59379421,39,Uruguay,7,Entre Ríos,28,Bristol Medicine
-392,Helena Arias,Masculino,2025-03-14,86491584,21,Capital,6,Neuquén,19,OPDEA
-393,Ciro Nuñez,Femenino,1965-10-05,11880720,24,Zapala,6,Neuquén,25,Medical´s
-394,Catalina Castro,Otro,1968-10-21,26602318,32,Gualeguaychú,7,Entre Ríos,15,Grupo DDM
-395,Elena Medina,Femenino,1965-04-07,62794272,1,La Plata,1,Buenos Aires,8,Jerárquico
-396,Isabella Miranda,Femenino,1997-12-19,48816024,32,Gualeguaychú,7,Entre Ríos,1,OSDE
-397,Delfina Rojas,Otro,1972-11-07,75151056,36,Paraná,7,Entre Ríos,12,Prevención Salud
-398,Thiago Valentin Avila,Femenino,2022-03-09,47897353,3,General Pueyrredón,1,Buenos Aires,1,OSDE
-399,Benjamin Ezequiel Mansilla,Masculino,1934-09-10,37965821,3,General Pueyrredón,1,Buenos Aires,13,MET Córdoba
-400,Ana Paula Carrizo,Otro,2002-02-10,70129713,27,Diamante,7,Entre Ríos,19,OPDEA
-401,Ian Ezequiel Herrera,Masculino,1964-09-26,95556956,22,Centenario,6,Neuquén,12,Prevención Salud
-402,Rafael Miranda,Femenino,1957-04-09,29273020,6,San Justo,2,Córdoba,28,Bristol Medicine
-403,Felipe Aguirre,Femenino,1954-12-15,17656630,41,Villaguay,7,Entre Ríos,14,Hospital Alemán
-404,Juan Ignacio Carrizo,Masculino,1974-05-28,68808234,39,Uruguay,7,Entre Ríos,20,OSDEPYM
-405,Giuliana Aguirre,Femenino,1946-12-28,76091286,3,General Pueyrredón,1,Buenos Aires,8,Jerárquico
-406,Oriana Castillo,Femenino,1968-04-01,72724701,21,Capital,6,Neuquén,22,COBENSIL
-407,Santino Garcia,Masculino,1997-09-21,96283455,12,San Rafael,3,Mendoza,17,Círculo Médico de Lomas de Zamora
-408,Emma Castro,Femenino,1952-06-26,19229032,4,Tandil,1,Buenos Aires,21,ENSALUD
-409,Santino Franco,Femenino,1977-05-12,61202453,3,General Pueyrredón,1,Buenos Aires,28,Bristol Medicine
-410,Paulina Paz,Femenino,1957-01-06,16607411,23,Plottier,6,Neuquén,12,Prevención Salud
-411,Dante Garcia,Femenino,1960-01-14,21535099,36,Paraná,7,Entre Ríos,13,MET Córdoba
-412,Guadalupe Gonzalez,Otro,2019-09-14,59291848,4,Tandil,1,Buenos Aires,25,Medical´s
-413,Luciana Dominguez,Femenino,2011-02-28,93680856,7,Río Cuarto,2,Córdoba,28,Bristol Medicine
-414,Enzo Ruiz,Masculino,1999-09-17,41189846,1,La Plata,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
-415,Simon Fernandez,Masculino,1941-12-18,89924645,33,Islas del Ibicuy,7,Entre Ríos,1,OSDE
-416,Santino Gabriel Rodriguez,Masculino,1965-04-29,12770485,34,La Paz,7,Entre Ríos,22,COBENSIL
-417,Valentin Torres,Otro,2020-10-20,40799914,32,Gualeguaychú,7,Entre Ríos,28,Bristol Medicine
-418,Zoe Perez,Otro,2012-03-31,27570558,38,Tala,7,Entre Ríos,20,OSDEPYM
-419,Santino Benjamin Gonzalez,Femenino,2001-11-08,14259745,12,San Rafael,3,Mendoza,18,Obra Social YPF
-420,Felipe Sanchez,Otro,1985-03-30,98329098,8,Villa María,2,Córdoba,25,Medical´s
-421,Juan Martin Bravo,Masculino,1944-05-26,19322404,28,Federación,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-422,Thiago Daniel Ramirez,Otro,1943-12-16,21014585,1,La Plata,1,Buenos Aires,26,OSDIPP
-423,Alfonsina Fernandez,Femenino,1963-02-16,64361404,21,Capital,6,Neuquén,21,ENSALUD
-424,Lucia Alvarez,Femenino,2001-05-07,21389836,3,General Pueyrredón,1,Buenos Aires,9,Unión Personal
-425,Kiara Valdez,Femenino,1956-08-18,35426316,3,General Pueyrredón,1,Buenos Aires,23,Medin S.A.S.M.A
-426,Mateo Martinez,Otro,2009-11-02,40044006,14,Chimbas,4,San Juan,2,Swiss Medical
-427,Paloma Dominguez,Masculino,1935-03-16,56127707,26,Concordia,7,Entre Ríos,21,ENSALUD
-428,Joaquin Gutierrez,Femenino,2020-03-05,46541544,27,Diamante,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-429,Thiago Valentin Soria,Femenino,1950-03-16,35158196,28,Federación,7,Entre Ríos,19,OPDEA
-430,Julieta Fernandez,Femenino,1958-01-17,62760499,19,Orán,5,Salta,9,Unión Personal
-431,Juan David Vega,Masculino,2017-09-06,53264264,37,San Salvador,7,Entre Ríos,8,Jerárquico
-432,Benjamin Castillo,Masculino,1984-06-05,94818771,26,Concordia,7,Entre Ríos,13,MET Córdoba
-433,Valentina Lopez,Masculino,1980-05-07,86540345,15,Pocito,4,San Juan,8,Jerárquico
-434,Ignacio Torres,Otro,2005-06-11,78692674,4,Tandil,1,Buenos Aires,3,Medicus
-435,Facundo Suarez,Masculino,1998-09-18,10357031,23,Plottier,6,Neuquén,26,OSDIPP
-436,Ciro Villalba,Otro,1975-07-03,85721385,20,Metán,5,Salta,7,Hospital Italiano
-437,Felipe Ayala,Femenino,1942-10-05,25474593,41,Villaguay,7,Entre Ríos,8,Jerárquico
-438,Nina Gonzalez,Otro,1958-04-05,47568356,12,San Rafael,3,Mendoza,26,OSDIPP
-439,Maria Guadalupe Maldonado,Masculino,2014-08-03,69314257,23,Plottier,6,Neuquén,7,Hospital Italiano
-440,Francesca Sanchez,Otro,1953-10-14,21664317,3,General Pueyrredón,1,Buenos Aires,21,ENSALUD
-441,Josefina Avila,Otro,1935-10-26,66558777,3,General Pueyrredón,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
-442,Angelina Correa,Otro,1950-03-26,82386426,24,Zapala,6,Neuquén,6,Medifé
-443,Lucía  Gonzalez,Femenino,1987-07-22,60329913,7,Río Cuarto,2,Córdoba,24,Programa de Salud
-444,Joaquin Coronel,Masculino,1993-03-19,48189161,4,Tandil,1,Buenos Aires,25,Medical´s
-445,Martín Gomez,Masculino,1960-10-17,32512904,9,Godoy Cruz,3,Mendoza,14,Hospital Alemán
-446,Isabella Flores,Otro,1941-04-27,37903263,41,Villaguay,7,Entre Ríos,10,ACA Salud
-447,Alma Ayala,Masculino,1980-07-20,98742407,13,Capital,4,San Juan,18,Obra Social YPF
-448,Ian Benjamin Ramirez,Femenino,1969-10-08,49446007,25,Colón,7,Entre Ríos,27,Asistencia Sanitaria Integral
-449,Juana Caceres,Femenino,1950-08-12,13184722,7,Río Cuarto,2,Córdoba,10,ACA Salud
-450,Paloma Campos,Masculino,2010-06-12,86563794,39,Uruguay,7,Entre Ríos,23,Medin S.A.S.M.A
-451,Nicolas Peralta,Masculino,2016-10-12,10118926,10,Guaymallén,3,Mendoza,24,Programa de Salud
-452,Thiago Benjamin Peralta,Masculino,2021-03-01,97718231,25,Colón,7,Entre Ríos,23,Medin S.A.S.M.A
-453,Simon Sosa,Masculino,1935-08-10,81869976,6,San Justo,2,Córdoba,15,Grupo DDM
-454,Bianca Cabrera,Otro,2000-01-24,65972979,1,La Plata,1,Buenos Aires,8,Jerárquico
-455,Luciana Gomez,Otro,2007-11-01,75556611,11,Luján de Cuyo,3,Mendoza,7,Hospital Italiano
-456,Julian Nuñez,Masculino,1937-05-10,73066040,11,Luján de Cuyo,3,Mendoza,22,COBENSIL
-457,Sebastian Bustos,Femenino,1947-11-19,64359860,37,San Salvador,7,Entre Ríos,22,COBENSIL
-458,Martina Valdez,Otro,1976-10-23,55217907,33,Islas del Ibicuy,7,Entre Ríos,11,Sancor Salud
-459,Juan Gabriel Flores,Otro,1945-01-29,26209757,31,Gualeguay,7,Entre Ríos,27,Asistencia Sanitaria Integral
-460,Isabella Quiroga,Masculino,1957-09-01,69580523,36,Paraná,7,Entre Ríos,11,Sancor Salud
-461,Thiago Gabriel Ramirez,Otro,1981-07-04,31313205,28,Federación,7,Entre Ríos,11,Sancor Salud
-462,Delfina Fernandez,Femenino,2008-10-02,65330092,24,Zapala,6,Neuquén,6,Medifé
-463,Luz Milagros Martinez,Femenino,1966-05-15,55780843,30,Feliciano,7,Entre Ríos,6,Medifé
-464,Francisco Benitez,Masculino,1981-11-01,27474869,1,La Plata,1,Buenos Aires,23,Medin S.A.S.M.A
-465,Matias Gutierrez,Femenino,1969-05-20,91862131,34,La Paz,7,Entre Ríos,21,ENSALUD
-466,Delfina Velazquez,Femenino,1995-12-21,61120692,25,Colón,7,Entre Ríos,19,OPDEA
-467,Nicolas Ramirez,Femenino,1972-11-21,45891131,34,La Paz,7,Entre Ríos,22,COBENSIL
-468,Valentina Lopez,Otro,1950-12-29,21420417,3,General Pueyrredón,1,Buenos Aires,25,Medical´s
-469,Valentino Cabrera,Femenino,1937-03-05,91492327,37,San Salvador,7,Entre Ríos,22,COBENSIL
-470,Mateo Molina,Masculino,1949-01-09,20731752,4,Tandil,1,Buenos Aires,14,Hospital Alemán
-471,Bianca Gonzalez,Masculino,1987-03-10,11151997,32,Gualeguaychú,7,Entre Ríos,13,MET Córdoba
-472,Manuel Martinez,Femenino,1957-07-03,81038919,30,Feliciano,7,Entre Ríos,2,Swiss Medical
-473,Renata Acosta,Masculino,1982-07-20,94150619,3,General Pueyrredón,1,Buenos Aires,18,Obra Social YPF
-474,Thiago Gabriel Castro,Masculino,1970-08-15,91822313,36,Paraná,7,Entre Ríos,11,Sancor Salud
-475,Luz Maria Gonzalez,Otro,1981-12-06,12469105,21,Capital,6,Neuquén,28,Bristol Medicine
-476,Pilar Gonzalez,Masculino,1972-11-19,25247662,17,Capital,5,Salta,2,Swiss Medical
-477,Isabella Romero,Masculino,1939-03-05,47609494,37,San Salvador,7,Entre Ríos,5,Galeno
-478,Agustín Vazquez,Masculino,1996-07-18,28979225,37,San Salvador,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-479,Benjamin Gonzalez,Masculino,1951-03-18,38691553,19,Orán,5,Salta,14,Hospital Alemán
-480,Dylan Ezequiel Alvarez,Femenino,1942-10-24,25835643,39,Uruguay,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-481,Lucio Fernandez,Femenino,1987-05-28,10389210,32,Gualeguaychú,7,Entre Ríos,6,Medifé
-482,Clara Diaz,Masculino,2016-08-23,56235584,15,Pocito,4,San Juan,8,Jerárquico
-483,Lola Diaz,Masculino,1953-12-01,70430881,8,Villa María,2,Córdoba,19,OPDEA
-484,Juan Pablo Hernandez,Masculino,1974-07-30,30344023,32,Gualeguaychú,7,Entre Ríos,25,Medical´s
-485,Juana Ledesma,Masculino,2025-03-30,29052088,15,Pocito,4,San Juan,11,Sancor Salud
-486,Emiliano Bustos,Otro,2018-04-17,70739470,23,Plottier,6,Neuquén,12,Prevención Salud
-487,Pedro Maidana,Femenino,1975-11-20,31879636,29,Federal,7,Entre Ríos,18,Obra Social YPF
-488,Luz Milagros Ayala,Masculino,2015-12-04,18747147,41,Villaguay,7,Entre Ríos,1,OSDE
-489,Luz Milagros Roldan,Femenino,1999-07-27,67148683,36,Paraná,7,Entre Ríos,11,Sancor Salud
-490,Emma Gutierrez,Masculino,1954-01-27,43600676,5,Córdoba Capital,2,Córdoba,21,ENSALUD
-491,Martina Alvarez,Masculino,1986-10-21,77772019,14,Chimbas,4,San Juan,10,ACA Salud
-492,Joaquin Mendez,Otro,1948-11-22,30428110,38,Tala,7,Entre Ríos,23,Medin S.A.S.M.A
-493,Genaro Rojas,Femenino,1993-06-24,67527879,31,Gualeguay,7,Entre Ríos,6,Medifé
-494,Morena Pereyra,Otro,1981-01-16,91383475,36,Paraná,7,Entre Ríos,15,Grupo DDM
-495,Agustina Maidana,Femenino,1937-08-21,94887827,26,Concordia,7,Entre Ríos,27,Asistencia Sanitaria Integral
-496,Benicio Quiroga,Femenino,2006-01-24,80184376,11,Luján de Cuyo,3,Mendoza,9,Unión Personal
-497,Camila Roldan,Femenino,2022-01-07,62400547,16,Rawson,4,San Juan,16,Hospital Británico
-498,Maria Victoria Rios,Masculino,2006-09-21,35410694,1,La Plata,1,Buenos Aires,18,Obra Social YPF
-499,Ludmila Aguero,Femenino,1974-03-21,72662368,27,Diamante,7,Entre Ríos,21,ENSALUD
-500,Juan Manuel Rodriguez,Otro,1994-07-09,45296727,34,La Paz,7,Entre Ríos,4,Omint
-501,Thiago Benjamin Ramirez,Masculino,1937-01-06,28143888,12,San Rafael,3,Mendoza,11,Sancor Salud
-502,Giovanni Silva,Masculino,1972-11-22,63003092,9,Godoy Cruz,3,Mendoza,1,OSDE
-503,Isabella Vargas,Masculino,2018-11-09,77603434,35,Nogoyá,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-504,Benjamin Arias,Masculino,1958-03-20,52325950,35,Nogoyá,7,Entre Ríos,3,Medicus
-505,Ambar Correa,Otro,2001-08-16,12084017,33,Islas del Ibicuy,7,Entre Ríos,3,Medicus
-506,Lola Castillo,Otro,1987-01-16,12168606,36,Paraná,7,Entre Ríos,11,Sancor Salud
-507,Luca Figueroa,Masculino,2017-07-27,88028541,2,Avellaneda,1,Buenos Aires,8,Jerárquico
-508,Santiago Vera,Femenino,2016-06-27,53637518,21,Capital,6,Neuquén,26,OSDIPP
-509,Bautista Perez,Otro,1965-06-23,96033824,12,San Rafael,3,Mendoza,15,Grupo DDM
-510,Sebastian Acosta,Otro,1974-05-26,89463161,1,La Plata,1,Buenos Aires,24,Programa de Salud
-511,Santiago Moreno,Otro,2020-06-15,57497366,22,Centenario,6,Neuquén,27,Asistencia Sanitaria Integral
-512,Antonella Martinez,Otro,2025-02-24,81348345,35,Nogoyá,7,Entre Ríos,1,OSDE
-513,Manuel Ruiz,Otro,2003-08-12,83859551,37,San Salvador,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-514,Helena Rodriguez,Otro,1987-07-11,89832730,13,Capital,4,San Juan,18,Obra Social YPF
-515,Juan Cruz Ramos,Otro,1949-08-23,84662892,4,Tandil,1,Buenos Aires,12,Prevención Salud
-516,Malena Sanchez,Otro,2009-07-09,20968321,4,Tandil,1,Buenos Aires,18,Obra Social YPF
-517,Guadalupe Rodriguez,Femenino,1976-08-19,57513942,17,Capital,5,Salta,2,Swiss Medical
-518,Emilia Garcia,Masculino,1964-07-12,45183902,24,Zapala,6,Neuquén,8,Jerárquico
-519,Catalina Fernandez,Masculino,2022-01-09,28280490,7,Río Cuarto,2,Córdoba,12,Prevención Salud
-520,Lautaro Nicolas Fernandez,Masculino,1954-03-27,31329258,32,Gualeguaychú,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-521,Valentina Medina,Masculino,2008-02-02,76385273,26,Concordia,7,Entre Ríos,19,OPDEA
-522,Matias Farias,Femenino,1961-12-21,20722136,18,San Martín,5,Salta,28,Bristol Medicine
-523,Valentina Medina,Masculino,1992-01-04,29660245,6,San Justo,2,Córdoba,9,Unión Personal
-524,Santiago Navarro,Otro,1965-10-09,64334590,31,Gualeguay,7,Entre Ríos,10,ACA Salud
-525,Clara Ramos,Femenino,1942-05-03,46508529,23,Plottier,6,Neuquén,25,Medical´s
-526,Santino Perez,Masculino,1936-12-13,30492371,5,Córdoba Capital,2,Córdoba,7,Hospital Italiano
-527,Santino Sanchez,Masculino,1941-09-13,12034168,33,Islas del Ibicuy,7,Entre Ríos,8,Jerárquico
-528,Sara Martinez,Femenino,1990-08-22,24122584,20,Metán,5,Salta,15,Grupo DDM
-529,Amparo Herrera,Otro,1953-01-31,93336964,13,Capital,4,San Juan,18,Obra Social YPF
-530,Isabella Martinez,Otro,1974-11-30,44691693,38,Tala,7,Entre Ríos,15,Grupo DDM
-531,Pilar Torres,Femenino,1979-03-04,86776039,7,Río Cuarto,2,Córdoba,1,OSDE
-532,Thiago Valentin Ramirez,Masculino,2015-11-18,63664109,31,Gualeguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-533,Emma Cordoba,Otro,2015-07-03,48338938,31,Gualeguay,7,Entre Ríos,3,Medicus
-534,Malena Diaz,Femenino,1957-08-31,66578374,33,Islas del Ibicuy,7,Entre Ríos,24,Programa de Salud
-535,Julian Godoy,Otro,1950-07-21,13718735,40,Victoria,7,Entre Ríos,25,Medical´s
-536,Lautaro Gabriel Escobar,Masculino,1959-05-14,12829931,33,Islas del Ibicuy,7,Entre Ríos,23,Medin S.A.S.M.A
-537,Santino Vera,Femenino,1977-02-20,39795132,15,Pocito,4,San Juan,1,OSDE
-538,Lautaro Perez,Femenino,1985-12-10,30602144,7,Río Cuarto,2,Córdoba,19,OPDEA
-539,Lola Arias,Femenino,1994-01-28,87541929,33,Islas del Ibicuy,7,Entre Ríos,20,OSDEPYM
-540,Juana Lopez,Masculino,1957-05-12,80667322,11,Luján de Cuyo,3,Mendoza,30,Asociación Civil de Estudios Superiores
-541,Francisca Ferreyra,Otro,1962-01-31,11143299,29,Federal,7,Entre Ríos,8,Jerárquico
-542,Santiago Gomez,Femenino,1984-12-04,11053279,37,San Salvador,7,Entre Ríos,5,Galeno
-543,Tiziano Quiroga,Otro,1935-11-25,70520663,30,Feliciano,7,Entre Ríos,20,OSDEPYM
-544,Franco Franco,Masculino,1983-05-22,99382935,38,Tala,7,Entre Ríos,8,Jerárquico
-545,Bautista Guzman,Femenino,2020-04-16,46616910,12,San Rafael,3,Mendoza,2,Swiss Medical
-546,Santino Benjamin Rodriguez,Femenino,1985-07-25,41679254,27,Diamante,7,Entre Ríos,1,OSDE
-547,Delfina Gomez,Masculino,2013-04-18,74187058,28,Federación,7,Entre Ríos,20,OSDEPYM
-548,Santino Suarez,Femenino,2006-04-16,29513806,14,Chimbas,4,San Juan,17,Círculo Médico de Lomas de Zamora
-549,Juan Ignacio Ruiz,Otro,1972-02-03,86047590,39,Uruguay,7,Entre Ríos,25,Medical´s
-550,Uma  Alvarez,Masculino,2022-08-29,75173893,22,Centenario,6,Neuquén,1,OSDE
-551,Lautaro Cabrera,Femenino,1958-04-21,58003542,38,Tala,7,Entre Ríos,5,Galeno
-552,Milo Diaz,Otro,1967-11-12,28426621,9,Godoy Cruz,3,Mendoza,8,Jerárquico
-553,Joaquin Romero,Masculino,1951-05-12,87861648,16,Rawson,4,San Juan,4,Omint
-554,Benjamin Alvarez,Femenino,1985-02-26,12594478,33,Islas del Ibicuy,7,Entre Ríos,4,Omint
-555,Felicitas Sanchez,Masculino,1995-04-01,85697002,14,Chimbas,4,San Juan,10,ACA Salud
-556,Julia Cardozo,Otro,1954-05-28,84645265,36,Paraná,7,Entre Ríos,9,Unión Personal
-557,Camila Hernandez,Otro,1954-12-28,28112324,39,Uruguay,7,Entre Ríos,13,MET Córdoba
-558,Santino Benjamin Gomez,Masculino,2003-10-29,65973242,18,San Martín,5,Salta,4,Omint
-559,Agustín Ruiz,Masculino,2002-02-10,28813833,25,Colón,7,Entre Ríos,19,OPDEA
-560,Santino Nicolas Diaz,Otro,1943-03-25,61317270,30,Feliciano,7,Entre Ríos,8,Jerárquico
-561,Alma Coronel,Femenino,1999-02-21,61799094,24,Zapala,6,Neuquén,18,Obra Social YPF
-562,Agustina Flores,Masculino,1973-11-28,55852682,5,Córdoba Capital,2,Córdoba,10,ACA Salud
-563,Benjamin Lopez,Femenino,2014-06-14,18006844,5,Córdoba Capital,2,Córdoba,26,OSDIPP
-564,Salvador Gonzalez,Otro,1938-02-01,35923903,25,Colón,7,Entre Ríos,13,MET Córdoba
-565,Gonzalo Ojeda,Otro,1975-10-28,24852527,21,Capital,6,Neuquén,3,Medicus
-566,Valentina Lopez,Otro,1974-05-21,66181947,40,Victoria,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-567,Benjamin Rojas,Masculino,1944-11-09,87842597,7,Río Cuarto,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
-568,Valentino Mansilla,Masculino,2001-07-02,72656018,33,Islas del Ibicuy,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-569,Tiziana Rivero,Femenino,1936-12-17,94773189,23,Plottier,6,Neuquén,13,MET Córdoba
-570,Thiago Nahuel Peralta,Femenino,1942-01-05,85632164,18,San Martín,5,Salta,14,Hospital Alemán
-571,Santino Diaz,Otro,1941-11-27,55787633,34,La Paz,7,Entre Ríos,22,COBENSIL
-572,Nina Moreno,Femenino,1994-08-06,17084380,10,Guaymallén,3,Mendoza,4,Omint
-573,Emma Gonzalez,Femenino,1946-10-31,19597945,9,Godoy Cruz,3,Mendoza,12,Prevención Salud
-574,Joaquin Sosa,Femenino,1961-02-03,64498398,21,Capital,6,Neuquén,1,OSDE
-575,Santino Gomez,Femenino,2025-09-04,91615745,32,Gualeguaychú,7,Entre Ríos,14,Hospital Alemán
-576,Benjamin Torres,Otro,2017-05-27,16987972,37,San Salvador,7,Entre Ríos,18,Obra Social YPF
-577,Lucia Sanchez,Femenino,1965-12-05,19134953,38,Tala,7,Entre Ríos,20,OSDEPYM
-578,Agustina Bustos,Femenino,2018-10-13,79296125,16,Rawson,4,San Juan,29,Federación Médica Gremial de la Capital Federal
-579,Benicio Diaz,Otro,1997-03-12,19259064,2,Avellaneda,1,Buenos Aires,11,Sancor Salud
-580,Thiago Nicolas Gimenez,Femenino,1979-02-16,43851708,15,Pocito,4,San Juan,4,Omint
-581,Jazmín Moreno,Femenino,1937-03-24,24647648,35,Nogoyá,7,Entre Ríos,11,Sancor Salud
-582,Abril Peralta,Femenino,1966-07-29,43133766,12,San Rafael,3,Mendoza,30,Asociación Civil de Estudios Superiores
-583,Sebastian Maidana,Masculino,1968-03-20,75179582,26,Concordia,7,Entre Ríos,15,Grupo DDM
-584,Tiziana Juarez,Otro,2013-07-08,96950270,15,Pocito,4,San Juan,17,Círculo Médico de Lomas de Zamora
-585,Milo Ramos,Femenino,1980-11-17,15752885,40,Victoria,7,Entre Ríos,28,Bristol Medicine
-586,Juan Pablo Gonzalez,Otro,2015-11-26,95943412,35,Nogoyá,7,Entre Ríos,4,Omint
-587,Mateo Lopez,Femenino,1945-08-24,78034733,33,Islas del Ibicuy,7,Entre Ríos,19,OPDEA
-588,Mateo Ezequiel Dominguez,Otro,1965-06-02,76733566,25,Colón,7,Entre Ríos,11,Sancor Salud
-589,Camilo Cabrera,Otro,2019-02-23,79961742,4,Tandil,1,Buenos Aires,5,Galeno
-590,Tiziano Benjamin Sanchez,Masculino,1959-11-03,21070397,28,Federación,7,Entre Ríos,15,Grupo DDM
-591,Ignacio Paez,Otro,1995-06-28,40377129,8,Villa María,2,Córdoba,14,Hospital Alemán
-592,Catalina Sanchez,Femenino,1980-10-03,98251853,25,Colón,7,Entre Ríos,13,MET Córdoba
-593,Santiago Roldan,Femenino,2014-11-19,31730999,14,Chimbas,4,San Juan,2,Swiss Medical
-594,Catalina Olivera,Femenino,1954-04-14,43637009,11,Luján de Cuyo,3,Mendoza,19,OPDEA
-595,Juana Farias,Femenino,1963-09-01,47013761,41,Villaguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-596,Constantino Caceres,Femenino,1959-12-24,99490398,32,Gualeguaychú,7,Entre Ríos,12,Prevención Salud
-597,Valentin Duarte,Masculino,1962-06-30,65881162,41,Villaguay,7,Entre Ríos,20,OSDEPYM
-598,Pilar Perez,Femenino,1949-09-04,35317178,39,Uruguay,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-599,Ignacio Vargas,Otro,1979-10-26,23483133,8,Villa María,2,Córdoba,16,Hospital Británico
-600,Thiago Leonel Vera,Masculino,1983-02-02,58488772,23,Plottier,6,Neuquén,4,Omint
-601,Juan Ignacio Sanchez,Otro,1952-04-29,84319440,6,San Justo,2,Córdoba,18,Obra Social YPF
-602,Mia Ortiz,Otro,1985-10-21,21850352,13,Capital,4,San Juan,4,Omint
-603,Thiago Ezequiel Arias,Femenino,1957-01-06,75776129,1,La Plata,1,Buenos Aires,8,Jerárquico
-604,Juan Bautista Rojas,Femenino,2025-01-19,37510116,41,Villaguay,7,Entre Ríos,5,Galeno
-605,Santino Gabriel Rodriguez,Otro,1991-05-16,95232022,4,Tandil,1,Buenos Aires,30,Asociación Civil de Estudios Superiores
-606,Pilar Ferreyra,Femenino,2009-03-08,59462338,39,Uruguay,7,Entre Ríos,7,Hospital Italiano
-607,Federico Rojas,Masculino,2015-04-01,19953899,16,Rawson,4,San Juan,5,Galeno
-608,Ana Paula Castillo,Masculino,1976-04-06,80713400,22,Centenario,6,Neuquén,26,OSDIPP
-609,Kiara Carrizo,Masculino,1936-03-05,48653953,14,Chimbas,4,San Juan,26,OSDIPP
-610,Milena Lopez,Femenino,1997-10-02,20408770,4,Tandil,1,Buenos Aires,2,Swiss Medical
-611,Vicente Medina,Otro,2002-12-06,46124387,24,Zapala,6,Neuquén,22,COBENSIL
-612,Milagros Maidana,Otro,2019-10-19,25793724,8,Villa María,2,Córdoba,9,Unión Personal
-613,Juana Garcia,Otro,1984-07-16,75534793,15,Pocito,4,San Juan,18,Obra Social YPF
-614,Maximiliano Lopez,Otro,1938-02-24,68510992,17,Capital,5,Salta,22,COBENSIL
-615,Isabella Luna,Otro,1974-09-23,10227666,2,Avellaneda,1,Buenos Aires,2,Swiss Medical
-616,Santiago Acosta,Otro,1954-09-11,99208518,23,Plottier,6,Neuquén,30,Asociación Civil de Estudios Superiores
-617,Benicio Rojas,Femenino,1974-06-09,53394810,16,Rawson,4,San Juan,21,ENSALUD
-618,Mateo Ezequiel Guzman,Femenino,2013-10-28,38997412,24,Zapala,6,Neuquén,6,Medifé
-619,Gonzalo Bustos,Masculino,1953-03-16,61160417,13,Capital,4,San Juan,12,Prevención Salud
-620,Pedro Soria,Masculino,1958-08-24,60317366,16,Rawson,4,San Juan,4,Omint
-621,Sofia Luna,Masculino,2004-10-18,71248382,17,Capital,5,Salta,2,Swiss Medical
-622,Lucio Maidana,Otro,1983-09-23,11632891,3,General Pueyrredón,1,Buenos Aires,26,OSDIPP
-623,Isabella Diaz,Femenino,2009-05-27,29684543,38,Tala,7,Entre Ríos,27,Asistencia Sanitaria Integral
-624,Guadalupe Pereyra,Femenino,1945-04-13,96814094,15,Pocito,4,San Juan,19,OPDEA
-625,Santino Juarez,Femenino,1971-04-22,70464593,39,Uruguay,7,Entre Ríos,1,OSDE
-626,Agustin Rodriguez,Masculino,1937-10-25,44803639,22,Centenario,6,Neuquén,13,MET Córdoba
-627,Jazmin Garcia,Masculino,1993-08-24,13898407,2,Avellaneda,1,Buenos Aires,22,COBENSIL
-628,Ciro Molina,Femenino,2011-11-08,13201011,4,Tandil,1,Buenos Aires,18,Obra Social YPF
-629,Ian Benjamin Castillo,Masculino,1958-07-30,76537847,35,Nogoyá,7,Entre Ríos,1,OSDE
-630,Alma Ojeda,Otro,2024-10-16,47670789,15,Pocito,4,San Juan,14,Hospital Alemán
-631,Emma Rodriguez,Femenino,1986-04-11,48443677,5,Córdoba Capital,2,Córdoba,6,Medifé
-632,Martina Flores,Femenino,1982-05-24,74462544,19,Orán,5,Salta,17,Círculo Médico de Lomas de Zamora
-633,Isabella Figueroa,Otro,1984-02-05,41616842,30,Feliciano,7,Entre Ríos,11,Sancor Salud
-634,Alvaro Romero,Femenino,2005-04-26,84083760,9,Godoy Cruz,3,Mendoza,30,Asociación Civil de Estudios Superiores
-635,Santiago Lopez,Otro,1947-05-21,99501041,10,Guaymallén,3,Mendoza,21,ENSALUD
-636,Bautista Martinez,Femenino,1974-03-20,28360318,30,Feliciano,7,Entre Ríos,27,Asistencia Sanitaria Integral
-637,Santino Morales,Otro,2011-09-11,37332403,25,Colón,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-638,Felipe Diaz,Otro,1992-01-25,95984940,28,Federación,7,Entre Ríos,19,OPDEA
-639,Catalina Gonzalez,Femenino,1993-11-14,87003231,15,Pocito,4,San Juan,27,Asistencia Sanitaria Integral
-640,Paulina Alvarez,Otro,1950-04-27,19786183,25,Colón,7,Entre Ríos,4,Omint
-641,Manuel Garcia,Otro,1969-09-09,77960954,13,Capital,4,San Juan,24,Programa de Salud
-642,Agostina Gomez,Femenino,2011-01-28,81798663,16,Rawson,4,San Juan,18,Obra Social YPF
-643,Olivia Cabrera,Femenino,1989-06-16,84033068,38,Tala,7,Entre Ríos,26,OSDIPP
-644,Juan David Flores,Masculino,1994-06-21,49617919,26,Concordia,7,Entre Ríos,3,Medicus
-645,Oriana Miranda,Masculino,1982-10-31,62230589,34,La Paz,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-646,Bianca Lopez,Otro,1947-04-16,80825119,6,San Justo,2,Córdoba,4,Omint
-647,Maria Victoria Rios,Femenino,2019-11-18,50258742,12,San Rafael,3,Mendoza,13,MET Córdoba
-648,Juan Martin Martinez,Masculino,2009-01-18,78382423,34,La Paz,7,Entre Ríos,16,Hospital Británico
-649,Delfina Aguirre,Otro,2019-09-30,61333448,33,Islas del Ibicuy,7,Entre Ríos,2,Swiss Medical
-650,Martina Gutierrez,Femenino,1947-08-01,13695211,11,Luján de Cuyo,3,Mendoza,6,Medifé
-651,Lautaro Ezequiel Paez,Otro,2012-11-03,12859947,35,Nogoyá,7,Entre Ríos,2,Swiss Medical
-652,Thiago Benjamin Gomez,Masculino,1950-12-30,50766101,30,Feliciano,7,Entre Ríos,4,Omint
-653,Bruno Maidana,Masculino,2012-05-10,72461650,23,Plottier,6,Neuquén,7,Hospital Italiano
-654,Julieta Martinez,Otro,1936-11-09,10453637,38,Tala,7,Entre Ríos,4,Omint
-655,Benjamin Diaz,Femenino,2019-02-19,13526597,18,San Martín,5,Salta,14,Hospital Alemán
-656,Mia Jazmin Correa,Otro,1948-09-02,90047669,37,San Salvador,7,Entre Ríos,22,COBENSIL
-657,Guadalupe Perez,Femenino,1946-12-27,27518974,5,Córdoba Capital,2,Córdoba,27,Asistencia Sanitaria Integral
-658,Manuel Cordoba,Masculino,1938-07-24,59717532,10,Guaymallén,3,Mendoza,13,MET Córdoba
-659,Delfina Villalba,Otro,1960-08-16,99956618,22,Centenario,6,Neuquén,6,Medifé
-660,Julia Roldan,Masculino,2002-06-09,49122411,11,Luján de Cuyo,3,Mendoza,12,Prevención Salud
-661,Máximo Leiva,Otro,2016-05-14,46461259,26,Concordia,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-662,Juana Barrios,Otro,2008-05-05,64298368,31,Gualeguay,7,Entre Ríos,3,Medicus
-663,Josefina Sanchez,Femenino,1974-12-01,35992053,2,Avellaneda,1,Buenos Aires,14,Hospital Alemán
-664,Maria Victoria Perez,Otro,1987-04-24,39933085,7,Río Cuarto,2,Córdoba,9,Unión Personal
-665,Benjamin Roldan,Femenino,1939-09-24,32319327,21,Capital,6,Neuquén,26,OSDIPP
-666,Benjamin Fernandez,Otro,1945-04-18,61675507,1,La Plata,1,Buenos Aires,5,Galeno
-667,Milo Pereyra,Femenino,2004-04-01,34412602,27,Diamante,7,Entre Ríos,19,OPDEA
-668,Alexander Ruiz,Masculino,1951-10-18,61521737,28,Federación,7,Entre Ríos,5,Galeno
-669,Lucas Benjamin Villalba,Otro,1975-06-10,25172267,24,Zapala,6,Neuquén,10,ACA Salud
-670,Juan Pablo Olivera,Femenino,1947-07-07,62004358,33,Islas del Ibicuy,7,Entre Ríos,26,OSDIPP
-671,Sofia Acosta,Masculino,1965-09-24,13259722,30,Feliciano,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-672,Maximiliano Acuña,Masculino,1955-08-29,86423328,14,Chimbas,4,San Juan,19,OPDEA
-673,Felicitas Quiroga,Femenino,1981-01-06,68606944,17,Capital,5,Salta,28,Bristol Medicine
-674,Santiago Gutierrez,Otro,2010-01-04,97774910,6,San Justo,2,Córdoba,24,Programa de Salud
-675,Agustín Coronel,Femenino,1949-03-22,73611679,11,Luján de Cuyo,3,Mendoza,12,Prevención Salud
-676,Juan Cruz Perez,Masculino,1945-02-10,97550064,14,Chimbas,4,San Juan,16,Hospital Británico
-677,Sofia Belen Perez,Femenino,1994-10-27,14884438,19,Orán,5,Salta,3,Medicus
-678,Constanza Martinez,Femenino,1944-03-21,89899506,39,Uruguay,7,Entre Ríos,2,Swiss Medical
-679,Mateo Benjamin Lopez,Femenino,1981-10-01,31450545,24,Zapala,6,Neuquén,24,Programa de Salud
-680,Francisco Gomez,Otro,1954-09-07,12771616,6,San Justo,2,Córdoba,16,Hospital Británico
-681,Valentina Mendoza,Otro,2005-07-28,87768594,36,Paraná,7,Entre Ríos,2,Swiss Medical
-682,Santiago Benjamin Lopez,Femenino,1948-11-18,61540304,35,Nogoyá,7,Entre Ríos,26,OSDIPP
-683,Lisandro Vazquez,Femenino,2025-06-23,40486554,38,Tala,7,Entre Ríos,24,Programa de Salud
-684,Constantino Rodriguez,Otro,1987-03-09,35021409,38,Tala,7,Entre Ríos,28,Bristol Medicine
-685,Julieta Moreno,Masculino,1939-10-24,44848439,9,Godoy Cruz,3,Mendoza,7,Hospital Italiano
-686,Franco Barrios,Otro,1939-10-28,39325426,12,San Rafael,3,Mendoza,24,Programa de Salud
-687,Lautaro Gonzalez,Masculino,1963-02-13,79672782,5,Córdoba Capital,2,Córdoba,15,Grupo DDM
-688,Tomàs Rios,Femenino,1983-10-19,16612449,1,La Plata,1,Buenos Aires,14,Hospital Alemán
-689,Agustin Sanchez,Femenino,1951-02-25,62526022,23,Plottier,6,Neuquén,1,OSDE
-690,Mateo Gonzalez,Masculino,1943-03-30,18266023,26,Concordia,7,Entre Ríos,21,ENSALUD
-691,Emanuel Soria,Masculino,2002-08-04,52798753,41,Villaguay,7,Entre Ríos,11,Sancor Salud
-692,Santino Garcia,Otro,2016-05-21,82642359,7,Río Cuarto,2,Córdoba,19,OPDEA
-693,Santiago Gomez,Otro,1984-08-13,79906955,25,Colón,7,Entre Ríos,5,Galeno
-694,Zoe Gutierrez,Masculino,1938-05-06,70588802,19,Orán,5,Salta,21,ENSALUD
-695,Mateo Toledo,Otro,1962-03-06,22399304,28,Federación,7,Entre Ríos,26,OSDIPP
-696,Benicio Suarez,Femenino,1966-07-17,90882442,25,Colón,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-697,Guillermina Gomez,Otro,2017-04-19,68264647,13,Capital,4,San Juan,28,Bristol Medicine
-698,Clara Gutierrez,Otro,1982-10-18,79450422,38,Tala,7,Entre Ríos,10,ACA Salud
-699,Benjamin Fernandez,Femenino,1972-01-09,80557045,35,Nogoyá,7,Entre Ríos,27,Asistencia Sanitaria Integral
-700,Julian Benitez,Masculino,1992-02-28,20955208,15,Pocito,4,San Juan,28,Bristol Medicine
-701,Giuliana Navarro,Masculino,2020-08-30,34357906,29,Federal,7,Entre Ríos,5,Galeno
-702,Valentin Arias,Otro,1997-11-21,99183524,25,Colón,7,Entre Ríos,20,OSDEPYM
-703,Emilia Ferreyra,Femenino,1961-05-11,77900657,30,Feliciano,7,Entre Ríos,24,Programa de Salud
-704,Renata Martinez,Femenino,2000-02-06,30412987,4,Tandil,1,Buenos Aires,19,OPDEA
-705,Joaquin Moreno,Femenino,1976-07-05,52303164,12,San Rafael,3,Mendoza,12,Prevención Salud
-706,Dylan Benjamin Lopez,Otro,2006-12-01,43043548,17,Capital,5,Salta,4,Omint
-707,Bastian Benitez,Femenino,1968-09-17,41824549,2,Avellaneda,1,Buenos Aires,6,Medifé
-708,Sebastian Paz,Femenino,1962-04-21,58598429,29,Federal,7,Entre Ríos,15,Grupo DDM
-709,Delfina Gomez,Otro,1953-11-15,14295149,21,Capital,6,Neuquén,4,Omint
-710,Matias Gomez,Otro,1972-11-04,48938018,4,Tandil,1,Buenos Aires,19,OPDEA
-711,Valentino Ortiz,Otro,1971-01-27,22959472,5,Córdoba Capital,2,Córdoba,28,Bristol Medicine
-712,Joaquin Gutierrez,Otro,1946-05-27,95549386,5,Córdoba Capital,2,Córdoba,13,MET Córdoba
-713,Máximo Guzman,Otro,1960-02-04,50710452,8,Villa María,2,Córdoba,5,Galeno
-714,Lautaro Gutierrez,Masculino,2023-08-02,22169259,19,Orán,5,Salta,19,OPDEA
-715,Lorenzo Martinez,Otro,1948-12-14,48178986,22,Centenario,6,Neuquén,1,OSDE
-716,Lourdes Carrizo,Femenino,1935-11-01,28909540,41,Villaguay,7,Entre Ríos,19,OPDEA
-717,Antonio Gonzalez,Otro,2025-03-25,48193989,9,Godoy Cruz,3,Mendoza,14,Hospital Alemán
-718,Bautista Acuña,Masculino,1944-08-07,21399271,5,Córdoba Capital,2,Córdoba,17,Círculo Médico de Lomas de Zamora
-719,Constanza Guzman,Otro,1962-07-15,36772839,28,Federación,7,Entre Ríos,27,Asistencia Sanitaria Integral
-720,Tomas Fernandez,Femenino,2019-09-29,27238830,23,Plottier,6,Neuquén,1,OSDE
-721,Jeremias Gomez,Otro,1939-08-25,71630804,20,Metán,5,Salta,1,OSDE
-722,Benjamin Moyano,Masculino,1993-06-19,87726102,18,San Martín,5,Salta,6,Medifé
-723,Giovanni Nuñez,Femenino,1975-08-16,14376021,19,Orán,5,Salta,28,Bristol Medicine
-724,Santino Nicolas Vega,Masculino,2021-07-06,14205212,30,Feliciano,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-725,Isabella Coronel,Femenino,2006-06-19,14673779,28,Federación,7,Entre Ríos,7,Hospital Italiano
-726,Helena Miranda,Masculino,1955-12-31,25162345,22,Centenario,6,Neuquén,23,Medin S.A.S.M.A
-727,Martina Gomez,Otro,2014-06-06,60736650,23,Plottier,6,Neuquén,5,Galeno
-728,Juan Pablo Ledesma,Otro,1943-03-20,77197735,6,San Justo,2,Córdoba,25,Medical´s
-729,Isabella Guzman,Masculino,1941-04-13,76376209,22,Centenario,6,Neuquén,2,Swiss Medical
-730,Lola Gonzalez,Otro,2014-11-25,20418313,15,Pocito,4,San Juan,24,Programa de Salud
-731,Pedro Romero,Masculino,2005-04-07,54901937,18,San Martín,5,Salta,26,OSDIPP
-732,Clara Bravo,Masculino,1938-12-04,77145493,19,Orán,5,Salta,16,Hospital Británico
-733,Valentina  Lopez,Otro,1939-07-27,16259610,4,Tandil,1,Buenos Aires,8,Jerárquico
-734,Francisca Castillo,Femenino,1968-08-29,29196222,31,Gualeguay,7,Entre Ríos,2,Swiss Medical
-735,Santiago Benjamin Vega,Femenino,2011-10-31,15291885,6,San Justo,2,Córdoba,13,MET Córdoba
-736,Santino Perez,Masculino,2018-09-17,45224103,25,Colón,7,Entre Ríos,22,COBENSIL
-737,Pedro Soto,Masculino,1959-01-16,15641674,17,Capital,5,Salta,10,ACA Salud
-738,Thiago Benjamin Fernandez,Otro,1986-04-26,98512672,3,General Pueyrredón,1,Buenos Aires,10,ACA Salud
-739,Candelaria Pereyra,Otro,1976-10-16,28236767,11,Luján de Cuyo,3,Mendoza,4,Omint
-740,Mateo Agustin Gutierrez,Otro,1939-09-25,69065957,25,Colón,7,Entre Ríos,21,ENSALUD
-741,Juan Pablo Silva,Masculino,1989-06-14,48395635,35,Nogoyá,7,Entre Ríos,14,Hospital Alemán
-742,Thiago Benjamin Gomez,Masculino,2010-01-03,18379206,6,San Justo,2,Córdoba,17,Círculo Médico de Lomas de Zamora
-743,Felipe Suarez,Femenino,1975-07-22,91341005,14,Chimbas,4,San Juan,28,Bristol Medicine
-744,Emilia Rios,Otro,1978-10-09,37768857,36,Paraná,7,Entre Ríos,19,OPDEA
-745,Martina Suarez,Masculino,1982-09-30,16164375,31,Gualeguay,7,Entre Ríos,11,Sancor Salud
-746,Catalina Paez,Masculino,2012-11-12,60765301,2,Avellaneda,1,Buenos Aires,11,Sancor Salud
-747,Valentin Suarez,Masculino,1942-01-09,61721295,37,San Salvador,7,Entre Ríos,1,OSDE
-748,Constanza Guzman,Otro,1984-01-31,27050242,6,San Justo,2,Córdoba,22,COBENSIL
-749,Lucas Vera,Otro,1960-01-02,40223659,18,San Martín,5,Salta,17,Círculo Médico de Lomas de Zamora
-750,Valentina Medina,Masculino,1947-12-14,18663415,15,Pocito,4,San Juan,16,Hospital Británico
-751,Valentino Martinez,Masculino,2001-04-09,63597701,36,Paraná,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-752,Juan Bautista Rodriguez,Femenino,1937-11-01,97263043,35,Nogoyá,7,Entre Ríos,16,Hospital Británico
-753,Sofia Gonzalez,Femenino,1964-08-06,50996299,25,Colón,7,Entre Ríos,11,Sancor Salud
-754,Agostina Nuñez,Femenino,2011-07-04,86928192,33,Islas del Ibicuy,7,Entre Ríos,13,MET Córdoba
-755,Lautaro Miranda,Femenino,2012-06-18,23794530,10,Guaymallén,3,Mendoza,6,Medifé
-756,Thiago Benjamin Garcia,Femenino,1994-07-12,99714320,27,Diamante,7,Entre Ríos,24,Programa de Salud
-757,Renata Martinez,Masculino,1977-08-01,72149324,33,Islas del Ibicuy,7,Entre Ríos,5,Galeno
-758,Valentino Diaz,Masculino,2008-08-17,18315810,33,Islas del Ibicuy,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-759,Sofía Moreno,Masculino,1975-09-11,83024355,20,Metán,5,Salta,10,ACA Salud
-760,Ciro Fernandez,Masculino,1948-10-26,39553366,4,Tandil,1,Buenos Aires,24,Programa de Salud
-761,Simon Sosa,Otro,2016-08-06,42347779,30,Feliciano,7,Entre Ríos,22,COBENSIL
-762,Joaquin Vargas,Otro,1983-06-23,40862256,7,Río Cuarto,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
-763,Ignacio Lopez,Masculino,1949-11-14,69954746,40,Victoria,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-764,Santiago Nicolas Gomez,Masculino,1989-06-18,80514476,32,Gualeguaychú,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-765,Tiziana Sosa,Femenino,1953-08-21,22940175,11,Luján de Cuyo,3,Mendoza,23,Medin S.A.S.M.A
-766,Delfina Velazquez,Masculino,2005-12-08,58860778,2,Avellaneda,1,Buenos Aires,5,Galeno
-767,Camilo Gonzalez,Femenino,1971-12-26,40579620,8,Villa María,2,Córdoba,20,OSDEPYM
-768,Julieta Moyano,Otro,1995-09-23,24806348,6,San Justo,2,Córdoba,20,OSDEPYM
-769,Facundo Farias,Femenino,2008-12-15,55765522,37,San Salvador,7,Entre Ríos,19,OPDEA
-770,Francisco Diaz,Masculino,1940-07-17,90651712,29,Federal,7,Entre Ríos,13,MET Córdoba
-771,Charo Paez,Otro,1946-03-12,62776868,28,Federación,7,Entre Ríos,7,Hospital Italiano
-772,Benjamin Romero,Femenino,1995-11-27,80140814,7,Río Cuarto,2,Córdoba,18,Obra Social YPF
-773,Joaquina Gomez,Masculino,2025-06-22,20096332,4,Tandil,1,Buenos Aires,27,Asistencia Sanitaria Integral
-774,Catalina Romero,Femenino,2002-09-06,86542991,20,Metán,5,Salta,10,ACA Salud
-775,Jazmin Olivera,Masculino,2004-05-27,63275208,37,San Salvador,7,Entre Ríos,27,Asistencia Sanitaria Integral
-776,Josefina Torres,Femenino,1971-01-12,52938831,15,Pocito,4,San Juan,7,Hospital Italiano
-777,Juan Martin Gonzalez,Masculino,1970-12-21,79998767,7,Río Cuarto,2,Córdoba,17,Círculo Médico de Lomas de Zamora
-778,Mateo Lopez,Masculino,1951-03-28,84169224,2,Avellaneda,1,Buenos Aires,6,Medifé
-779,Benjamin Lopez,Masculino,1966-06-29,86233205,3,General Pueyrredón,1,Buenos Aires,30,Asociación Civil de Estudios Superiores
-780,Bruno Rios,Femenino,1993-09-15,28420109,15,Pocito,4,San Juan,9,Unión Personal
-781,Francesca Sanchez,Femenino,1989-03-19,89353771,9,Godoy Cruz,3,Mendoza,12,Prevención Salud
-782,Jazmín Acuña,Masculino,1964-02-24,85038095,25,Colón,7,Entre Ríos,18,Obra Social YPF
-783,Juan Francisco Gomez,Masculino,1936-07-25,75717359,11,Luján de Cuyo,3,Mendoza,10,ACA Salud
-784,Maria Victoria Correa,Otro,1973-04-02,19976696,6,San Justo,2,Córdoba,9,Unión Personal
-785,Pedro Molina,Femenino,2018-08-29,60934065,19,Orán,5,Salta,9,Unión Personal
-786,Ana Paula Arias,Femenino,1995-10-29,34763604,4,Tandil,1,Buenos Aires,26,OSDIPP
-787,Mia Valentina Sosa,Masculino,1977-02-04,50209671,23,Plottier,6,Neuquén,5,Galeno
-788,Thiago Benjamin Medina,Masculino,1949-06-15,33993982,23,Plottier,6,Neuquén,3,Medicus
-789,Lola Gomez,Masculino,1996-05-23,27209530,2,Avellaneda,1,Buenos Aires,7,Hospital Italiano
-790,Paloma Rivero,Femenino,1960-07-27,76462786,27,Diamante,7,Entre Ríos,12,Prevención Salud
-791,Sofía Rodriguez,Femenino,1963-06-25,93041724,3,General Pueyrredón,1,Buenos Aires,15,Grupo DDM
-792,Valentino Rodriguez,Masculino,1976-05-23,67117380,22,Centenario,6,Neuquén,4,Omint
-793,Camila Gonzalez,Otro,2011-04-11,87595130,17,Capital,5,Salta,20,OSDEPYM
-794,Catalina Juarez,Femenino,2021-10-15,96701723,24,Zapala,6,Neuquén,3,Medicus
-795,Delfina Acosta,Otro,1936-06-08,42182908,24,Zapala,6,Neuquén,27,Asistencia Sanitaria Integral
-796,Milena Maldonado,Otro,1958-01-21,64342840,5,Córdoba Capital,2,Córdoba,6,Medifé
-797,Thiago Benjamin Blanco,Otro,2012-10-22,36309390,4,Tandil,1,Buenos Aires,5,Galeno
-798,Bruno Perez,Femenino,1964-01-17,12084387,15,Pocito,4,San Juan,22,COBENSIL
-799,Bautista Diaz,Masculino,2011-05-18,99108102,14,Chimbas,4,San Juan,17,Círculo Médico de Lomas de Zamora
-800,Mia Jazmin Gomez,Femenino,1994-04-21,34892244,8,Villa María,2,Córdoba,22,COBENSIL
-801,Benicio Caceres,Otro,2019-01-08,72027142,33,Islas del Ibicuy,7,Entre Ríos,2,Swiss Medical
-802,Isabella Ramos,Masculino,1934-10-29,37930375,19,Orán,5,Salta,21,ENSALUD
-803,Felipe Gomez,Femenino,1979-04-05,50640059,27,Diamante,7,Entre Ríos,11,Sancor Salud
-804,Julian Carrizo,Femenino,2021-06-16,81115954,17,Capital,5,Salta,2,Swiss Medical
-805,Pedro Miranda,Otro,1972-01-17,69831178,36,Paraná,7,Entre Ríos,13,MET Córdoba
-806,Ian Sosa,Femenino,1962-03-15,73993003,35,Nogoyá,7,Entre Ríos,5,Galeno
-807,Lucía Perez,Femenino,2000-10-15,52464050,31,Gualeguay,7,Entre Ríos,25,Medical´s
-808,Thiago Lopez,Masculino,1941-12-06,18180055,14,Chimbas,4,San Juan,18,Obra Social YPF
-809,Camila Cardozo,Masculino,1950-06-01,50087208,31,Gualeguay,7,Entre Ríos,15,Grupo DDM
-810,Federico Hernandez,Masculino,1967-01-26,34572324,34,La Paz,7,Entre Ríos,1,OSDE
-811,Maia Rodriguez,Otro,2022-01-26,82331567,37,San Salvador,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-812,Santino Mendez,Femenino,1944-02-16,18344369,37,San Salvador,7,Entre Ríos,2,Swiss Medical
-813,Juan Ignacio Gonzalez,Femenino,2004-10-23,97007591,26,Concordia,7,Entre Ríos,25,Medical´s
-814,Isabella Acosta,Otro,1980-11-19,23820550,22,Centenario,6,Neuquén,21,ENSALUD
-815,Santiago Flores,Otro,1945-08-07,93796215,5,Córdoba Capital,2,Córdoba,20,OSDEPYM
-816,Helena Molina,Otro,1962-04-23,90961874,23,Plottier,6,Neuquén,28,Bristol Medicine
-817,Benjamin Rojas,Otro,1978-01-23,83661471,18,San Martín,5,Salta,25,Medical´s
-818,Pedro Sosa,Femenino,1943-10-06,27067430,1,La Plata,1,Buenos Aires,28,Bristol Medicine
-819,Mateo Joaquin Rodriguez,Femenino,1963-06-21,40605648,17,Capital,5,Salta,2,Swiss Medical
-820,Catalina Cabrera,Femenino,1937-07-04,19958521,8,Villa María,2,Córdoba,24,Programa de Salud
-821,Simon Romero,Masculino,1988-02-07,33546410,29,Federal,7,Entre Ríos,13,MET Córdoba
-822,Thiago Benjamin Perez,Femenino,1966-09-28,90001119,24,Zapala,6,Neuquén,4,Omint
-823,Ian Pereyra,Otro,1991-12-29,61007357,39,Uruguay,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-824,Thiago Agustin Martinez,Femenino,2022-11-29,61584890,28,Federación,7,Entre Ríos,22,COBENSIL
-825,Alma Paz,Masculino,1987-12-19,23959794,38,Tala,7,Entre Ríos,11,Sancor Salud
-826,Fausto Fernandez,Masculino,2008-12-21,17227173,39,Uruguay,7,Entre Ríos,5,Galeno
-827,Santino Benjamin Benitez,Masculino,1953-09-28,33099539,9,Godoy Cruz,3,Mendoza,2,Swiss Medical
-828,Bautista Molina,Femenino,1962-01-28,34910978,13,Capital,4,San Juan,2,Swiss Medical
-829,Mateo Benjamin Rodriguez,Femenino,2024-11-16,69311147,2,Avellaneda,1,Buenos Aires,25,Medical´s
-830,Thiago Ezequiel Rodriguez,Masculino,1981-05-17,78286258,28,Federación,7,Entre Ríos,5,Galeno
-831,Valentina Martinez,Femenino,1960-05-23,44129590,20,Metán,5,Salta,27,Asistencia Sanitaria Integral
-832,Kiara Romero,Masculino,1963-10-18,92045693,24,Zapala,6,Neuquén,19,OPDEA
-833,Joaquin Hernandez,Masculino,1994-01-07,51284908,28,Federación,7,Entre Ríos,19,OPDEA
-834,Delfina Fernandez,Masculino,1950-02-04,61949152,39,Uruguay,7,Entre Ríos,25,Medical´s
-835,Juana Romero,Otro,1977-04-07,11186284,8,Villa María,2,Córdoba,25,Medical´s
-836,Pedro Gimenez,Masculino,1968-09-01,73258913,1,La Plata,1,Buenos Aires,16,Hospital Británico
-837,Valentina Jazmin Aguero,Femenino,2023-11-13,79889104,17,Capital,5,Salta,25,Medical´s
-838,Renata Quiroga,Otro,2019-02-18,11497942,16,Rawson,4,San Juan,9,Unión Personal
-839,Amparo Fernandez,Masculino,1953-05-30,12544193,24,Zapala,6,Neuquén,13,MET Córdoba
-840,Mateo Agustin Arias,Masculino,2018-07-20,50732491,25,Colón,7,Entre Ríos,3,Medicus
-841,Thiago Benjamin Ledesma,Otro,1967-07-11,41862372,28,Federación,7,Entre Ríos,9,Unión Personal
-842,Juan Ignacio Garcia,Otro,2006-05-24,39374390,27,Diamante,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-843,Mateo Benjamin Bustos,Femenino,1953-11-07,83171905,37,San Salvador,7,Entre Ríos,10,ACA Salud
-844,Gael Medina,Otro,1992-07-15,85629268,36,Paraná,7,Entre Ríos,15,Grupo DDM
-845,Julieta Pereyra,Femenino,1985-05-05,50152687,18,San Martín,5,Salta,12,Prevención Salud
-846,Isabella Medina,Masculino,2013-12-11,35772232,15,Pocito,4,San Juan,30,Asociación Civil de Estudios Superiores
-847,Olivia Aguirre,Femenino,1949-12-13,81509009,10,Guaymallén,3,Mendoza,23,Medin S.A.S.M.A
-848,Lorenzo Perez,Masculino,2016-12-11,85450567,36,Paraná,7,Entre Ríos,21,ENSALUD
-849,Juan Bautista Ledesma,Femenino,2002-03-13,27132698,9,Godoy Cruz,3,Mendoza,10,ACA Salud
-850,Ciro Ruiz,Femenino,2012-10-14,57075343,13,Capital,4,San Juan,22,COBENSIL
-851,Ignacio Rios,Otro,1993-12-06,41602430,40,Victoria,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-852,Catalina Perez,Otro,1962-10-28,77143880,22,Centenario,6,Neuquén,3,Medicus
-853,Constanza Ramos,Masculino,1984-10-17,23384799,14,Chimbas,4,San Juan,2,Swiss Medical
-854,Facundo Rios,Masculino,1971-02-03,98293956,27,Diamante,7,Entre Ríos,26,OSDIPP
-855,Benjamin Lopez,Otro,2004-01-06,86275051,19,Orán,5,Salta,17,Círculo Médico de Lomas de Zamora
-856,Guillermina Flores,Masculino,2012-11-09,90498916,13,Capital,4,San Juan,14,Hospital Alemán
-857,Matilda Fernandez,Femenino,2019-08-19,54276351,21,Capital,6,Neuquén,6,Medifé
-858,Gonzalo Campos,Otro,1951-09-09,87502008,26,Concordia,7,Entre Ríos,25,Medical´s
-859,Juan Gabriel Soto,Masculino,1966-02-11,15565650,17,Capital,5,Salta,20,OSDEPYM
-860,Juan Cruz Torres,Otro,1950-01-08,47333217,16,Rawson,4,San Juan,19,OPDEA
-861,Alma Romero,Otro,2014-03-14,36160902,22,Centenario,6,Neuquén,14,Hospital Alemán
-862,Manuel Gutierrez,Otro,2005-05-10,32925624,17,Capital,5,Salta,5,Galeno
-863,Santino Gabriel Franco,Femenino,2010-03-07,54469734,2,Avellaneda,1,Buenos Aires,13,MET Córdoba
-864,Luisana Gutierrez,Femenino,1992-05-30,47177510,37,San Salvador,7,Entre Ríos,6,Medifé
-865,Josefina Torres,Femenino,2013-05-01,49299993,34,La Paz,7,Entre Ríos,3,Medicus
-866,Lucio Juarez,Otro,1937-08-03,71618199,17,Capital,5,Salta,3,Medicus
-867,Alma Valentina Soto,Otro,1947-02-09,14926079,30,Feliciano,7,Entre Ríos,21,ENSALUD
-868,Sofia Gomez,Otro,1986-11-30,25329073,3,General Pueyrredón,1,Buenos Aires,6,Medifé
-869,Priscila Garcia,Otro,1996-12-19,97416460,6,San Justo,2,Córdoba,11,Sancor Salud
-870,Juana Sanchez,Masculino,1960-10-15,12856513,38,Tala,7,Entre Ríos,8,Jerárquico
-871,Antonio Gonzalez,Otro,1966-09-02,21904422,17,Capital,5,Salta,10,ACA Salud
-872,Mora Dominguez,Femenino,1990-10-18,32995963,8,Villa María,2,Córdoba,5,Galeno
-873,Mia Nuñez,Masculino,1937-09-19,59025618,17,Capital,5,Salta,16,Hospital Británico
-874,Felipe Rojas,Femenino,1965-05-20,42093528,30,Feliciano,7,Entre Ríos,2,Swiss Medical
-875,Dante Gonzalez,Femenino,2006-06-22,25155803,19,Orán,5,Salta,21,ENSALUD
-876,Milo Perez,Masculino,2016-10-27,95578942,6,San Justo,2,Córdoba,10,ACA Salud
-877,Lucas Chavez,Masculino,2002-04-08,32903018,10,Guaymallén,3,Mendoza,8,Jerárquico
-878,Santino Aguirre,Femenino,1983-04-27,54073495,6,San Justo,2,Córdoba,28,Bristol Medicine
-879,Guadalupe Lopez,Otro,2008-02-23,30286270,23,Plottier,6,Neuquén,16,Hospital Británico
-880,Juan Bustos,Masculino,1953-05-29,52477122,18,San Martín,5,Salta,25,Medical´s
-881,Guillermina Martinez,Femenino,1974-05-02,85168071,20,Metán,5,Salta,6,Medifé
-882,Juan Ignacio Acosta,Masculino,1939-02-03,15193129,26,Concordia,7,Entre Ríos,20,OSDEPYM
-883,Alma Jazmin Gutierrez,Femenino,1949-07-28,65422915,26,Concordia,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
-884,Lautaro Sosa,Otro,1968-07-16,73828875,29,Federal,7,Entre Ríos,8,Jerárquico
-885,Maia Castro,Masculino,1946-02-05,70993696,4,Tandil,1,Buenos Aires,15,Grupo DDM
-886,Ian Benjamin Gimenez,Femenino,1940-06-14,65093286,9,Godoy Cruz,3,Mendoza,18,Obra Social YPF
-887,Santino Ezequiel Ramirez,Masculino,1984-02-17,13987963,27,Diamante,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-888,Mateo Rodriguez,Otro,2025-05-15,87243958,15,Pocito,4,San Juan,16,Hospital Británico
-889,Mateo Benjamin Roldan,Otro,1952-02-13,41957213,13,Capital,4,San Juan,3,Medicus
-890,Julieta Suarez,Otro,1956-08-24,12573149,23,Plottier,6,Neuquén,12,Prevención Salud
-891,Clara Godoy,Masculino,1943-04-09,36441663,4,Tandil,1,Buenos Aires,4,Omint
-892,Agustin Figueroa,Otro,1955-04-02,29859093,12,San Rafael,3,Mendoza,16,Hospital Británico
-893,Mateo Ezequiel Sanchez,Otro,1951-01-31,81494904,41,Villaguay,7,Entre Ríos,27,Asistencia Sanitaria Integral
-894,Paulina Rodriguez,Otro,1989-01-06,69801604,19,Orán,5,Salta,8,Jerárquico
-895,Luciano Garcia,Otro,1986-01-05,92376769,32,Gualeguaychú,7,Entre Ríos,1,OSDE
-896,Emma Lopez,Otro,2007-03-21,40369068,1,La Plata,1,Buenos Aires,24,Programa de Salud
-897,Thiago Benjamin Nuñez,Otro,1972-09-24,85055561,9,Godoy Cruz,3,Mendoza,6,Medifé
-898,Felipe Moreno,Femenino,1945-01-22,21738195,33,Islas del Ibicuy,7,Entre Ríos,3,Medicus
-899,Lautaro Gutierrez,Otro,2007-12-20,14134185,35,Nogoyá,7,Entre Ríos,14,Hospital Alemán
-900,Octavio Bustos,Femenino,2018-02-15,69884085,13,Capital,4,San Juan,1,OSDE
-901,Ignacio Maldonado,Femenino,2006-05-10,78542602,39,Uruguay,7,Entre Ríos,24,Programa de Salud
-902,Victoria Fernandez,Masculino,1945-10-25,15133724,38,Tala,7,Entre Ríos,25,Medical´s
-903,Gonzalo Muñoz,Femenino,1960-04-04,39097006,19,Orán,5,Salta,21,ENSALUD
-904,Valentino Martin,Masculino,1952-05-17,83438487,18,San Martín,5,Salta,19,OPDEA
-905,Emma Herrera,Masculino,2010-04-12,64627863,10,Guaymallén,3,Mendoza,3,Medicus
-906,Pilar Rios,Femenino,2025-02-05,24592433,31,Gualeguay,7,Entre Ríos,6,Medifé
-907,Antonella Flores,Masculino,1981-10-13,21405691,13,Capital,4,San Juan,22,COBENSIL
-908,Juan Ignacio Sosa,Otro,1966-10-20,48420025,4,Tandil,1,Buenos Aires,5,Galeno
-909,Josefina Silva,Masculino,1994-10-22,67761997,9,Godoy Cruz,3,Mendoza,2,Swiss Medical
-910,Agustin Carrizo,Masculino,2018-01-23,21050617,35,Nogoyá,7,Entre Ríos,6,Medifé
-911,Juan Ignacio Ferreyra,Femenino,1980-03-04,86111305,18,San Martín,5,Salta,2,Swiss Medical
-912,Francisco Dominguez,Masculino,2009-04-23,27099639,21,Capital,6,Neuquén,2,Swiss Medical
-913,Lara Paz,Femenino,1971-08-14,47567711,21,Capital,6,Neuquén,2,Swiss Medical
-914,Juan Manuel Soria,Femenino,2009-06-11,51451757,37,San Salvador,7,Entre Ríos,19,OPDEA
-915,Lorenzo Paz,Masculino,2004-12-18,87187501,12,San Rafael,3,Mendoza,4,Omint
-916,Luz Milagros Medina,Otro,2020-06-18,96382446,9,Godoy Cruz,3,Mendoza,27,Asistencia Sanitaria Integral
-917,Felipe Cruz,Otro,1979-09-28,68555031,37,San Salvador,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-918,Juan Ignacio Carrizo,Masculino,2011-06-02,53045767,36,Paraná,7,Entre Ríos,23,Medin S.A.S.M.A
-919,Victoria Fernandez,Masculino,1948-04-18,41122805,35,Nogoyá,7,Entre Ríos,11,Sancor Salud
-920,Juana Dominguez,Femenino,1965-01-06,50439389,14,Chimbas,4,San Juan,24,Programa de Salud
-921,Francisco Ponce,Masculino,1975-01-20,99715236,1,La Plata,1,Buenos Aires,23,Medin S.A.S.M.A
-922,Agostina Martin,Femenino,1940-10-31,41426683,6,San Justo,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
-923,Federico Morales,Masculino,2001-04-20,58964198,41,Villaguay,7,Entre Ríos,28,Bristol Medicine
-924,Thiago Silva,Femenino,1938-12-02,59484271,29,Federal,7,Entre Ríos,20,OSDEPYM
-925,Valentina Lopez,Otro,1966-06-16,29037312,10,Guaymallén,3,Mendoza,17,Círculo Médico de Lomas de Zamora
-926,Valentina Jazmin Perez,Otro,2010-04-12,44587155,16,Rawson,4,San Juan,11,Sancor Salud
-927,Morena Acosta,Femenino,2023-04-22,24710046,20,Metán,5,Salta,1,OSDE
-928,Tiziano Perez,Femenino,1997-10-05,31110319,25,Colón,7,Entre Ríos,20,OSDEPYM
-929,Santino Nicolas Castillo,Otro,1938-05-29,96652531,33,Islas del Ibicuy,7,Entre Ríos,9,Unión Personal
-930,Valentina Garcia,Otro,1952-03-18,47448567,3,General Pueyrredón,1,Buenos Aires,9,Unión Personal
-931,Sol Castro,Otro,1936-03-01,65592685,21,Capital,6,Neuquén,6,Medifé
-932,Julian Soria,Otro,2023-08-09,57230406,37,San Salvador,7,Entre Ríos,23,Medin S.A.S.M.A
-933,Martina Escobar,Masculino,2017-02-24,99783449,34,La Paz,7,Entre Ríos,20,OSDEPYM
-934,Juan Martin Alvarez,Masculino,1995-10-26,92652336,18,San Martín,5,Salta,16,Hospital Británico
-935,Camilo Fernandez,Masculino,2020-03-01,27342162,32,Gualeguaychú,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
-936,Benjamin Dominguez,Masculino,2002-09-18,25404114,6,San Justo,2,Córdoba,24,Programa de Salud
-937,Francisca Martinez,Otro,1963-02-24,81489176,1,La Plata,1,Buenos Aires,24,Programa de Salud
-938,Maria Belen Ramos,Masculino,2003-08-25,11211377,27,Diamante,7,Entre Ríos,8,Jerárquico
-939,Emilia Fernandez,Masculino,1973-07-11,54130723,32,Gualeguaychú,7,Entre Ríos,25,Medical´s
-940,Pilar Farias,Femenino,1986-08-19,58734538,9,Godoy Cruz,3,Mendoza,5,Galeno
-941,Morena Jazmin Ojeda,Masculino,2021-11-30,22427599,6,San Justo,2,Córdoba,3,Medicus
-942,Lola Ponce,Masculino,1962-11-22,98588878,9,Godoy Cruz,3,Mendoza,9,Unión Personal
-943,Lucas Mendoza,Otro,1966-04-16,99335802,36,Paraná,7,Entre Ríos,8,Jerárquico
-944,Isabella Gomez,Otro,1961-11-29,40677084,10,Guaymallén,3,Mendoza,14,Hospital Alemán
-945,Francesca Nuñez,Otro,2023-01-01,26407565,16,Rawson,4,San Juan,18,Obra Social YPF
-946,Valentina Cardozo,Masculino,2001-02-20,84558498,14,Chimbas,4,San Juan,5,Galeno
-947,Joaquín Ramirez,Masculino,2002-03-09,83384248,35,Nogoyá,7,Entre Ríos,14,Hospital Alemán
-948,Benjamin Mansilla,Femenino,2010-08-18,85698652,10,Guaymallén,3,Mendoza,28,Bristol Medicine
-949,Pedro Rodriguez,Masculino,1937-10-21,13833949,35,Nogoyá,7,Entre Ríos,12,Prevención Salud
-950,Bruno Medina,Masculino,2004-11-20,22060499,19,Orán,5,Salta,15,Grupo DDM
-951,Bruno Gonzalez,Masculino,1981-06-29,44814048,14,Chimbas,4,San Juan,15,Grupo DDM
-952,Juan Ignacio Diaz,Otro,1959-10-03,66005699,2,Avellaneda,1,Buenos Aires,29,Federación Médica Gremial de la Capital Federal
-953,Martina Martinez,Otro,2007-06-10,75054825,29,Federal,7,Entre Ríos,7,Hospital Italiano
-954,Francisco Romero,Masculino,1980-10-07,17981779,19,Orán,5,Salta,14,Hospital Alemán
-955,Valentin Alvarez,Femenino,1950-01-05,67849497,18,San Martín,5,Salta,17,Círculo Médico de Lomas de Zamora
-956,Santino Benjamin Moyano,Masculino,1990-02-16,50921623,18,San Martín,5,Salta,15,Grupo DDM
-957,Helena Alvarez,Otro,1973-04-21,49575463,32,Gualeguaychú,7,Entre Ríos,24,Programa de Salud
-958,Mora Gomez,Femenino,1965-07-23,48098997,10,Guaymallén,3,Mendoza,24,Programa de Salud
-959,Luz Milagros Vera,Masculino,2003-03-16,42654009,37,San Salvador,7,Entre Ríos,24,Programa de Salud
-960,Santino Vega,Femenino,2016-06-09,33081437,27,Diamante,7,Entre Ríos,11,Sancor Salud
-961,Tiziano Diaz,Femenino,2019-02-06,97116222,31,Gualeguay,7,Entre Ríos,11,Sancor Salud
-962,Mora Leiva,Masculino,1988-02-02,16557302,3,General Pueyrredón,1,Buenos Aires,25,Medical´s
-963,Alexander Romero,Femenino,1982-04-08,65043772,18,San Martín,5,Salta,4,Omint
-964,Juan Ignacio Figueroa,Otro,1985-10-03,86615426,16,Rawson,4,San Juan,15,Grupo DDM
-965,Emma Campos,Masculino,1987-02-17,91056641,22,Centenario,6,Neuquén,8,Jerárquico
-966,Bruno Gonzalez,Otro,2007-01-28,87374164,17,Capital,5,Salta,16,Hospital Británico
-967,Matilda Diaz,Femenino,1965-06-20,49815161,40,Victoria,7,Entre Ríos,27,Asistencia Sanitaria Integral
-968,Lara Martinez,Otro,1996-06-02,49447494,35,Nogoyá,7,Entre Ríos,13,MET Córdoba
-969,Mateo Vera,Masculino,1968-03-05,23556173,19,Orán,5,Salta,25,Medical´s
-970,Juan Cruz Rodriguez,Otro,2021-12-23,69240743,8,Villa María,2,Córdoba,11,Sancor Salud
-971,Santino Alvarez,Femenino,1957-08-27,20493896,29,Federal,7,Entre Ríos,2,Swiss Medical
-972,Justina Fernandez,Otro,1958-10-30,74794861,9,Godoy Cruz,3,Mendoza,5,Galeno
-973,Martina Guzman,Masculino,1988-09-20,85139698,35,Nogoyá,7,Entre Ríos,9,Unión Personal
-974,Mateo Ruiz,Otro,1964-05-16,96179171,39,Uruguay,7,Entre Ríos,20,OSDEPYM
-975,Olivia Rodriguez,Otro,1951-05-29,76976327,11,Luján de Cuyo,3,Mendoza,6,Medifé
-976,Mora Maldonado,Femenino,2013-12-25,29574545,39,Uruguay,7,Entre Ríos,9,Unión Personal
-977,Milagros Herrera,Masculino,1953-11-18,98928928,13,Capital,4,San Juan,1,OSDE
-978,Santiago Ledesma,Masculino,1984-10-04,31281538,17,Capital,5,Salta,28,Bristol Medicine
-979,Camila Rios,Masculino,1941-07-06,53437333,36,Paraná,7,Entre Ríos,22,COBENSIL
-980,Olivia Sanchez,Masculino,1971-11-08,37149304,8,Villa María,2,Córdoba,25,Medical´s
-981,Camila Rivero,Femenino,1982-04-24,70064158,37,San Salvador,7,Entre Ríos,7,Hospital Italiano
-982,Catalina Hernandez,Femenino,1990-08-09,89245294,6,San Justo,2,Córdoba,4,Omint
-983,Jazmin Perez,Femenino,1975-02-01,34999642,30,Feliciano,7,Entre Ríos,22,COBENSIL
-984,Juan Pablo Torres,Masculino,1996-10-15,39628500,27,Diamante,7,Entre Ríos,16,Hospital Británico
-985,Victoria Lopez,Femenino,1986-06-09,63280970,29,Federal,7,Entre Ríos,23,Medin S.A.S.M.A
-986,Constanza Garcia,Otro,1964-05-20,67138254,9,Godoy Cruz,3,Mendoza,30,Asociación Civil de Estudios Superiores
-987,Ambar Lopez,Masculino,1959-04-06,91072482,26,Concordia,7,Entre Ríos,6,Medifé
-988,Juliana Soto,Otro,1949-11-03,49309311,41,Villaguay,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
-989,Maite Sosa,Masculino,2015-02-25,59606363,17,Capital,5,Salta,14,Hospital Alemán
-990,Francisco Alvarez,Femenino,1978-04-17,60783168,18,San Martín,5,Salta,5,Galeno
-991,Juan Francisco Navarro,Masculino,1971-01-03,44640208,8,Villa María,2,Córdoba,28,Bristol Medicine
-992,Sol Paz,Femenino,1944-04-24,93632855,28,Federación,7,Entre Ríos,15,Grupo DDM
-993,Martina Sosa,Otro,2017-11-08,52342641,18,San Martín,5,Salta,1,OSDE
-994,Juan Sebastian Castro,Otro,1940-06-07,23661252,22,Centenario,6,Neuquén,29,Federación Médica Gremial de la Capital Federal
-995,Juan Francisco Gimenez,Otro,2024-05-07,39318874,32,Gualeguaychú,7,Entre Ríos,20,OSDEPYM
-996,Jazmín Gonzalez,Femenino,2001-08-27,42925392,5,Córdoba Capital,2,Córdoba,18,Obra Social YPF
-997,Julia Ruiz,Masculino,1959-06-27,17412805,30,Feliciano,7,Entre Ríos,10,ACA Salud
-998,Nahiara Jazmin Juarez,Femenino,2002-01-19,72401274,1,La Plata,1,Buenos Aires,12,Prevención Salud
-999,Augusto Perez,Femenino,1955-12-06,32294806,1,La Plata,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
-1000,Agustin Sanchez,Otro,1992-07-31,70619350,18,San Martín,5,Salta,16,Hospital Británico
+id_paciente,nombre,genero,fecha_nacimiento,telefono,dni,id_departamento,nombre_departamento,id_provincia,nombre_provincia,id_obra_social,nombre_obra_social
+1,Joaquín Ruiz,Otro,2022-01-14,15454543,94172419,26,Concordia,7,Entre Ríos,28,Bristol Medicine
+2,Lucia Rodriguez,Otro,1985-06-27,15895697,37545037,24,Zapala,6,Neuquén,1,OSDE
+3,Luciana Ramirez,Otro,1956-07-13,15445182,11675832,34,La Paz,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+4,Camilo Cruz,Otro,2019-06-12,15054224,76528703,27,Diamante,7,Entre Ríos,6,Medifé
+5,Santiago Perez,Otro,1955-11-16,15882051,51374314,11,Luján de Cuyo,3,Mendoza,7,Hospital Italiano
+6,León Ramirez,Femenino,1961-10-08,15066126,72051170,26,Concordia,7,Entre Ríos,27,Asistencia Sanitaria Integral
+7,Joaquín Gomez,Otro,1944-04-12,15760591,22129853,7,Río Cuarto,2,Córdoba,22,COBENSIL
+8,Milagros Lopez,Femenino,2006-07-15,15609241,36986856,17,Capital,5,Salta,7,Hospital Italiano
+9,Renzo Silva,Masculino,1982-07-21,15169158,29003261,21,Capital,6,Neuquén,2,Swiss Medical
+10,Nahiara Jazmin Miranda,Otro,1998-06-05,15626972,96868787,34,La Paz,7,Entre Ríos,5,Galeno
+11,Ciro Vazquez,Otro,2013-04-14,15713564,10689432,40,Victoria,7,Entre Ríos,15,Grupo DDM
+12,Felipe Fernandez,Otro,1967-11-03,15200650,64127470,7,Río Cuarto,2,Córdoba,28,Bristol Medicine
+13,Juan Pablo Ledesma,Otro,1960-09-10,15942605,46207054,10,Guaymallén,3,Mendoza,3,Medicus
+14,Lucas Ezequiel Gomez,Otro,2014-02-07,15718181,69249525,5,Córdoba Capital,2,Córdoba,26,OSDIPP
+15,Martina Torres,Masculino,1954-08-11,15189110,75504749,15,Pocito,4,San Juan,11,Sancor Salud
+16,Juan Bautista Gomez,Otro,2006-02-13,15639694,60888686,41,Villaguay,7,Entre Ríos,18,Obra Social YPF
+17,Delfina Gonzalez,Otro,2021-04-01,15498630,49158348,20,Metán,5,Salta,21,ENSALUD
+18,Catalina Chavez,Otro,2021-01-02,15848567,10415165,35,Nogoyá,7,Entre Ríos,28,Bristol Medicine
+19,Thiago Valentin Torres,Masculino,2018-03-23,15454839,64500881,9,Godoy Cruz,3,Mendoza,16,Hospital Británico
+20,Thiago Valentin Flores,Otro,1948-07-01,15208597,56009141,6,San Justo,2,Córdoba,4,Omint
+21,Giovanni Rodriguez,Femenino,1991-08-24,15701633,97342882,7,Río Cuarto,2,Córdoba,22,COBENSIL
+22,Josefina Rojas,Otro,1938-02-21,15856473,60403991,23,Plottier,6,Neuquén,4,Omint
+23,Candela Mendez,Femenino,1976-08-20,15336617,37306432,18,San Martín,5,Salta,20,OSDEPYM
+24,Thiago Gabriel Luna,Masculino,1968-04-05,15914034,30738960,10,Guaymallén,3,Mendoza,28,Bristol Medicine
+25,Martín Suarez,Femenino,2004-11-04,15355699,33396554,14,Chimbas,4,San Juan,19,OPDEA
+26,Juan Manuel Caceres,Otro,1986-03-25,15560944,68771013,11,Luján de Cuyo,3,Mendoza,19,OPDEA
+27,Valentina Rodriguez,Masculino,1979-05-07,15470629,90224000,24,Zapala,6,Neuquén,27,Asistencia Sanitaria Integral
+28,Benjamin Roldan,Femenino,2003-07-16,15649926,61194842,38,Tala,7,Entre Ríos,18,Obra Social YPF
+29,Delfina Perez,Femenino,2003-10-11,15924925,59454950,15,Pocito,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+30,Mia Leiva,Masculino,1970-12-19,15661102,26659960,26,Concordia,7,Entre Ríos,21,ENSALUD
+31,Martina Morales,Femenino,1939-10-13,15922649,35606707,36,Paraná,7,Entre Ríos,25,Medical´s
+32,Julian Ortiz,Femenino,1957-12-09,15117250,44015108,40,Victoria,7,Entre Ríos,25,Medical´s
+33,Uma Godoy,Femenino,1968-03-13,15253614,54911091,3,General Pueyrredón,1,Buenos Aires,5,Galeno
+34,Nahiara Jazmin Gonzalez,Otro,1976-07-27,15909266,16247399,17,Capital,5,Salta,11,Sancor Salud
+35,Martín Gonzalez,Femenino,1994-09-12,15644191,74008851,31,Gualeguay,7,Entre Ríos,9,Unión Personal
+36,Mateo Pereyra,Femenino,1975-07-16,15370336,64949115,39,Uruguay,7,Entre Ríos,13,MET Córdoba
+37,Valentina Villalba,Masculino,1988-02-04,15763903,70954461,1,La Plata,1,Buenos Aires,18,Obra Social YPF
+38,Luca Diaz,Masculino,1973-12-01,15584727,63156361,3,General Pueyrredón,1,Buenos Aires,6,Medifé
+39,Valentina Garcia,Femenino,2024-06-03,15322337,39997637,15,Pocito,4,San Juan,3,Medicus
+40,Mia Morales,Masculino,1945-11-13,15988742,20813938,38,Tala,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+41,Morena Gomez,Otro,2014-05-13,15228154,69684637,20,Metán,5,Salta,2,Swiss Medical
+42,Sofia Morales,Femenino,1993-05-26,15990428,60149666,2,Avellaneda,1,Buenos Aires,3,Medicus
+43,Valentina Godoy,Femenino,1961-07-11,15711501,24217400,25,Colón,7,Entre Ríos,10,ACA Salud
+44,Gonzalo Martinez,Masculino,1973-06-03,15383560,32719816,24,Zapala,6,Neuquén,21,ENSALUD
+45,Mateo Benjamin Escobar,Masculino,2019-11-07,15924383,85334190,7,Río Cuarto,2,Córdoba,26,OSDIPP
+46,Catalina Alvarez,Femenino,1976-10-29,15521508,57792194,24,Zapala,6,Neuquén,5,Galeno
+47,Emiliano Ledesma,Otro,2022-11-12,15013508,88900954,25,Colón,7,Entre Ríos,7,Hospital Italiano
+48,Priscila Ortiz,Femenino,2006-02-11,15720358,63418081,8,Villa María,2,Córdoba,1,OSDE
+49,Juan Vera,Femenino,1979-04-15,15889956,60926821,23,Plottier,6,Neuquén,2,Swiss Medical
+50,Ian Benjamin Ramos,Otro,1950-04-01,15023670,98943579,39,Uruguay,7,Entre Ríos,14,Hospital Alemán
+51,Thiago Emanuel Fernandez,Femenino,1958-03-21,15689546,26004712,5,Córdoba Capital,2,Córdoba,12,Prevención Salud
+52,Lautaro Roldan,Femenino,2013-02-20,15581799,38598743,29,Federal,7,Entre Ríos,18,Obra Social YPF
+53,Santino Aguirre,Masculino,1987-03-04,15790349,89546233,21,Capital,6,Neuquén,6,Medifé
+54,Guillermina Barrios,Femenino,1981-04-20,15206850,64220527,29,Federal,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+55,Thiago Ezequiel Quiroga,Masculino,1961-09-16,15471981,32977514,9,Godoy Cruz,3,Mendoza,24,Programa de Salud
+56,Ambar Toledo,Masculino,1942-10-31,15430823,17488173,6,San Justo,2,Córdoba,1,OSDE
+57,Renata Castro,Masculino,2017-08-01,15665996,53296758,15,Pocito,4,San Juan,30,Asociación Civil de Estudios Superiores
+58,Felipe Lopez,Femenino,1954-11-16,15353471,33917630,41,Villaguay,7,Entre Ríos,28,Bristol Medicine
+59,Maximo Aguirre,Masculino,2003-12-18,15118604,32749572,14,Chimbas,4,San Juan,15,Grupo DDM
+60,Santiago Sanchez,Masculino,1945-08-20,15644716,59685287,33,Islas del Ibicuy,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+61,Martín Barrios,Masculino,2024-01-05,15581048,99726397,10,Guaymallén,3,Mendoza,2,Swiss Medical
+62,Matias Mendoza,Femenino,2005-02-01,15813431,77546048,20,Metán,5,Salta,12,Prevención Salud
+63,Micaela Gomez,Otro,1967-04-24,15022237,10652382,37,San Salvador,7,Entre Ríos,12,Prevención Salud
+64,Ignacio Diaz,Masculino,2002-10-27,15582506,81368759,3,General Pueyrredón,1,Buenos Aires,16,Hospital Británico
+65,Valentino Garcia,Femenino,1961-06-26,15898597,16186683,10,Guaymallén,3,Mendoza,13,MET Córdoba
+66,Luisina Martin,Masculino,1961-12-03,15391540,54506362,26,Concordia,7,Entre Ríos,6,Medifé
+67,Alma Rojas,Femenino,1973-12-27,15838467,40780666,40,Victoria,7,Entre Ríos,14,Hospital Alemán
+68,Juan Ignacio Perez,Femenino,2020-08-16,15153170,37933124,22,Centenario,6,Neuquén,9,Unión Personal
+69,Ramiro Ferreyra,Masculino,1978-12-15,15732822,65765417,2,Avellaneda,1,Buenos Aires,6,Medifé
+70,Lucas Blanco,Otro,1999-08-27,15932354,84190358,20,Metán,5,Salta,19,OPDEA
+71,Francisco Pereyra,Otro,1988-10-17,15457996,85888128,40,Victoria,7,Entre Ríos,2,Swiss Medical
+72,Catalina Paz,Femenino,1966-06-02,15749236,62898767,14,Chimbas,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+73,Tiziana Coronel,Masculino,2018-05-11,15753246,97941817,13,Capital,4,San Juan,15,Grupo DDM
+74,Thiago Nicolas Rivero,Masculino,2014-01-15,15366917,28932261,15,Pocito,4,San Juan,27,Asistencia Sanitaria Integral
+75,Julieta Torres,Femenino,1957-03-11,15832413,20623450,12,San Rafael,3,Mendoza,16,Hospital Británico
+76,Tomàs Martinez,Masculino,2021-02-25,15114618,21876607,1,La Plata,1,Buenos Aires,12,Prevención Salud
+77,Martina Rodriguez,Femenino,1935-03-05,15536714,93098087,11,Luján de Cuyo,3,Mendoza,15,Grupo DDM
+78,Vicente Gomez,Femenino,1960-12-02,15021476,71716191,36,Paraná,7,Entre Ríos,12,Prevención Salud
+79,Juana Medina,Otro,1940-03-24,15635745,59845349,1,La Plata,1,Buenos Aires,14,Hospital Alemán
+80,Valentina Jazmin Ramirez,Femenino,1975-09-28,15698058,24340926,34,La Paz,7,Entre Ríos,5,Galeno
+81,Isabella Sosa,Femenino,1954-06-11,15423560,47099121,17,Capital,5,Salta,17,Círculo Médico de Lomas de Zamora
+82,Priscila Diaz,Masculino,1970-09-01,15308651,68969015,28,Federación,7,Entre Ríos,8,Jerárquico
+83,Tomàs Diaz,Masculino,1991-11-21,15214588,71396334,3,General Pueyrredón,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
+84,Ian Benjamin Gomez,Masculino,1941-09-27,15644776,43450115,9,Godoy Cruz,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
+85,Lucía Gomez,Masculino,2004-05-01,15204106,37994356,11,Luján de Cuyo,3,Mendoza,9,Unión Personal
+86,Francisco Gomez,Femenino,2024-05-26,15505761,48418432,37,San Salvador,7,Entre Ríos,8,Jerárquico
+87,Juan Pablo Martinez,Otro,1958-01-28,15551407,48870153,40,Victoria,7,Entre Ríos,4,Omint
+88,Lola Benitez,Masculino,1980-08-22,15219995,95143862,14,Chimbas,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+89,Lola Escobar,Otro,1952-08-23,15277905,16969429,1,La Plata,1,Buenos Aires,7,Hospital Italiano
+90,Juan Pablo Molina,Femenino,1952-12-30,15175261,98085629,12,San Rafael,3,Mendoza,4,Omint
+91,Agustina Quiroga,Femenino,1978-03-03,15252444,27331043,25,Colón,7,Entre Ríos,9,Unión Personal
+92,Maximo Perez,Femenino,1947-02-11,15349455,73597351,1,La Plata,1,Buenos Aires,5,Galeno
+93,Mateo Agustin Garcia,Masculino,2015-03-12,15877236,25368808,39,Uruguay,7,Entre Ríos,4,Omint
+94,Fausto Gimenez,Otro,2007-07-20,15573357,16850112,8,Villa María,2,Córdoba,5,Galeno
+95,Tiziana Lucero,Femenino,1963-12-28,15011622,64339857,8,Villa María,2,Córdoba,12,Prevención Salud
+96,Valentino Lopez,Femenino,2006-01-26,15545862,29154698,39,Uruguay,7,Entre Ríos,13,MET Córdoba
+97,Valentino Fernandez,Otro,1963-06-25,15261125,17763183,4,Tandil,1,Buenos Aires,21,ENSALUD
+98,Juan Bautista Alvarez,Otro,1994-12-17,15267449,56394076,40,Victoria,7,Entre Ríos,22,COBENSIL
+99,Emilia Fernandez,Femenino,1993-10-31,15332902,19315527,4,Tandil,1,Buenos Aires,6,Medifé
+100,Renzo Benitez,Masculino,1940-01-02,15590530,46352916,18,San Martín,5,Salta,25,Medical´s
+101,Charo Diaz,Otro,1982-09-23,15605368,18943612,3,General Pueyrredón,1,Buenos Aires,29,Federación Médica Gremial de la Capital Federal
+102,Micaela Aguirre,Otro,2023-11-27,15519612,69594705,11,Luján de Cuyo,3,Mendoza,9,Unión Personal
+103,Josefina Sosa,Femenino,2002-01-19,15992280,94015926,14,Chimbas,4,San Juan,25,Medical´s
+104,Dante Gutierrez,Otro,2004-01-20,15687473,21050773,40,Victoria,7,Entre Ríos,11,Sancor Salud
+105,Lola Ferreyra,Masculino,1994-10-23,15323262,31344676,8,Villa María,2,Córdoba,3,Medicus
+106,Lola Fernandez,Otro,1951-01-02,15232419,35665341,3,General Pueyrredón,1,Buenos Aires,24,Programa de Salud
+107,Emma Coronel,Femenino,2005-11-02,15745435,86652847,29,Federal,7,Entre Ríos,1,OSDE
+108,Thiago Perez,Femenino,1970-12-30,15875403,78230134,1,La Plata,1,Buenos Aires,10,ACA Salud
+109,Julian Rojas,Otro,1974-09-03,15271268,59631261,36,Paraná,7,Entre Ríos,3,Medicus
+110,Tomàs Ortiz,Masculino,2022-09-30,15200146,33761140,16,Rawson,4,San Juan,28,Bristol Medicine
+111,Genaro Luna,Otro,2006-01-17,15948956,31585419,26,Concordia,7,Entre Ríos,7,Hospital Italiano
+112,Maite Pereyra,Masculino,2018-07-08,15198139,14114639,12,San Rafael,3,Mendoza,20,OSDEPYM
+113,Emilia Sosa,Masculino,1992-03-10,15174908,42801732,27,Diamante,7,Entre Ríos,22,COBENSIL
+114,Manuel Morales,Masculino,1962-05-24,15882150,16496937,4,Tandil,1,Buenos Aires,30,Asociación Civil de Estudios Superiores
+115,Maria Luz Mansilla,Masculino,1994-08-29,15434638,26768724,8,Villa María,2,Córdoba,28,Bristol Medicine
+116,Ignacio Rodriguez,Otro,1961-06-27,15887321,38697531,35,Nogoyá,7,Entre Ríos,4,Omint
+117,Lautaro Ruiz,Femenino,1967-10-22,15696599,10975312,32,Gualeguaychú,7,Entre Ríos,9,Unión Personal
+118,Alma Rojas,Masculino,2012-08-17,15432157,14775757,12,San Rafael,3,Mendoza,30,Asociación Civil de Estudios Superiores
+119,Thiago Martinez,Femenino,2006-10-20,15700193,89526926,30,Feliciano,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+120,Vicente Rios,Masculino,1992-06-09,15078294,17400105,4,Tandil,1,Buenos Aires,22,COBENSIL
+121,Genaro Garcia,Femenino,1946-08-15,15059132,36632715,10,Guaymallén,3,Mendoza,28,Bristol Medicine
+122,Thiago Ezequiel Fernandez,Femenino,1957-04-05,15936863,57194007,32,Gualeguaychú,7,Entre Ríos,23,Medin S.A.S.M.A
+123,Emiliano Duarte,Otro,1949-01-16,15637108,86938956,12,San Rafael,3,Mendoza,26,OSDIPP
+124,Gael Gonzalez,Masculino,1936-08-12,15054686,59733926,41,Villaguay,7,Entre Ríos,12,Prevención Salud
+125,Mia Soto,Otro,1975-04-24,15157065,80009675,11,Luján de Cuyo,3,Mendoza,15,Grupo DDM
+126,Bautista Gomez,Masculino,2020-02-19,15654567,24343132,31,Gualeguay,7,Entre Ríos,20,OSDEPYM
+127,Felipe Rodriguez,Masculino,2000-08-25,15329164,55658371,6,San Justo,2,Córdoba,27,Asistencia Sanitaria Integral
+128,Santiago Romero,Masculino,1984-02-16,15939672,97131480,16,Rawson,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+129,Fausto Benitez,Masculino,1986-06-06,15647267,35565004,10,Guaymallén,3,Mendoza,25,Medical´s
+130,Martina Juarez,Femenino,1968-01-31,15867757,13465132,16,Rawson,4,San Juan,30,Asociación Civil de Estudios Superiores
+131,Martina Romero,Otro,1986-01-28,15615494,41782751,36,Paraná,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+132,Lautaro Diaz,Femenino,1998-02-22,15109930,63751015,25,Colón,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+133,Bautista Benitez,Otro,1968-02-25,15483911,50678104,29,Federal,7,Entre Ríos,20,OSDEPYM
+134,Thiago Benjamin Martinez,Otro,1986-08-23,15207821,72121003,26,Concordia,7,Entre Ríos,11,Sancor Salud
+135,Emma Perez,Masculino,1943-08-14,15194273,29208539,15,Pocito,4,San Juan,20,OSDEPYM
+136,Franco Lopez,Otro,1990-05-21,15840047,58998677,11,Luján de Cuyo,3,Mendoza,1,OSDE
+137,Candelaria Gonzalez,Masculino,1946-05-14,15228732,58823235,10,Guaymallén,3,Mendoza,12,Prevención Salud
+138,Sofia Moreno,Otro,2025-04-20,15623752,19262341,39,Uruguay,7,Entre Ríos,12,Prevención Salud
+139,Valentina  Ledesma,Femenino,2005-11-01,15819675,32540758,33,Islas del Ibicuy,7,Entre Ríos,27,Asistencia Sanitaria Integral
+140,Uma Sanchez,Femenino,2017-06-25,15142753,52047625,11,Luján de Cuyo,3,Mendoza,1,OSDE
+141,Victoria Moreno,Masculino,1958-09-27,15480461,32436607,10,Guaymallén,3,Mendoza,21,ENSALUD
+142,Emma Miranda,Masculino,1943-07-06,15522187,11200100,3,General Pueyrredón,1,Buenos Aires,8,Jerárquico
+143,Bruno Martinez,Otro,1952-03-11,15671043,64969694,39,Uruguay,7,Entre Ríos,21,ENSALUD
+144,Maria Victoria Lopez,Masculino,1978-05-21,15646736,66321062,14,Chimbas,4,San Juan,26,OSDIPP
+145,Lautaro Rios,Otro,2001-12-11,15604018,83793168,12,San Rafael,3,Mendoza,30,Asociación Civil de Estudios Superiores
+146,Lucia Rodriguez,Masculino,2017-11-07,15659829,19363041,40,Victoria,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+147,Juan Ignacio Rodriguez,Otro,1973-12-12,15534646,84549103,16,Rawson,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+148,Joaquin Lopez,Femenino,2012-01-13,15298328,91627829,40,Victoria,7,Entre Ríos,28,Bristol Medicine
+149,Martín Mendez,Femenino,2016-02-28,15692192,16635542,1,La Plata,1,Buenos Aires,22,COBENSIL
+150,Juan Sebastian Roldan,Masculino,2023-08-09,15233926,15403638,5,Córdoba Capital,2,Córdoba,26,OSDIPP
+151,Ignacio Gonzalez,Otro,2012-01-18,15827949,36104899,7,Río Cuarto,2,Córdoba,9,Unión Personal
+152,Antonella Martinez,Masculino,2013-01-21,15050657,67728706,9,Godoy Cruz,3,Mendoza,7,Hospital Italiano
+153,Carmela Bustos,Femenino,2006-11-29,15036473,32584739,30,Feliciano,7,Entre Ríos,3,Medicus
+154,Juliana Avila,Otro,1948-10-20,15454129,43720115,28,Federación,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+155,Sol Vazquez,Otro,1942-04-07,15819516,55653314,26,Concordia,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+156,Milo Cordoba,Otro,2024-11-28,15079832,38997819,34,La Paz,7,Entre Ríos,24,Programa de Salud
+157,Pilar Rodriguez,Masculino,2014-12-21,15723029,38431712,27,Diamante,7,Entre Ríos,1,OSDE
+158,Gabriel Diaz,Femenino,1981-06-19,15999424,77035530,41,Villaguay,7,Entre Ríos,22,COBENSIL
+159,Martina Lopez,Femenino,1973-06-13,15274225,93394989,32,Gualeguaychú,7,Entre Ríos,26,OSDIPP
+160,Jazmin Campos,Masculino,1935-01-15,15854002,75172419,27,Diamante,7,Entre Ríos,2,Swiss Medical
+161,Santiago Bustos,Femenino,2021-09-15,15267723,92649887,19,Orán,5,Salta,10,ACA Salud
+162,Emilia Rodriguez,Femenino,1978-06-24,15699997,32025403,28,Federación,7,Entre Ríos,5,Galeno
+163,Octavio Gimenez,Otro,1965-01-22,15159935,90818137,30,Feliciano,7,Entre Ríos,13,MET Córdoba
+164,Mia Morena Garcia,Otro,1989-12-04,15551413,29892457,8,Villa María,2,Córdoba,15,Grupo DDM
+165,Guadalupe Ayala,Masculino,1977-04-01,15853313,29331916,7,Río Cuarto,2,Córdoba,6,Medifé
+166,Juan Martin Gonzalez,Otro,2016-01-30,15460898,53218812,6,San Justo,2,Córdoba,3,Medicus
+167,Milo Soria,Masculino,2002-09-03,15783519,14388294,7,Río Cuarto,2,Córdoba,30,Asociación Civil de Estudios Superiores
+168,Catalina Gonzalez,Masculino,2000-05-10,15003648,44122674,20,Metán,5,Salta,18,Obra Social YPF
+169,Salvador Cardozo,Otro,1984-10-30,15938760,47605088,15,Pocito,4,San Juan,2,Swiss Medical
+170,Bautista Maldonado,Otro,1945-08-10,15849225,97907805,26,Concordia,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+171,Benicio Chavez,Masculino,1966-08-06,15712360,69276998,23,Plottier,6,Neuquén,30,Asociación Civil de Estudios Superiores
+172,Alma Sanchez,Otro,1941-01-22,15032927,23166431,32,Gualeguaychú,7,Entre Ríos,1,OSDE
+173,Lucía  Rojas,Otro,2010-03-12,15729219,98729400,4,Tandil,1,Buenos Aires,11,Sancor Salud
+174,Clara Mendez,Masculino,1997-01-19,15519157,18899733,27,Diamante,7,Entre Ríos,5,Galeno
+175,Rafael Fernandez,Masculino,1943-09-10,15898226,77832020,35,Nogoyá,7,Entre Ríos,22,COBENSIL
+176,Maria Victoria Garcia,Femenino,1954-07-16,15760916,17673462,8,Villa María,2,Córdoba,16,Hospital Británico
+177,Maria Paz Silva,Otro,1940-11-20,15649133,29276828,25,Colón,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+178,Guadalupe Vazquez,Masculino,1943-07-19,15721802,47648492,4,Tandil,1,Buenos Aires,16,Hospital Británico
+179,Mia Morena Ortiz,Otro,1976-12-03,15867708,23739767,21,Capital,6,Neuquén,12,Prevención Salud
+180,Morena Ayala,Otro,1951-12-06,15209938,10717891,10,Guaymallén,3,Mendoza,10,ACA Salud
+181,Isabella Fernandez,Masculino,2016-05-05,15810411,53333634,13,Capital,4,San Juan,18,Obra Social YPF
+182,Lara Nuñez,Masculino,1954-01-05,15888327,35435604,30,Feliciano,7,Entre Ríos,19,OPDEA
+183,Joaquin Gomez,Otro,1986-03-05,15236438,18499105,30,Feliciano,7,Entre Ríos,26,OSDIPP
+184,Valentino Rivero,Femenino,1959-01-24,15869112,62580199,8,Villa María,2,Córdoba,18,Obra Social YPF
+185,Mia Gonzalez,Masculino,1987-02-13,15027078,41451470,13,Capital,4,San Juan,27,Asistencia Sanitaria Integral
+186,Facundo Castro,Masculino,2021-06-08,15721593,63605278,20,Metán,5,Salta,1,OSDE
+187,Nicolas Sanchez,Otro,2021-11-09,15893569,60366602,6,San Justo,2,Córdoba,3,Medicus
+188,Lara Acosta,Otro,1965-04-29,15172025,40215630,18,San Martín,5,Salta,25,Medical´s
+189,Julia Sosa,Masculino,1993-06-11,15675257,21021008,23,Plottier,6,Neuquén,18,Obra Social YPF
+190,Juan Ignacio Rodriguez,Femenino,1938-09-12,15888234,74656776,11,Luján de Cuyo,3,Mendoza,1,OSDE
+191,Emiliano Vazquez,Femenino,2009-01-12,15553143,17204985,10,Guaymallén,3,Mendoza,1,OSDE
+192,Pedro Bustos,Masculino,1999-09-28,15845767,91376994,25,Colón,7,Entre Ríos,10,ACA Salud
+193,Constanza Ortiz,Masculino,2015-09-10,15114728,14247097,29,Federal,7,Entre Ríos,18,Obra Social YPF
+194,Facundo Lopez,Femenino,2002-08-15,15897515,30043028,35,Nogoyá,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+195,Sofia Belen Torres,Femenino,1938-06-16,15448916,95163023,14,Chimbas,4,San Juan,20,OSDEPYM
+196,Morena Gutierrez,Femenino,1960-04-04,15491262,87724341,19,Orán,5,Salta,15,Grupo DDM
+197,Salvador Diaz,Otro,2016-01-17,15488748,34416666,15,Pocito,4,San Juan,2,Swiss Medical
+198,Emilia Acosta,Masculino,1956-07-01,15739033,38273896,13,Capital,4,San Juan,10,ACA Salud
+199,Thiago Nahuel Medina,Femenino,1941-06-10,15428993,74210104,19,Orán,5,Salta,16,Hospital Británico
+200,Gael Gonzalez,Otro,2018-10-17,15332866,67571748,33,Islas del Ibicuy,7,Entre Ríos,2,Swiss Medical
+201,Benjamin Ezequiel Ruiz,Otro,1959-03-18,15996392,69221343,24,Zapala,6,Neuquén,17,Círculo Médico de Lomas de Zamora
+202,Guadalupe Escobar,Masculino,1948-02-28,15966005,71569221,11,Luján de Cuyo,3,Mendoza,20,OSDEPYM
+203,Helena Rodriguez,Otro,1961-09-11,15504233,25455371,1,La Plata,1,Buenos Aires,7,Hospital Italiano
+204,Felipe Sanchez,Femenino,1953-09-18,15684830,70112861,6,San Justo,2,Córdoba,5,Galeno
+205,Santiago Garcia,Otro,2009-03-15,15295949,21013453,33,Islas del Ibicuy,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+206,Bastian Rodriguez,Femenino,1962-05-27,15460068,87569134,22,Centenario,6,Neuquén,26,OSDIPP
+207,Felipe Perez,Femenino,1974-10-24,15015055,93633435,32,Gualeguaychú,7,Entre Ríos,28,Bristol Medicine
+208,Kiara Guzman,Masculino,2001-12-10,15177700,29156139,41,Villaguay,7,Entre Ríos,1,OSDE
+209,Tomas Fernandez,Femenino,2016-12-25,15989446,63067530,4,Tandil,1,Buenos Aires,27,Asistencia Sanitaria Integral
+210,Lourdes Escobar,Masculino,1968-03-18,15641195,74064042,8,Villa María,2,Córdoba,11,Sancor Salud
+211,Agustina Villalba,Otro,1944-04-04,15966672,79230039,21,Capital,6,Neuquén,5,Galeno
+212,Maximiliano Sanchez,Femenino,1948-05-01,15422157,39728441,10,Guaymallén,3,Mendoza,9,Unión Personal
+213,Santiago Lopez,Otro,1979-05-26,15381611,27266564,15,Pocito,4,San Juan,13,MET Córdoba
+214,Camila Torres,Femenino,1984-08-17,15845778,40171373,12,San Rafael,3,Mendoza,2,Swiss Medical
+215,Ramiro Mendez,Masculino,2001-01-17,15609803,74194316,22,Centenario,6,Neuquén,21,ENSALUD
+216,Felipe Ledesma,Femenino,1951-11-29,15637355,35406630,22,Centenario,6,Neuquén,23,Medin S.A.S.M.A
+217,Francisco Correa,Otro,1996-04-19,15088343,58607888,24,Zapala,6,Neuquén,17,Círculo Médico de Lomas de Zamora
+218,Juan Ignacio Morales,Masculino,2004-01-29,15044049,85581423,25,Colón,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+219,Bautista Diaz,Otro,1965-03-27,15679401,31159784,40,Victoria,7,Entre Ríos,11,Sancor Salud
+220,Sol Fernandez,Masculino,2014-09-24,15479190,11055428,40,Victoria,7,Entre Ríos,4,Omint
+221,Ambar Vazquez,Masculino,2017-07-22,15277864,48404185,18,San Martín,5,Salta,27,Asistencia Sanitaria Integral
+222,Amparo Aguero,Femenino,1946-06-13,15824856,74610210,36,Paraná,7,Entre Ríos,23,Medin S.A.S.M.A
+223,Lucas Benjamin Romero,Masculino,1983-01-09,15678295,59525624,32,Gualeguaychú,7,Entre Ríos,10,ACA Salud
+224,Valentino Cardozo,Otro,1966-08-07,15548577,48299211,31,Gualeguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+225,Kiara Valdez,Masculino,1939-06-17,15397733,84828974,11,Luján de Cuyo,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
+226,Martin Gonzalez,Masculino,1982-11-25,15666357,39376574,14,Chimbas,4,San Juan,18,Obra Social YPF
+227,Milagros Gutierrez,Masculino,1945-08-16,15388553,62728211,10,Guaymallén,3,Mendoza,16,Hospital Británico
+228,Malena Suarez,Otro,1981-09-28,15049091,56036290,15,Pocito,4,San Juan,3,Medicus
+229,Jazmin Fernandez,Masculino,1946-06-17,15141535,22472424,8,Villa María,2,Córdoba,25,Medical´s
+230,Fausto Muñoz,Otro,1944-02-06,15420508,75820674,27,Diamante,7,Entre Ríos,26,OSDIPP
+231,Gonzalo Gomez,Otro,1957-02-22,15514585,68949076,6,San Justo,2,Córdoba,27,Asistencia Sanitaria Integral
+232,Felipe Ruiz,Otro,1956-04-03,15836564,26934100,8,Villa María,2,Córdoba,6,Medifé
+233,Bautista Benjamin Escobar,Masculino,2014-06-08,15947046,88260457,35,Nogoyá,7,Entre Ríos,27,Asistencia Sanitaria Integral
+234,Lucia Pereyra,Otro,1950-02-23,15892474,99892640,28,Federación,7,Entre Ríos,25,Medical´s
+235,Sofía Gomez,Masculino,1968-06-24,15310664,90465710,14,Chimbas,4,San Juan,12,Prevención Salud
+236,Maria Victoria Sosa,Otro,2006-04-18,15853101,76439711,33,Islas del Ibicuy,7,Entre Ríos,21,ENSALUD
+237,Julia Fernandez,Otro,2017-04-03,15155505,93964056,27,Diamante,7,Entre Ríos,21,ENSALUD
+238,Ramiro Quiroga,Otro,2013-03-11,15313529,47776839,33,Islas del Ibicuy,7,Entre Ríos,20,OSDEPYM
+239,Lautaro Ezequiel Ojeda,Femenino,1977-01-29,15063902,96950998,21,Capital,6,Neuquén,9,Unión Personal
+240,Bianca Mendoza,Otro,1935-03-02,15193682,71920493,5,Córdoba Capital,2,Córdoba,22,COBENSIL
+241,Isabel Romero,Otro,2015-11-29,15526932,37390609,34,La Paz,7,Entre Ríos,6,Medifé
+242,Ezequiel Gonzalez,Femenino,1978-03-02,15337481,35484514,14,Chimbas,4,San Juan,26,OSDIPP
+243,Mateo Paz,Masculino,1977-11-18,15283160,16775464,31,Gualeguay,7,Entre Ríos,6,Medifé
+244,Juan Ignacio Rodriguez,Otro,2007-06-21,15043969,59699870,27,Diamante,7,Entre Ríos,11,Sancor Salud
+245,Isabella Gimenez,Otro,1993-05-24,15617290,32827787,11,Luján de Cuyo,3,Mendoza,15,Grupo DDM
+246,Agustin Carrizo,Masculino,2012-08-26,15844842,72885627,22,Centenario,6,Neuquén,15,Grupo DDM
+247,Julieta Garcia,Femenino,2015-03-23,15845217,77361604,21,Capital,6,Neuquén,15,Grupo DDM
+248,Emilia Gonzalez,Masculino,1973-10-29,15793242,22733601,17,Capital,5,Salta,28,Bristol Medicine
+249,Felipe Romero,Otro,1965-09-19,15139236,93434761,11,Luján de Cuyo,3,Mendoza,23,Medin S.A.S.M.A
+250,Thiago Nahuel Barrios,Otro,1985-09-23,15047072,15557855,27,Diamante,7,Entre Ríos,3,Medicus
+251,Jeremias Muñoz,Otro,1941-12-15,15892810,37437865,4,Tandil,1,Buenos Aires,24,Programa de Salud
+252,Isabella Gomez,Masculino,1985-04-23,15622622,93488276,32,Gualeguaychú,7,Entre Ríos,28,Bristol Medicine
+253,Lautaro Navarro,Femenino,2009-12-23,15408317,88828530,30,Feliciano,7,Entre Ríos,23,Medin S.A.S.M.A
+254,Valentin Suarez,Masculino,1994-03-22,15038390,94362446,25,Colón,7,Entre Ríos,14,Hospital Alemán
+255,Luciano Vazquez,Otro,1997-08-04,15393997,23547448,20,Metán,5,Salta,19,OPDEA
+256,Delfina Sanchez,Otro,2018-01-01,15806264,61913709,12,San Rafael,3,Mendoza,11,Sancor Salud
+257,Juan Cruz Fernandez,Otro,1957-04-16,15031609,78897396,12,San Rafael,3,Mendoza,15,Grupo DDM
+258,Valentino Perez,Otro,2000-03-31,15198330,10799648,1,La Plata,1,Buenos Aires,18,Obra Social YPF
+259,Martín Ayala,Otro,1962-04-26,15860480,78710245,23,Plottier,6,Neuquén,13,MET Córdoba
+260,Dylan Rodriguez,Masculino,1976-06-23,15111643,94043816,8,Villa María,2,Córdoba,25,Medical´s
+261,Octavio Aguero,Otro,1944-02-26,15049197,48358849,30,Feliciano,7,Entre Ríos,24,Programa de Salud
+262,Thiago Cabrera,Masculino,2005-07-09,15314500,12624738,18,San Martín,5,Salta,23,Medin S.A.S.M.A
+263,Simon Sosa,Masculino,1998-04-04,15885727,86427534,4,Tandil,1,Buenos Aires,24,Programa de Salud
+264,Emma Fernandez,Masculino,1973-06-14,15201093,67197746,24,Zapala,6,Neuquén,30,Asociación Civil de Estudios Superiores
+265,Ignacio Ledesma,Femenino,1996-02-17,15365120,75346448,32,Gualeguaychú,7,Entre Ríos,25,Medical´s
+266,Valentina Sosa,Otro,2020-06-15,15964413,44181499,11,Luján de Cuyo,3,Mendoza,23,Medin S.A.S.M.A
+267,Juan David Gonzalez,Femenino,1968-02-29,15352145,70961193,14,Chimbas,4,San Juan,16,Hospital Británico
+268,Santino Nicolas Perez,Femenino,2024-11-27,15251080,89965246,4,Tandil,1,Buenos Aires,24,Programa de Salud
+269,Zoe Valentina Franco,Masculino,1967-09-24,15940892,73962432,30,Feliciano,7,Entre Ríos,18,Obra Social YPF
+270,Samuel Garcia,Femenino,1987-01-20,15582463,26163564,29,Federal,7,Entre Ríos,16,Hospital Británico
+271,Juliana Benitez,Otro,2001-05-20,15507436,45516065,34,La Paz,7,Entre Ríos,22,COBENSIL
+272,Morena Garcia,Otro,1999-09-02,15811696,24901078,7,Río Cuarto,2,Córdoba,16,Hospital Británico
+273,Benjamin Fernandez,Femenino,2015-08-17,15822035,67398187,27,Diamante,7,Entre Ríos,18,Obra Social YPF
+274,Olivia Diaz,Femenino,1988-01-16,15168168,33465706,1,La Plata,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
+275,Camila Ruiz,Femenino,1995-12-20,15855603,28620076,38,Tala,7,Entre Ríos,14,Hospital Alemán
+276,Delfina Molina,Masculino,1999-09-18,15391152,27289136,13,Capital,4,San Juan,10,ACA Salud
+277,Maria Victoria Ledesma,Otro,1960-07-15,15604971,69955057,41,Villaguay,7,Entre Ríos,3,Medicus
+278,Mia Valentina Rodriguez,Masculino,2017-09-12,15365869,97084029,31,Gualeguay,7,Entre Ríos,11,Sancor Salud
+279,Juan Bautista Sanchez,Femenino,2000-04-12,15211480,94743906,5,Córdoba Capital,2,Córdoba,21,ENSALUD
+280,Maite Flores,Otro,1970-01-14,15951150,92648709,2,Avellaneda,1,Buenos Aires,8,Jerárquico
+281,Dante Soto,Otro,1938-05-03,15720870,22840821,31,Gualeguay,7,Entre Ríos,24,Programa de Salud
+282,Malena Franco,Masculino,2008-05-03,15045180,31627545,11,Luján de Cuyo,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
+283,Juan David Quiroga,Otro,1993-11-17,15269356,51579252,37,San Salvador,7,Entre Ríos,13,MET Córdoba
+284,Gonzalo Ruiz,Femenino,1940-07-26,15425071,26761669,40,Victoria,7,Entre Ríos,20,OSDEPYM
+285,Ema Hernandez,Otro,1953-02-05,15283395,21897826,11,Luján de Cuyo,3,Mendoza,20,OSDEPYM
+286,Manuel Cabrera,Otro,1963-10-27,15440134,16376315,6,San Justo,2,Córdoba,8,Jerárquico
+287,Lautaro Paz,Femenino,1945-05-23,15129082,86315119,24,Zapala,6,Neuquén,28,Bristol Medicine
+288,Isabella Torres,Femenino,1946-04-27,15568358,85540618,19,Orán,5,Salta,10,ACA Salud
+289,Julia Morales,Otro,1937-06-16,15327822,39015096,38,Tala,7,Entre Ríos,27,Asistencia Sanitaria Integral
+290,Francisco Garcia,Otro,1970-10-21,15229137,49488627,31,Gualeguay,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+291,Luca Leiva,Femenino,2013-02-15,15755668,71301219,7,Río Cuarto,2,Córdoba,11,Sancor Salud
+292,Valentino Lopez,Otro,1964-07-12,15389868,76185053,6,San Justo,2,Córdoba,23,Medin S.A.S.M.A
+293,Emilia Torres,Femenino,2016-07-21,15469843,74306947,31,Gualeguay,7,Entre Ríos,8,Jerárquico
+294,Guadalupe Sanchez,Femenino,1979-03-27,15714254,42873701,7,Río Cuarto,2,Córdoba,24,Programa de Salud
+295,Guadalupe Castillo,Otro,1979-12-06,15762487,93698123,20,Metán,5,Salta,14,Hospital Alemán
+296,Benjamin Diaz,Masculino,1990-04-27,15813107,60462022,13,Capital,4,San Juan,30,Asociación Civil de Estudios Superiores
+297,Martina Valdez,Otro,2022-03-27,15311466,46425290,15,Pocito,4,San Juan,21,ENSALUD
+298,Francesca Acuña,Otro,1987-03-02,15730667,75638597,35,Nogoyá,7,Entre Ríos,25,Medical´s
+299,Emma Lopez,Masculino,1970-10-05,15568312,61343263,33,Islas del Ibicuy,7,Entre Ríos,4,Omint
+300,Mateo Benjamin Dominguez,Femenino,2023-03-22,15146270,93961862,8,Villa María,2,Córdoba,1,OSDE
+301,Santino Rodriguez,Masculino,1995-07-21,15379082,34468469,11,Luján de Cuyo,3,Mendoza,19,OPDEA
+302,Bautista Fernandez,Femenino,2001-06-25,15657626,20905281,12,San Rafael,3,Mendoza,3,Medicus
+303,Olivia Gonzalez,Masculino,1984-02-03,15776885,38222860,40,Victoria,7,Entre Ríos,2,Swiss Medical
+304,Valentino Gomez,Otro,2000-12-13,15988145,23615598,2,Avellaneda,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
+305,Juan David Gutierrez,Otro,2018-05-10,15417178,11708624,26,Concordia,7,Entre Ríos,14,Hospital Alemán
+306,Sofia Torres,Masculino,1948-01-16,15333209,93967237,35,Nogoyá,7,Entre Ríos,28,Bristol Medicine
+307,Juan Manuel Blanco,Masculino,2002-05-19,15247158,41639081,15,Pocito,4,San Juan,26,OSDIPP
+308,Santino Cruz,Otro,1998-10-06,15774184,19061403,10,Guaymallén,3,Mendoza,13,MET Córdoba
+309,Milena Luna,Masculino,1963-08-16,15789998,12943697,41,Villaguay,7,Entre Ríos,21,ENSALUD
+310,Bautista Diaz,Otro,2001-12-13,15419555,48833149,4,Tandil,1,Buenos Aires,12,Prevención Salud
+311,Valentin Fernandez,Femenino,2019-09-11,15597769,45410498,12,San Rafael,3,Mendoza,25,Medical´s
+312,Tiziano Valentin Lopez,Masculino,1952-07-15,15498163,15345546,29,Federal,7,Entre Ríos,28,Bristol Medicine
+313,Ignacio Vargas,Femenino,1948-02-15,15368712,69649290,5,Córdoba Capital,2,Córdoba,18,Obra Social YPF
+314,Tiziano Martinez,Femenino,2006-04-08,15820293,37607813,14,Chimbas,4,San Juan,23,Medin S.A.S.M.A
+315,Gabriel Pereyra,Femenino,1952-08-01,15486859,54726079,12,San Rafael,3,Mendoza,13,MET Córdoba
+316,Valentina Romero,Femenino,1971-12-05,15548577,45925318,7,Río Cuarto,2,Córdoba,14,Hospital Alemán
+317,Bautista Muñoz,Masculino,1954-04-16,15295917,48424990,16,Rawson,4,San Juan,13,MET Córdoba
+318,Tobias Medina,Femenino,1984-12-15,15151997,14819245,5,Córdoba Capital,2,Córdoba,11,Sancor Salud
+319,Benjamin Suarez,Otro,2009-05-05,15923876,68715131,12,San Rafael,3,Mendoza,6,Medifé
+320,Vicente Fernandez,Otro,1968-02-26,15222703,86881868,20,Metán,5,Salta,24,Programa de Salud
+321,Matias Medina,Masculino,1972-03-03,15636175,50235971,28,Federación,7,Entre Ríos,8,Jerárquico
+322,Martina Martinez,Masculino,1985-05-13,15362609,91266399,29,Federal,7,Entre Ríos,23,Medin S.A.S.M.A
+323,Facundo Cabrera,Otro,1976-02-24,15835314,57934983,23,Plottier,6,Neuquén,18,Obra Social YPF
+324,Catalina Rodriguez,Otro,1988-11-01,15236796,80653411,30,Feliciano,7,Entre Ríos,4,Omint
+325,Alejo Romero,Otro,1982-10-11,15126755,21548191,23,Plottier,6,Neuquén,30,Asociación Civil de Estudios Superiores
+326,Camila Chavez,Otro,2009-07-30,15223626,19609324,33,Islas del Ibicuy,7,Entre Ríos,22,COBENSIL
+327,Mateo Joaquin Lopez,Otro,1990-10-15,15704051,64358198,26,Concordia,7,Entre Ríos,22,COBENSIL
+328,Jazmin Martinez,Masculino,1960-06-08,15464293,45140970,26,Concordia,7,Entre Ríos,15,Grupo DDM
+329,Tomas Rodriguez,Femenino,1966-06-04,15141342,81355015,34,La Paz,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+330,Valentina Martinez,Otro,2021-01-18,15170975,83229940,39,Uruguay,7,Entre Ríos,9,Unión Personal
+331,Camilo Cordoba,Masculino,2021-01-16,15164287,43730075,12,San Rafael,3,Mendoza,21,ENSALUD
+332,Luz Maria Figueroa,Otro,1951-05-17,15855906,66478686,23,Plottier,6,Neuquén,6,Medifé
+333,Lucia Gonzalez,Femenino,1951-02-16,15349458,49730094,17,Capital,5,Salta,2,Swiss Medical
+334,Valentino Moreno,Otro,1939-05-19,15454490,46837953,34,La Paz,7,Entre Ríos,28,Bristol Medicine
+335,Santino Villalba,Otro,1971-05-09,15971578,47984325,18,San Martín,5,Salta,18,Obra Social YPF
+336,Thiago Valentin Duarte,Masculino,1965-10-08,15826762,91067288,15,Pocito,4,San Juan,27,Asistencia Sanitaria Integral
+337,Mora Peralta,Masculino,1954-09-13,15831570,31593084,23,Plottier,6,Neuquén,24,Programa de Salud
+338,Catalina Nuñez,Femenino,1992-08-28,15904259,50627540,9,Godoy Cruz,3,Mendoza,20,OSDEPYM
+339,Nahuel Lopez,Femenino,1956-08-24,15634783,11697352,17,Capital,5,Salta,10,ACA Salud
+340,Benjamin Gonzalez,Otro,1975-11-16,15486524,93414202,29,Federal,7,Entre Ríos,28,Bristol Medicine
+341,Paloma Rodriguez,Otro,1981-01-12,15540293,70291141,4,Tandil,1,Buenos Aires,8,Jerárquico
+342,Francisco Flores,Otro,1987-10-30,15803742,27734404,36,Paraná,7,Entre Ríos,1,OSDE
+343,Tiziano Sanchez,Masculino,1941-12-19,15808327,31622974,35,Nogoyá,7,Entre Ríos,20,OSDEPYM
+344,Olivia Silva,Femenino,1996-08-11,15419612,43252029,28,Federación,7,Entre Ríos,27,Asistencia Sanitaria Integral
+345,Isabella Gonzalez,Otro,1963-11-30,15941121,61830127,20,Metán,5,Salta,29,Federación Médica Gremial de la Capital Federal
+346,Santiago Rodriguez,Otro,1947-01-12,15777351,74299742,10,Guaymallén,3,Mendoza,30,Asociación Civil de Estudios Superiores
+347,Martina Martinez,Femenino,1975-02-15,15760091,21802113,20,Metán,5,Salta,19,OPDEA
+348,Mateo Valentin Garcia,Femenino,1978-09-01,15646162,53620254,31,Gualeguay,7,Entre Ríos,1,OSDE
+349,Juan Pablo Vera,Masculino,2003-08-25,15700753,14339488,40,Victoria,7,Entre Ríos,26,OSDIPP
+350,Juana Quiroga,Otro,1990-04-02,15147099,80642454,38,Tala,7,Entre Ríos,4,Omint
+351,Julieta Molina,Masculino,1954-03-22,15840411,75454746,15,Pocito,4,San Juan,28,Bristol Medicine
+352,Delfina Franco,Femenino,1994-12-15,15180493,93714184,10,Guaymallén,3,Mendoza,13,MET Córdoba
+353,Lucia Luna,Masculino,1988-03-17,15578121,47779983,13,Capital,4,San Juan,23,Medin S.A.S.M.A
+354,Alma Valentina Gomez,Otro,2023-05-07,15466531,43649255,34,La Paz,7,Entre Ríos,14,Hospital Alemán
+355,Benjamin Molina,Masculino,1966-11-17,15489799,76995763,32,Gualeguaychú,7,Entre Ríos,3,Medicus
+356,Zoe Jazmin Ramirez,Femenino,2022-09-06,15174480,69026779,13,Capital,4,San Juan,14,Hospital Alemán
+357,Joaquín Suarez,Otro,1995-02-06,15949434,56522336,40,Victoria,7,Entre Ríos,28,Bristol Medicine
+358,Catalina Diaz,Masculino,1976-07-23,15898134,70592369,24,Zapala,6,Neuquén,14,Hospital Alemán
+359,Lucas Moyano,Masculino,1941-03-15,15601299,83786929,39,Uruguay,7,Entre Ríos,20,OSDEPYM
+360,Emilia Soria,Otro,2005-07-30,15279762,38161328,40,Victoria,7,Entre Ríos,3,Medicus
+361,Valentino Gonzalez,Otro,2007-05-30,15974675,20855552,19,Orán,5,Salta,6,Medifé
+362,Helena Ramirez,Otro,1986-08-26,15403316,58136214,14,Chimbas,4,San Juan,27,Asistencia Sanitaria Integral
+363,Santino Gimenez,Femenino,1955-06-29,15738544,25077599,11,Luján de Cuyo,3,Mendoza,14,Hospital Alemán
+364,Ana Paula Juarez,Otro,1992-12-25,15392876,57579629,40,Victoria,7,Entre Ríos,2,Swiss Medical
+365,Thiago Emanuel Gonzalez,Masculino,1986-03-05,15222702,42644962,41,Villaguay,7,Entre Ríos,8,Jerárquico
+366,Jeremias Ledesma,Femenino,1967-03-22,15454520,53844931,2,Avellaneda,1,Buenos Aires,10,ACA Salud
+367,Clara Garcia,Otro,1977-02-23,15956886,59582368,33,Islas del Ibicuy,7,Entre Ríos,5,Galeno
+368,Emilia Vera,Femenino,1941-04-11,15139838,60863194,33,Islas del Ibicuy,7,Entre Ríos,21,ENSALUD
+369,Candela Ruiz,Otro,1951-09-25,15490596,97875387,30,Feliciano,7,Entre Ríos,13,MET Córdoba
+370,Lucas Ortiz,Femenino,1977-05-15,15529340,32592743,21,Capital,6,Neuquén,19,OPDEA
+371,Juana Aguero,Masculino,1987-12-13,15480067,27997827,13,Capital,4,San Juan,23,Medin S.A.S.M.A
+372,Francesca Garcia,Otro,1994-03-28,15700850,12468513,27,Diamante,7,Entre Ríos,25,Medical´s
+373,Catalina Maldonado,Femenino,2007-10-09,15733882,25158105,16,Rawson,4,San Juan,5,Galeno
+374,Catalina Mendez,Otro,1942-06-10,15588226,93980550,30,Feliciano,7,Entre Ríos,13,MET Córdoba
+375,Ignacio Romero,Masculino,1986-12-15,15586695,68133272,36,Paraná,7,Entre Ríos,26,OSDIPP
+376,Mia Gonzalez,Otro,1936-05-19,15852512,22696900,1,La Plata,1,Buenos Aires,21,ENSALUD
+377,Carmela Gomez,Femenino,2022-04-27,15760287,84731210,33,Islas del Ibicuy,7,Entre Ríos,23,Medin S.A.S.M.A
+378,Miguel Angel Aguirre,Masculino,1978-06-07,15289720,95498091,23,Plottier,6,Neuquén,6,Medifé
+379,Juana Ferreyra,Femenino,1950-04-06,15175493,32286057,7,Río Cuarto,2,Córdoba,22,COBENSIL
+380,Benjamin Rojas,Otro,2001-04-03,15978877,44495792,3,General Pueyrredón,1,Buenos Aires,18,Obra Social YPF
+381,Simon Perez,Femenino,1951-11-22,15453685,17444878,7,Río Cuarto,2,Córdoba,22,COBENSIL
+382,Dylan Ezequiel Gutierrez,Femenino,1947-10-15,15110188,26022063,15,Pocito,4,San Juan,25,Medical´s
+383,Sofia Luna,Femenino,1963-07-25,15638064,92359326,12,San Rafael,3,Mendoza,26,OSDIPP
+384,Joaquina Dominguez,Otro,1994-07-02,15915289,21944697,4,Tandil,1,Buenos Aires,12,Prevención Salud
+385,Bautista Cordoba,Femenino,1948-07-08,15049826,15134824,26,Concordia,7,Entre Ríos,10,ACA Salud
+386,Lorenzo Mansilla,Otro,1960-04-26,15724130,40419819,19,Orán,5,Salta,14,Hospital Alemán
+387,Benjamin Alejandro Rodriguez,Femenino,2009-01-06,15011669,44904777,32,Gualeguaychú,7,Entre Ríos,5,Galeno
+388,Francisco Farias,Masculino,1945-03-13,15531575,83685169,28,Federación,7,Entre Ríos,26,OSDIPP
+389,Enzo Figueroa,Otro,2008-02-18,15144610,96737013,30,Feliciano,7,Entre Ríos,13,MET Córdoba
+390,Benjamin Avila,Femenino,1992-03-14,15749002,67991555,14,Chimbas,4,San Juan,17,Círculo Médico de Lomas de Zamora
+391,Gonzalo Ortiz,Otro,1945-11-22,15021463,51459790,14,Chimbas,4,San Juan,4,Omint
+392,Isabella Rodriguez,Femenino,1948-06-29,15098909,68576964,13,Capital,4,San Juan,15,Grupo DDM
+393,Ignacio Toledo,Masculino,2020-06-11,15518155,25117255,8,Villa María,2,Córdoba,9,Unión Personal
+394,Tiziano Vazquez,Masculino,1963-06-17,15747125,55304912,35,Nogoyá,7,Entre Ríos,3,Medicus
+395,Emilia Moyano,Otro,1939-07-02,15213073,32799630,22,Centenario,6,Neuquén,14,Hospital Alemán
+396,Clara Rodriguez,Otro,2024-07-25,15094500,41307478,3,General Pueyrredón,1,Buenos Aires,15,Grupo DDM
+397,Julian Vega,Otro,1986-05-17,15256419,87597574,13,Capital,4,San Juan,28,Bristol Medicine
+398,Agustin Rodriguez,Masculino,1947-09-12,15803653,18807577,6,San Justo,2,Córdoba,13,MET Córdoba
+399,Lucas Benjamin Medina,Masculino,1995-01-24,15257404,26838282,22,Centenario,6,Neuquén,25,Medical´s
+400,Santino Nicolas Romero,Otro,1988-05-25,15782982,16936856,24,Zapala,6,Neuquén,28,Bristol Medicine
+401,Maximo Lucero,Masculino,2001-02-05,15087318,76060538,38,Tala,7,Entre Ríos,10,ACA Salud
+402,Francesca Martinez,Masculino,1994-11-17,15461657,53092647,37,San Salvador,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+403,Mateo Gonzalez,Otro,1958-11-11,15789763,51000605,41,Villaguay,7,Entre Ríos,15,Grupo DDM
+404,Dylan Benjamin Sanchez,Otro,1935-01-04,15458707,57755679,21,Capital,6,Neuquén,5,Galeno
+405,Santino Nicolas Diaz,Masculino,1976-04-25,15604696,92660000,32,Gualeguaychú,7,Entre Ríos,3,Medicus
+406,Luciano Velazquez,Otro,1952-03-09,15321350,91664129,35,Nogoyá,7,Entre Ríos,11,Sancor Salud
+407,Augusto Luna,Masculino,1957-10-24,15631386,36246667,14,Chimbas,4,San Juan,20,OSDEPYM
+408,Gonzalo Olivera,Masculino,1984-12-18,15424948,31873728,7,Río Cuarto,2,Córdoba,6,Medifé
+409,Antonella Ferreyra,Femenino,1996-08-29,15296982,74543496,31,Gualeguay,7,Entre Ríos,27,Asistencia Sanitaria Integral
+410,Ian Benjamin Blanco,Otro,2016-03-19,15865489,10429626,33,Islas del Ibicuy,7,Entre Ríos,10,ACA Salud
+411,Valentina Gomez,Masculino,1984-04-09,15129655,76420570,13,Capital,4,San Juan,1,OSDE
+412,Isabella Perez,Masculino,1950-11-27,15905681,15768711,9,Godoy Cruz,3,Mendoza,30,Asociación Civil de Estudios Superiores
+413,Julieta Pereyra,Otro,2015-12-10,15367833,66540159,9,Godoy Cruz,3,Mendoza,16,Hospital Británico
+414,Pilar Sanchez,Masculino,1978-11-10,15639066,52542486,41,Villaguay,7,Entre Ríos,28,Bristol Medicine
+415,Valentino Martin,Masculino,1997-12-23,15022187,82773571,30,Feliciano,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+416,Lucas Ledesma,Femenino,1956-11-10,15907647,32111239,25,Colón,7,Entre Ríos,8,Jerárquico
+417,Bianca Acosta,Otro,2001-05-17,15222909,68228876,31,Gualeguay,7,Entre Ríos,24,Programa de Salud
+418,Juan Ignacio Carrizo,Masculino,2010-03-08,15092255,36294834,18,San Martín,5,Salta,7,Hospital Italiano
+419,Joaquina Sanchez,Otro,1992-06-01,15853913,22931525,31,Gualeguay,7,Entre Ríos,25,Medical´s
+420,Luana Diaz,Masculino,2020-12-24,15858557,94897179,9,Godoy Cruz,3,Mendoza,8,Jerárquico
+421,Zoe Jazmin Nuñez,Masculino,1942-04-01,15868243,54902521,13,Capital,4,San Juan,30,Asociación Civil de Estudios Superiores
+422,Victoria Gonzalez,Otro,2011-11-28,15324539,15172217,21,Capital,6,Neuquén,25,Medical´s
+423,Gonzalo Moyano,Femenino,1944-05-24,15094976,99128279,24,Zapala,6,Neuquén,28,Bristol Medicine
+424,Augusto Diaz,Otro,1951-03-23,15775928,87105194,18,San Martín,5,Salta,11,Sancor Salud
+425,Thiago Valentin Rodriguez,Masculino,1962-01-03,15669683,32140971,33,Islas del Ibicuy,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+426,Pilar Mansilla,Femenino,1967-02-06,15108567,53507911,35,Nogoyá,7,Entre Ríos,19,OPDEA
+427,Manuel Ojeda,Femenino,1939-06-23,15381327,64999712,11,Luján de Cuyo,3,Mendoza,12,Prevención Salud
+428,Dylan Benjamin Gomez,Otro,1957-04-22,15303922,14177692,7,Río Cuarto,2,Córdoba,9,Unión Personal
+429,Victoria Roldan,Masculino,1971-02-25,15954989,96740649,40,Victoria,7,Entre Ríos,26,OSDIPP
+430,Delfina Fernandez,Masculino,1965-04-18,15360140,83759985,2,Avellaneda,1,Buenos Aires,14,Hospital Alemán
+431,Victoria Ojeda,Femenino,1947-05-13,15542580,96247117,32,Gualeguaychú,7,Entre Ríos,21,ENSALUD
+432,Renata Escobar,Masculino,1961-04-16,15188063,41661818,3,General Pueyrredón,1,Buenos Aires,24,Programa de Salud
+433,Emma Rios,Masculino,1974-11-20,15816366,44110785,27,Diamante,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+434,Martin Romero,Otro,1998-07-25,15250386,22243783,19,Orán,5,Salta,7,Hospital Italiano
+435,Manuel Perez,Otro,2024-08-23,15409064,55436099,25,Colón,7,Entre Ríos,16,Hospital Británico
+436,Benjamin Gonzalez,Otro,1965-06-29,15204657,92285014,30,Feliciano,7,Entre Ríos,11,Sancor Salud
+437,Emilia Benitez,Otro,1985-02-13,15681088,12164764,5,Córdoba Capital,2,Córdoba,19,OPDEA
+438,Alma Mia Barrios,Femenino,1956-01-18,15981234,34385300,27,Diamante,7,Entre Ríos,26,OSDIPP
+439,Francisco Diaz,Otro,1965-03-03,15043738,33874927,29,Federal,7,Entre Ríos,2,Swiss Medical
+440,Gonzalo Gonzalez,Femenino,1944-02-01,15298325,53623290,40,Victoria,7,Entre Ríos,11,Sancor Salud
+441,Valentino Gomez,Femenino,2001-02-26,15612662,35058265,22,Centenario,6,Neuquén,22,COBENSIL
+442,Joaquín Sanchez,Masculino,1995-03-01,15343381,93997268,31,Gualeguay,7,Entre Ríos,7,Hospital Italiano
+443,Miguel Angel Gomez,Otro,2005-09-22,15666617,67311844,30,Feliciano,7,Entre Ríos,21,ENSALUD
+444,Máximo Dominguez,Otro,1953-08-12,15001436,12796709,31,Gualeguay,7,Entre Ríos,28,Bristol Medicine
+445,Charo Aguirre,Femenino,1963-01-31,15850877,45696214,26,Concordia,7,Entre Ríos,25,Medical´s
+446,Guadalupe Rodriguez,Masculino,2020-10-07,15651378,32624073,24,Zapala,6,Neuquén,24,Programa de Salud
+447,Tomàs Torres,Otro,1999-06-23,15817084,84833999,12,San Rafael,3,Mendoza,21,ENSALUD
+448,Maria Luz Dominguez,Femenino,1946-12-06,15283431,48221223,18,San Martín,5,Salta,20,OSDEPYM
+449,Lautaro Benjamin Fernandez,Otro,1995-01-12,15126686,98927056,17,Capital,5,Salta,10,ACA Salud
+450,Simon Rojas,Otro,2001-09-12,15301559,21011886,11,Luján de Cuyo,3,Mendoza,25,Medical´s
+451,Emma Valdez,Femenino,1955-08-05,15564887,75258500,33,Islas del Ibicuy,7,Entre Ríos,26,OSDIPP
+452,Isabella Vera,Femenino,1962-12-16,15800256,88138954,19,Orán,5,Salta,29,Federación Médica Gremial de la Capital Federal
+453,Emma Torres,Otro,1935-03-28,15915703,79854317,35,Nogoyá,7,Entre Ríos,10,ACA Salud
+454,Lorenzo Martinez,Otro,1953-10-04,15446100,53787501,40,Victoria,7,Entre Ríos,6,Medifé
+455,Simon Roldan,Otro,1968-11-06,15715793,19176819,36,Paraná,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+456,Octavio Ferreyra,Otro,2001-08-10,15215945,88970210,28,Federación,7,Entre Ríos,2,Swiss Medical
+457,Felipe Romero,Masculino,2014-01-22,15118430,44022394,27,Diamante,7,Entre Ríos,22,COBENSIL
+458,Tiziano Aguero,Masculino,1968-04-16,15930159,70967178,16,Rawson,4,San Juan,23,Medin S.A.S.M.A
+459,Lara Rodriguez,Femenino,1984-04-21,15515106,12012311,28,Federación,7,Entre Ríos,11,Sancor Salud
+460,Mia Valentina Ponce,Masculino,2020-09-02,15515968,84469949,11,Luján de Cuyo,3,Mendoza,10,ACA Salud
+461,Lola Rodriguez,Masculino,1950-08-03,15504181,65738488,30,Feliciano,7,Entre Ríos,6,Medifé
+462,Juan Gabriel Gonzalez,Femenino,1949-09-30,15815467,41675851,12,San Rafael,3,Mendoza,10,ACA Salud
+463,Emma Godoy,Masculino,2021-06-04,15377145,70883658,28,Federación,7,Entre Ríos,11,Sancor Salud
+464,Luciano Benjamin Figueroa,Masculino,1953-12-01,15947406,79359603,8,Villa María,2,Córdoba,3,Medicus
+465,Paloma Fernandez,Masculino,1978-11-14,15589501,62187439,11,Luján de Cuyo,3,Mendoza,16,Hospital Británico
+466,Joaquin Ramirez,Femenino,2018-05-15,15678610,59835856,7,Río Cuarto,2,Córdoba,10,ACA Salud
+467,Juan Sebastian Garcia,Masculino,2004-11-04,15181376,47388778,15,Pocito,4,San Juan,18,Obra Social YPF
+468,Santino Duarte,Otro,1999-03-13,15902174,22028522,5,Córdoba Capital,2,Córdoba,27,Asistencia Sanitaria Integral
+469,Francesca Ledesma,Otro,1990-02-22,15419753,53744379,6,San Justo,2,Córdoba,16,Hospital Británico
+470,Pedro Romero,Masculino,2001-12-21,15573163,46612951,24,Zapala,6,Neuquén,26,OSDIPP
+471,Tiziana Rodriguez,Femenino,2007-01-15,15835178,30152414,41,Villaguay,7,Entre Ríos,22,COBENSIL
+472,Antonio Juarez,Femenino,1966-08-08,15924792,20069231,16,Rawson,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+473,Thiago Ezequiel Gonzalez,Otro,1973-09-05,15223729,58146810,33,Islas del Ibicuy,7,Entre Ríos,26,OSDIPP
+474,Martina Lopez,Masculino,1987-08-08,15413412,35461960,10,Guaymallén,3,Mendoza,28,Bristol Medicine
+475,Juan Bautista Ayala,Masculino,1995-08-29,15361113,43664384,34,La Paz,7,Entre Ríos,11,Sancor Salud
+476,Joaquin Torres,Masculino,1952-12-12,15428411,18767631,23,Plottier,6,Neuquén,18,Obra Social YPF
+477,Antonia Garcia,Femenino,1935-09-09,15005998,56051267,8,Villa María,2,Córdoba,9,Unión Personal
+478,Emilia Herrera,Otro,1965-04-27,15439680,38451485,26,Concordia,7,Entre Ríos,10,ACA Salud
+479,Kiara Toledo,Otro,1952-11-01,15685664,35653654,6,San Justo,2,Córdoba,16,Hospital Británico
+480,Isabella Diaz,Masculino,1998-03-04,15793842,78776601,27,Diamante,7,Entre Ríos,25,Medical´s
+481,Ana Paula Carrizo,Otro,1982-07-29,15813584,19897623,11,Luján de Cuyo,3,Mendoza,24,Programa de Salud
+482,Mateo Ledesma,Otro,1973-11-28,15605899,94097070,2,Avellaneda,1,Buenos Aires,11,Sancor Salud
+483,Genaro Suarez,Femenino,1975-03-19,15935226,31730511,35,Nogoyá,7,Entre Ríos,20,OSDEPYM
+484,Felipe Torres,Masculino,1973-09-28,15016812,96424547,19,Orán,5,Salta,13,MET Córdoba
+485,Luna Diaz,Masculino,1986-09-15,15768965,99288924,39,Uruguay,7,Entre Ríos,16,Hospital Británico
+486,Martina Suarez,Femenino,1967-06-16,15136626,72049792,29,Federal,7,Entre Ríos,27,Asistencia Sanitaria Integral
+487,Mia Jazmin Vargas,Femenino,1974-04-14,15222789,95506047,41,Villaguay,7,Entre Ríos,11,Sancor Salud
+488,Victoria Martinez,Femenino,2024-09-08,15316865,95137522,35,Nogoyá,7,Entre Ríos,19,OPDEA
+489,Maria Luz Ramos,Femenino,1981-11-28,15693149,29056401,28,Federación,7,Entre Ríos,10,ACA Salud
+490,Thiago Benjamin Quiroga,Femenino,1946-10-22,15271330,66283895,29,Federal,7,Entre Ríos,26,OSDIPP
+491,Julia Paez,Otro,1955-11-26,15323159,45752073,14,Chimbas,4,San Juan,3,Medicus
+492,Bastian Coronel,Masculino,1983-04-18,15322941,49955452,3,General Pueyrredón,1,Buenos Aires,15,Grupo DDM
+493,Helena Rivero,Femenino,1985-09-21,15125795,42682561,25,Colón,7,Entre Ríos,21,ENSALUD
+494,Thiago Ezequiel Gimenez,Femenino,1944-09-30,15263128,67228020,8,Villa María,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
+495,Salvador Cabrera,Masculino,1999-07-10,15494209,67830200,24,Zapala,6,Neuquén,11,Sancor Salud
+496,Camila Roldan,Otro,2000-11-25,15274978,69324798,17,Capital,5,Salta,7,Hospital Italiano
+497,Francesca Avila,Femenino,1957-09-14,15649501,45213116,2,Avellaneda,1,Buenos Aires,5,Galeno
+498,Tomas Gomez,Otro,1958-02-08,15481471,37097937,7,Río Cuarto,2,Córdoba,18,Obra Social YPF
+499,Thiago Benjamin Fernandez,Masculino,1936-05-06,15432243,18997591,7,Río Cuarto,2,Córdoba,10,ACA Salud
+500,Martin Castillo,Otro,1998-08-26,15750783,26416640,31,Gualeguay,7,Entre Ríos,15,Grupo DDM
+501,Luciano Flores,Femenino,1964-10-17,15933571,99659936,15,Pocito,4,San Juan,28,Bristol Medicine
+502,Vicente Gomez,Masculino,2012-07-28,15023705,87034760,5,Córdoba Capital,2,Córdoba,26,OSDIPP
+503,Mia Valentina Martinez,Otro,1963-08-18,15007491,25647204,22,Centenario,6,Neuquén,28,Bristol Medicine
+504,Victoria Cruz,Femenino,2016-04-21,15824043,87843346,21,Capital,6,Neuquén,8,Jerárquico
+505,Felipe Fernandez,Masculino,2010-01-09,15088013,71159445,38,Tala,7,Entre Ríos,26,OSDIPP
+506,Delfina Farias,Masculino,1988-01-04,15798836,14299156,31,Gualeguay,7,Entre Ríos,11,Sancor Salud
+507,Juan Sebastian Silva,Masculino,1949-03-27,15676266,86406171,37,San Salvador,7,Entre Ríos,14,Hospital Alemán
+508,Clara Fernandez,Masculino,1978-03-18,15594197,39616201,17,Capital,5,Salta,24,Programa de Salud
+509,Ciro Dominguez,Otro,1963-11-15,15812014,11359058,19,Orán,5,Salta,12,Prevención Salud
+510,Thiago Benjamin Ramirez,Femenino,2005-08-31,15382024,37525773,31,Gualeguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+511,Juan Ignacio Blanco,Femenino,2013-02-18,15130222,23142588,33,Islas del Ibicuy,7,Entre Ríos,18,Obra Social YPF
+512,Juan Cordoba,Femenino,1943-10-26,15714249,85157904,24,Zapala,6,Neuquén,17,Círculo Médico de Lomas de Zamora
+513,Valentina  Rojas,Masculino,1942-09-03,15072206,13255476,29,Federal,7,Entre Ríos,19,OPDEA
+514,Alma Mia Soria,Otro,1975-12-27,15847616,48488339,16,Rawson,4,San Juan,16,Hospital Británico
+515,Antonella Alvarez,Otro,1966-07-22,15249256,50793450,5,Córdoba Capital,2,Córdoba,1,OSDE
+516,Mia Ortiz,Femenino,2003-09-23,15471446,12545049,33,Islas del Ibicuy,7,Entre Ríos,4,Omint
+517,Josefina Ledesma,Femenino,1963-01-19,15018542,70133075,12,San Rafael,3,Mendoza,30,Asociación Civil de Estudios Superiores
+518,Alma Flores,Femenino,1990-02-15,15875747,14595845,18,San Martín,5,Salta,6,Medifé
+519,Valentina Pereyra,Otro,2020-03-11,15850709,74296271,29,Federal,7,Entre Ríos,5,Galeno
+520,Morena Jazmin Lopez,Femenino,1985-12-05,15707063,46338458,15,Pocito,4,San Juan,24,Programa de Salud
+521,Victoria Mendez,Femenino,1961-05-19,15461136,50746448,2,Avellaneda,1,Buenos Aires,23,Medin S.A.S.M.A
+522,Bautista Herrera,Otro,1988-06-06,15147105,92740958,20,Metán,5,Salta,27,Asistencia Sanitaria Integral
+523,Mateo Ezequiel Garcia,Masculino,1970-03-20,15690360,82523300,31,Gualeguay,7,Entre Ríos,27,Asistencia Sanitaria Integral
+524,Milagros Fernandez,Otro,1982-06-23,15158111,23328839,23,Plottier,6,Neuquén,16,Hospital Británico
+525,Ana Paula Ferreyra,Masculino,1982-01-20,15756756,67751057,1,La Plata,1,Buenos Aires,8,Jerárquico
+526,Sofía Fernandez,Femenino,1954-08-15,15643919,80519352,4,Tandil,1,Buenos Aires,4,Omint
+527,Joaquin Rodriguez,Femenino,1989-05-25,15655009,36666888,39,Uruguay,7,Entre Ríos,6,Medifé
+528,Thiago Nahuel Velazquez,Femenino,1997-04-23,15949529,96028811,41,Villaguay,7,Entre Ríos,20,OSDEPYM
+529,Catalina Rivero,Masculino,1944-12-18,15344559,32371764,15,Pocito,4,San Juan,26,OSDIPP
+530,Paulina Silva,Femenino,1978-05-30,15205722,32250110,23,Plottier,6,Neuquén,30,Asociación Civil de Estudios Superiores
+531,Tiziano Benjamin Rodriguez,Otro,1993-12-12,15575350,98562142,21,Capital,6,Neuquén,6,Medifé
+532,Delfina Gomez,Otro,2012-07-03,15436793,23280505,30,Feliciano,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+533,Lautaro Benjamin Escobar,Masculino,2020-10-18,15458444,42136905,21,Capital,6,Neuquén,17,Círculo Médico de Lomas de Zamora
+534,Matias Lucero,Otro,1940-08-26,15204888,25271816,18,San Martín,5,Salta,19,OPDEA
+535,Thiago Nahuel Arias,Otro,1986-12-25,15456514,46170515,23,Plottier,6,Neuquén,7,Hospital Italiano
+536,Catalina Hernandez,Masculino,1954-04-18,15190777,36937685,11,Luján de Cuyo,3,Mendoza,24,Programa de Salud
+537,Santino Martinez,Femenino,1998-08-16,15575611,58757391,14,Chimbas,4,San Juan,13,MET Córdoba
+538,Sofía Gomez,Masculino,1948-07-19,15046466,95834986,26,Concordia,7,Entre Ríos,9,Unión Personal
+539,Agustin Vargas,Masculino,1987-04-06,15150306,41298382,27,Diamante,7,Entre Ríos,18,Obra Social YPF
+540,Paloma Fernandez,Femenino,1986-05-13,15852733,26781845,26,Concordia,7,Entre Ríos,6,Medifé
+541,Ignacio Fernandez,Femenino,1940-05-03,15603580,69609696,34,La Paz,7,Entre Ríos,19,OPDEA
+542,Nicolas Garcia,Masculino,1946-10-30,15378832,54445146,23,Plottier,6,Neuquén,5,Galeno
+543,Antonella Olivera,Masculino,1973-04-18,15043482,60822307,13,Capital,4,San Juan,27,Asistencia Sanitaria Integral
+544,Santiago Rios,Otro,1981-02-07,15694464,20237618,15,Pocito,4,San Juan,4,Omint
+545,Alma Mia Lucero,Masculino,1986-08-26,15017020,53167489,33,Islas del Ibicuy,7,Entre Ríos,11,Sancor Salud
+546,Sofia Belen Gonzalez,Otro,1958-07-06,15473158,46925083,1,La Plata,1,Buenos Aires,16,Hospital Británico
+547,Thiago Valentin Paz,Masculino,1959-01-26,15678491,73618976,20,Metán,5,Salta,8,Jerárquico
+548,Lola Rodriguez,Masculino,2011-02-05,15076709,72639857,5,Córdoba Capital,2,Córdoba,25,Medical´s
+549,Joaquin Perez,Femenino,1992-12-15,15051539,31585245,22,Centenario,6,Neuquén,21,ENSALUD
+550,Joaquín Rodriguez,Masculino,2012-01-01,15778036,44463473,8,Villa María,2,Córdoba,23,Medin S.A.S.M.A
+551,Felipe Figueroa,Femenino,2013-07-17,15261986,54555550,6,San Justo,2,Córdoba,17,Círculo Médico de Lomas de Zamora
+552,Tomàs Ortiz,Otro,2016-01-01,15739267,26044774,26,Concordia,7,Entre Ríos,13,MET Córdoba
+553,Ema Hernandez,Femenino,1981-11-08,15101912,37819362,12,San Rafael,3,Mendoza,3,Medicus
+554,Valentino Velazquez,Otro,2019-01-05,15931168,82642413,41,Villaguay,7,Entre Ríos,24,Programa de Salud
+555,Olivia Suarez,Otro,1973-09-05,15633938,10493641,37,San Salvador,7,Entre Ríos,3,Medicus
+556,Valentino Rodriguez,Femenino,1999-01-22,15770410,84466850,14,Chimbas,4,San Juan,28,Bristol Medicine
+557,Juan Bautista Ramos,Femenino,1941-05-01,15813323,82552748,19,Orán,5,Salta,17,Círculo Médico de Lomas de Zamora
+558,Delfina Benitez,Femenino,1993-05-31,15506419,91952729,7,Río Cuarto,2,Córdoba,21,ENSALUD
+559,Lola Morales,Femenino,2024-12-18,15723722,68224484,31,Gualeguay,7,Entre Ríos,25,Medical´s
+560,Juan Cruz Rodriguez,Otro,1950-07-13,15282486,70466987,32,Gualeguaychú,7,Entre Ríos,9,Unión Personal
+561,Tiziano Sanchez,Femenino,1967-11-26,15571568,64472634,13,Capital,4,San Juan,15,Grupo DDM
+562,Valentina Escobar,Otro,2019-03-26,15208564,92131783,3,General Pueyrredón,1,Buenos Aires,26,OSDIPP
+563,Milagros Cabrera,Masculino,1981-05-07,15547972,22219214,24,Zapala,6,Neuquén,28,Bristol Medicine
+564,Franco Lopez,Masculino,1964-10-19,15136051,91212455,16,Rawson,4,San Juan,16,Hospital Británico
+565,Benicio Rodriguez,Femenino,2008-03-13,15787218,45130041,7,Río Cuarto,2,Córdoba,19,OPDEA
+566,Valentina  Barrios,Femenino,2004-08-31,15267759,99120005,28,Federación,7,Entre Ríos,14,Hospital Alemán
+567,Ana Paula Molina,Masculino,1956-09-14,15424552,29735138,38,Tala,7,Entre Ríos,19,OPDEA
+568,Juana Fernandez,Masculino,2022-08-18,15096753,18542863,23,Plottier,6,Neuquén,9,Unión Personal
+569,Sol Rodriguez,Femenino,1991-08-08,15982695,51454994,2,Avellaneda,1,Buenos Aires,8,Jerárquico
+570,Sol Godoy,Masculino,2022-05-25,15648771,83081621,2,Avellaneda,1,Buenos Aires,28,Bristol Medicine
+571,Maximiliano Perez,Femenino,2004-05-27,15482980,25288462,38,Tala,7,Entre Ríos,28,Bristol Medicine
+572,Franco Gomez,Masculino,2012-09-08,15835795,57952676,23,Plottier,6,Neuquén,19,OPDEA
+573,Ciro Martinez,Femenino,1957-08-03,15289221,33853519,24,Zapala,6,Neuquén,23,Medin S.A.S.M.A
+574,Luz Milagros Herrera,Femenino,2002-03-01,15181514,19850535,24,Zapala,6,Neuquén,11,Sancor Salud
+575,Camila Diaz,Femenino,2011-05-27,15346991,13852369,4,Tandil,1,Buenos Aires,9,Unión Personal
+576,Alma Sanchez,Femenino,1976-09-28,15632067,79349565,20,Metán,5,Salta,18,Obra Social YPF
+577,Juan Cruz Lopez,Femenino,2024-09-28,15909285,25949907,3,General Pueyrredón,1,Buenos Aires,16,Hospital Británico
+578,Ludmila Sanchez,Otro,1944-12-23,15898232,62612202,18,San Martín,5,Salta,17,Círculo Médico de Lomas de Zamora
+579,Maria Victoria Martinez,Otro,1947-04-20,15324188,68206690,22,Centenario,6,Neuquén,25,Medical´s
+580,Sofía Martin,Masculino,1955-08-13,15983331,45720159,3,General Pueyrredón,1,Buenos Aires,13,MET Córdoba
+581,Ciro Gomez,Masculino,1940-10-28,15565499,37527742,3,General Pueyrredón,1,Buenos Aires,29,Federación Médica Gremial de la Capital Federal
+582,Ignacio Carrizo,Otro,1976-08-13,15668040,62160779,41,Villaguay,7,Entre Ríos,24,Programa de Salud
+583,Mia Lopez,Otro,1937-01-15,15778779,74629939,28,Federación,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+584,Alma Gonzalez,Femenino,1965-01-16,15978804,88926678,31,Gualeguay,7,Entre Ríos,25,Medical´s
+585,Dylan Benjamin Gutierrez,Otro,1962-08-26,15055621,89854706,20,Metán,5,Salta,10,ACA Salud
+586,Facundo Rodriguez,Masculino,2014-12-16,15656912,19004791,38,Tala,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+587,Ana Paula Rodriguez,Otro,1964-08-27,15494669,40541794,21,Capital,6,Neuquén,18,Obra Social YPF
+588,Delfina Perez,Otro,1977-09-12,15686909,10432537,41,Villaguay,7,Entre Ríos,9,Unión Personal
+589,Sofia Perez,Masculino,2013-04-14,15544308,69707270,37,San Salvador,7,Entre Ríos,28,Bristol Medicine
+590,Valentin Ramirez,Masculino,2007-06-09,15009362,75383928,25,Colón,7,Entre Ríos,1,OSDE
+591,Ciro Gonzalez,Masculino,1976-09-28,15656408,30198747,19,Orán,5,Salta,23,Medin S.A.S.M.A
+592,Felipe Garcia,Otro,2022-05-12,15134136,74697566,31,Gualeguay,7,Entre Ríos,19,OPDEA
+593,Isabella Rodriguez,Otro,1983-01-29,15775434,57316198,12,San Rafael,3,Mendoza,9,Unión Personal
+594,Pedro Sanchez,Otro,1965-08-23,15412147,37266854,24,Zapala,6,Neuquén,25,Medical´s
+595,Josefina Diaz,Femenino,1946-06-11,15441832,47571521,32,Gualeguaychú,7,Entre Ríos,4,Omint
+596,Luciano Benjamin Perez,Otro,1987-12-08,15624402,35888750,11,Luján de Cuyo,3,Mendoza,23,Medin S.A.S.M.A
+597,Oriana Alvarez,Otro,1983-10-03,15436945,78712119,29,Federal,7,Entre Ríos,15,Grupo DDM
+598,Lautaro Moreno,Femenino,1967-04-07,15786573,71486006,32,Gualeguaychú,7,Entre Ríos,12,Prevención Salud
+599,Dylan Ezequiel Olivera,Otro,2025-01-23,15660264,94679815,28,Federación,7,Entre Ríos,26,OSDIPP
+600,Dante Sanchez,Otro,1953-06-23,15334847,38393695,31,Gualeguay,7,Entre Ríos,21,ENSALUD
+601,Camilo Alvarez,Otro,1963-01-24,15138704,72525991,33,Islas del Ibicuy,7,Entre Ríos,19,OPDEA
+602,Tiziana Correa,Masculino,2018-04-30,15197744,78551825,22,Centenario,6,Neuquén,5,Galeno
+603,Agustin Villalba,Masculino,1963-10-26,15663063,40681730,30,Feliciano,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+604,Lautaro Nahuel Rios,Femenino,1993-10-30,15916356,17908519,32,Gualeguaychú,7,Entre Ríos,11,Sancor Salud
+605,Constantino Fernandez,Otro,1985-06-12,15615573,65296194,14,Chimbas,4,San Juan,28,Bristol Medicine
+606,Helena Silva,Femenino,1991-11-19,15243639,58233668,19,Orán,5,Salta,12,Prevención Salud
+607,Francisco Gonzalez,Femenino,2007-08-28,15366833,29164522,14,Chimbas,4,San Juan,14,Hospital Alemán
+608,Alma Jazmin Avila,Femenino,1976-04-27,15981452,48123220,9,Godoy Cruz,3,Mendoza,6,Medifé
+609,Thiago Gabriel Rodriguez,Masculino,2002-06-05,15605664,98775579,25,Colón,7,Entre Ríos,4,Omint
+610,Mia Valentina Torres,Otro,1981-11-28,15610832,55409937,9,Godoy Cruz,3,Mendoza,7,Hospital Italiano
+611,Martina Ruiz,Masculino,1959-07-06,15796544,12837869,12,San Rafael,3,Mendoza,11,Sancor Salud
+612,Gabriel Figueroa,Otro,1984-07-31,15913945,66152148,5,Córdoba Capital,2,Córdoba,10,ACA Salud
+613,Maria Emilia Gonzalez,Femenino,1952-11-01,15512966,43098953,33,Islas del Ibicuy,7,Entre Ríos,19,OPDEA
+614,Carmela Nuñez,Masculino,1945-12-04,15537748,35609475,4,Tandil,1,Buenos Aires,25,Medical´s
+615,Gonzalo Villalba,Femenino,1935-12-07,15382788,57090810,39,Uruguay,7,Entre Ríos,20,OSDEPYM
+616,Sebastian Benitez,Otro,1979-06-20,15500479,42425494,17,Capital,5,Salta,2,Swiss Medical
+617,Paulina Leiva,Otro,1992-12-06,15446488,11227714,41,Villaguay,7,Entre Ríos,28,Bristol Medicine
+618,Francesco Benitez,Masculino,1945-06-02,15172985,24445786,38,Tala,7,Entre Ríos,19,OPDEA
+619,Valentina Castillo,Femenino,1935-11-29,15221813,75212879,23,Plottier,6,Neuquén,12,Prevención Salud
+620,Maria Paz Duarte,Masculino,1948-03-27,15874229,25621548,5,Córdoba Capital,2,Córdoba,22,COBENSIL
+621,Luca Lucero,Masculino,1936-07-26,15659841,71475807,10,Guaymallén,3,Mendoza,10,ACA Salud
+622,Tomàs Juarez,Otro,1937-12-02,15682512,77566753,33,Islas del Ibicuy,7,Entre Ríos,22,COBENSIL
+623,Luana Ortiz,Otro,1986-06-27,15891848,89412163,31,Gualeguay,7,Entre Ríos,21,ENSALUD
+624,Sofía Moreno,Masculino,1986-05-20,15763295,20134160,26,Concordia,7,Entre Ríos,6,Medifé
+625,Valentino Carrizo,Masculino,1983-04-05,15120504,61763561,10,Guaymallén,3,Mendoza,22,COBENSIL
+626,Elena Cordoba,Masculino,1956-04-25,15781181,45238279,29,Federal,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+627,Agustín Miranda,Femenino,2015-08-16,15455538,89055523,32,Gualeguaychú,7,Entre Ríos,21,ENSALUD
+628,Francisco Ramirez,Masculino,1958-08-22,15996907,51564940,30,Feliciano,7,Entre Ríos,11,Sancor Salud
+629,Juan Cruz Ledesma,Masculino,2018-11-05,15981725,90636619,20,Metán,5,Salta,29,Federación Médica Gremial de la Capital Federal
+630,Lautaro Gomez,Otro,1955-10-20,15044155,45270569,5,Córdoba Capital,2,Córdoba,22,COBENSIL
+631,Zoe Mendoza,Femenino,1991-08-05,15403562,28925032,7,Río Cuarto,2,Córdoba,16,Hospital Británico
+632,Matilda Toledo,Femenino,1973-04-05,15089744,82200314,13,Capital,4,San Juan,6,Medifé
+633,Guillermina Sosa,Masculino,2017-03-14,15832949,24796171,1,La Plata,1,Buenos Aires,4,Omint
+634,Isabella Torres,Otro,1988-02-03,15511757,13290906,14,Chimbas,4,San Juan,9,Unión Personal
+635,Joaquin Perez,Otro,1992-03-18,15654224,89279837,11,Luján de Cuyo,3,Mendoza,17,Círculo Médico de Lomas de Zamora
+636,Ambar Gomez,Masculino,1994-05-06,15720062,19875240,11,Luján de Cuyo,3,Mendoza,12,Prevención Salud
+637,Olivia Chavez,Otro,1974-03-31,15082754,11194248,40,Victoria,7,Entre Ríos,26,OSDIPP
+638,Thiago Benjamin Acosta,Femenino,1973-08-02,15439180,69913736,28,Federación,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+639,Benicio Rodriguez,Otro,1954-03-24,15252122,16234512,20,Metán,5,Salta,10,ACA Salud
+640,Lautaro Ezequiel Diaz,Masculino,2012-02-05,15649019,34007074,1,La Plata,1,Buenos Aires,1,OSDE
+641,Luciano Sosa,Femenino,1940-02-02,15929931,16874262,30,Feliciano,7,Entre Ríos,1,OSDE
+642,Guillermina Mansilla,Otro,1984-03-23,15939834,13482801,34,La Paz,7,Entre Ríos,18,Obra Social YPF
+643,Gonzalo Castro,Femenino,2016-04-11,15374344,55334628,29,Federal,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+644,León Perez,Masculino,1972-05-04,15737651,61093815,28,Federación,7,Entre Ríos,2,Swiss Medical
+645,Bautista Cabrera,Otro,2009-01-09,15099146,61215623,38,Tala,7,Entre Ríos,22,COBENSIL
+646,Joaquin Guzman,Masculino,2017-10-30,15515285,43450775,20,Metán,5,Salta,1,OSDE
+647,Faustino Fernandez,Masculino,1991-12-31,15492139,28690438,6,San Justo,2,Córdoba,7,Hospital Italiano
+648,Alma Mia Rojas,Femenino,1937-08-11,15515340,20978458,6,San Justo,2,Córdoba,28,Bristol Medicine
+649,Juan Bautista Ortiz,Femenino,1989-07-20,15910386,22811350,41,Villaguay,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+650,Luciano Gonzalez,Masculino,1937-07-26,15233190,16007710,40,Victoria,7,Entre Ríos,1,OSDE
+651,Tiziano Sanchez,Otro,2023-11-11,15019135,88040319,3,General Pueyrredón,1,Buenos Aires,27,Asistencia Sanitaria Integral
+652,Tiziano Benjamin Mansilla,Femenino,2021-01-05,15097645,90753395,26,Concordia,7,Entre Ríos,26,OSDIPP
+653,Pedro Molina,Masculino,1964-12-15,15451965,47965392,16,Rawson,4,San Juan,1,OSDE
+654,Valentin Godoy,Otro,1974-04-18,15941330,34903272,25,Colón,7,Entre Ríos,23,Medin S.A.S.M.A
+655,Manuel Muñoz,Femenino,1957-03-13,15208054,42821442,1,La Plata,1,Buenos Aires,12,Prevención Salud
+656,Catalina Cardozo,Femenino,2018-11-16,15843379,36648324,21,Capital,6,Neuquén,11,Sancor Salud
+657,Amparo Gonzalez,Otro,1953-04-26,15339524,70952363,5,Córdoba Capital,2,Córdoba,15,Grupo DDM
+658,Sara Moreno,Femenino,2013-06-29,15263688,37288875,37,San Salvador,7,Entre Ríos,20,OSDEPYM
+659,Sofia Coronel,Masculino,1949-05-04,15006634,95006402,9,Godoy Cruz,3,Mendoza,26,OSDIPP
+660,Thiago Ezequiel Gimenez,Otro,1964-03-29,15643317,77569461,38,Tala,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+661,Agustina Castro,Masculino,2019-07-23,15585460,49711055,14,Chimbas,4,San Juan,30,Asociación Civil de Estudios Superiores
+662,Francesca Rodriguez,Masculino,1964-03-01,15638690,61675900,26,Concordia,7,Entre Ríos,7,Hospital Italiano
+663,Ana Paula Duarte,Masculino,1993-04-14,15713073,81874334,24,Zapala,6,Neuquén,23,Medin S.A.S.M.A
+664,Emiliano Ferreyra,Femenino,1937-07-30,15301662,47818599,28,Federación,7,Entre Ríos,24,Programa de Salud
+665,Valentino Ojeda,Femenino,2000-02-14,15871733,50172004,22,Centenario,6,Neuquén,23,Medin S.A.S.M.A
+666,Josefina Morales,Otro,1973-03-21,15366933,29030259,35,Nogoyá,7,Entre Ríos,2,Swiss Medical
+667,Enzo Gonzalez,Femenino,1959-09-12,15844152,22164180,14,Chimbas,4,San Juan,3,Medicus
+668,Lara Ledesma,Otro,1986-05-15,15123361,62421841,19,Orán,5,Salta,26,OSDIPP
+669,Catalina Paez,Femenino,1936-03-22,15700793,30638442,41,Villaguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+670,Mateo Sosa,Otro,2021-11-15,15438907,42716279,26,Concordia,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+671,Maria Belen Quiroga,Femenino,2009-04-21,15902858,70122924,7,Río Cuarto,2,Córdoba,21,ENSALUD
+672,Emilia Moreno,Otro,1974-08-21,15872344,74265400,13,Capital,4,San Juan,9,Unión Personal
+673,Lautaro Nicolas Fernandez,Otro,2001-12-03,15402787,35419624,5,Córdoba Capital,2,Córdoba,18,Obra Social YPF
+674,Agustin Rios,Femenino,1938-07-06,15842317,28841746,33,Islas del Ibicuy,7,Entre Ríos,9,Unión Personal
+675,Alma Vazquez,Otro,1989-02-26,15779244,74001401,32,Gualeguaychú,7,Entre Ríos,15,Grupo DDM
+676,Maximo Romero,Otro,1957-01-19,15901803,86859502,30,Feliciano,7,Entre Ríos,4,Omint
+677,Benjamin Perez,Otro,1991-07-15,15960900,57462078,21,Capital,6,Neuquén,9,Unión Personal
+678,Victoria Escobar,Masculino,1955-01-08,15800946,93319875,18,San Martín,5,Salta,20,OSDEPYM
+679,Zoe Martinez,Femenino,1974-01-18,15313750,24819216,26,Concordia,7,Entre Ríos,9,Unión Personal
+680,Juan Gonzalez,Otro,1985-01-12,15345474,59033806,26,Concordia,7,Entre Ríos,23,Medin S.A.S.M.A
+681,Tiziano Benjamin Torres,Femenino,1986-11-24,15286496,17417358,36,Paraná,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+682,Lautaro Nahuel Ruiz,Masculino,1954-12-17,15293665,92808643,25,Colón,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+683,Emilia Ortiz,Otro,1965-07-21,15697710,54530454,26,Concordia,7,Entre Ríos,18,Obra Social YPF
+684,Guadalupe Gonzalez,Masculino,1941-09-24,15063170,40116263,24,Zapala,6,Neuquén,26,OSDIPP
+685,Bautista Aguirre,Otro,2006-04-05,15578995,91756007,20,Metán,5,Salta,24,Programa de Salud
+686,Bautista Benjamin Ortiz,Masculino,1955-08-23,15906727,94987552,28,Federación,7,Entre Ríos,26,OSDIPP
+687,Milagros Lopez,Femenino,1969-08-13,15232755,58640279,12,San Rafael,3,Mendoza,30,Asociación Civil de Estudios Superiores
+688,Felipe Sanchez,Masculino,1990-12-24,15429889,36383664,32,Gualeguaychú,7,Entre Ríos,25,Medical´s
+689,Lorenzo Rivero,Femenino,2018-08-10,15876859,66134168,25,Colón,7,Entre Ríos,22,COBENSIL
+690,Matias Bravo,Otro,2002-05-16,15441005,64695315,7,Río Cuarto,2,Córdoba,8,Jerárquico
+691,Emma Toledo,Femenino,1992-10-10,15696813,43199771,31,Gualeguay,7,Entre Ríos,19,OPDEA
+692,Lola Castillo,Masculino,1982-12-21,15109488,60123033,28,Federación,7,Entre Ríos,3,Medicus
+693,Juan Gabriel Blanco,Masculino,1957-02-25,15658615,66144029,40,Victoria,7,Entre Ríos,7,Hospital Italiano
+694,Benjamin Caceres,Otro,1998-08-27,15720527,23570810,36,Paraná,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+695,Bautista Fernandez,Otro,1994-05-19,15391224,20138298,34,La Paz,7,Entre Ríos,6,Medifé
+696,Guadalupe Lopez,Masculino,2010-01-12,15253469,36592214,40,Victoria,7,Entre Ríos,19,OPDEA
+697,Antonio Ferreyra,Femenino,1968-07-07,15428164,89347311,14,Chimbas,4,San Juan,2,Swiss Medical
+698,Santino Gabriel Romero,Femenino,2010-10-09,15312770,86227349,35,Nogoyá,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+699,Salvador Ramos,Masculino,1971-05-22,15868967,79968901,16,Rawson,4,San Juan,30,Asociación Civil de Estudios Superiores
+700,Maite Herrera,Femenino,1969-06-09,15153255,87328445,8,Villa María,2,Córdoba,8,Jerárquico
+701,Benjamin Gutierrez,Masculino,1942-07-03,15100854,64570860,16,Rawson,4,San Juan,15,Grupo DDM
+702,Valentino Lucero,Otro,1974-07-05,15427667,45421340,28,Federación,7,Entre Ríos,5,Galeno
+703,Mateo Joaquin Hernandez,Otro,1934-12-13,15225523,53158581,3,General Pueyrredón,1,Buenos Aires,2,Swiss Medical
+704,Martín Garcia,Femenino,1992-10-23,15859126,86148087,17,Capital,5,Salta,23,Medin S.A.S.M.A
+705,Maia Suarez,Otro,1942-01-23,15766589,99635259,31,Gualeguay,7,Entre Ríos,6,Medifé
+706,Sofia Fernandez,Otro,1991-04-09,15483841,23602812,27,Diamante,7,Entre Ríos,16,Hospital Británico
+707,Tiziano Benjamin Gonzalez,Femenino,1975-07-28,15729986,98467908,18,San Martín,5,Salta,25,Medical´s
+708,Amparo Rios,Femenino,1939-08-05,15825059,98181537,41,Villaguay,7,Entre Ríos,6,Medifé
+709,Francesca Fernandez,Otro,2020-02-25,15392389,57481777,15,Pocito,4,San Juan,21,ENSALUD
+710,Tomas Gutierrez,Otro,1943-02-02,15623866,17855417,7,Río Cuarto,2,Córdoba,16,Hospital Británico
+711,Lola Gonzalez,Femenino,2004-12-13,15642934,79691890,23,Plottier,6,Neuquén,9,Unión Personal
+712,Mia Valentina Vera,Otro,1973-10-05,15423453,39885368,14,Chimbas,4,San Juan,27,Asistencia Sanitaria Integral
+713,Josefina Dominguez,Femenino,2022-05-14,15595035,10695888,11,Luján de Cuyo,3,Mendoza,8,Jerárquico
+714,Thiago Ezequiel Ojeda,Otro,1959-11-28,15521668,83006254,14,Chimbas,4,San Juan,27,Asistencia Sanitaria Integral
+715,Julia Ruiz,Otro,1961-06-11,15244015,61451655,10,Guaymallén,3,Mendoza,25,Medical´s
+716,Sara Castillo,Femenino,1986-02-15,15962694,91197571,21,Capital,6,Neuquén,28,Bristol Medicine
+717,Bautista Benjamin Gomez,Masculino,2011-05-09,15759415,97117337,8,Villa María,2,Córdoba,30,Asociación Civil de Estudios Superiores
+718,Juan Martin Vargas,Otro,1985-10-11,15005871,51616791,3,General Pueyrredón,1,Buenos Aires,8,Jerárquico
+719,Sebastian Romero,Otro,1943-06-17,15247404,91766506,20,Metán,5,Salta,18,Obra Social YPF
+720,Samuel Sanchez,Otro,2016-04-22,15131551,44595482,34,La Paz,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+721,Rafael Medina,Femenino,2025-07-08,15141269,12515429,29,Federal,7,Entre Ríos,25,Medical´s
+722,Octavio Perez,Masculino,1988-01-15,15577388,63586577,39,Uruguay,7,Entre Ríos,16,Hospital Británico
+723,Felicitas Mendoza,Femenino,1978-06-28,15156041,75339875,23,Plottier,6,Neuquén,26,OSDIPP
+724,Mia Diaz,Femenino,1959-09-21,15004996,38499272,24,Zapala,6,Neuquén,30,Asociación Civil de Estudios Superiores
+725,Juan Ignacio Rodriguez,Masculino,2022-01-13,15305189,74893102,41,Villaguay,7,Entre Ríos,22,COBENSIL
+726,Tomàs Sanchez,Otro,1951-10-26,15479397,87522062,38,Tala,7,Entre Ríos,10,ACA Salud
+727,Matias Diaz,Otro,1943-06-07,15835414,73989625,20,Metán,5,Salta,9,Unión Personal
+728,Francisco Dominguez,Masculino,1959-07-12,15720345,65248353,11,Luján de Cuyo,3,Mendoza,21,ENSALUD
+729,Luz Maria Romero,Femenino,1958-01-28,15961601,86626835,16,Rawson,4,San Juan,16,Hospital Británico
+730,Maria Paz Bustos,Masculino,2018-03-31,15557068,22147953,22,Centenario,6,Neuquén,9,Unión Personal
+731,Juan Martin Vera,Femenino,1992-03-05,15787942,92582267,10,Guaymallén,3,Mendoza,2,Swiss Medical
+732,Dylan Rodriguez,Femenino,2014-03-10,15971447,47906731,12,San Rafael,3,Mendoza,26,OSDIPP
+733,Santiago Ortiz,Masculino,1983-04-23,15481403,18042931,37,San Salvador,7,Entre Ríos,28,Bristol Medicine
+734,Lara Gonzalez,Femenino,1990-10-28,15938780,92892809,36,Paraná,7,Entre Ríos,6,Medifé
+735,Joaquin Martinez,Femenino,2011-11-02,15732842,10175778,28,Federación,7,Entre Ríos,21,ENSALUD
+736,Isabella Gonzalez,Femenino,1969-09-03,15091837,87265672,1,La Plata,1,Buenos Aires,8,Jerárquico
+737,Mora Nuñez,Otro,1939-10-09,15902129,86387315,35,Nogoyá,7,Entre Ríos,15,Grupo DDM
+738,Franco Fernandez,Femenino,1997-11-17,15101513,56147447,18,San Martín,5,Salta,16,Hospital Británico
+739,Micaela Mansilla,Masculino,1960-10-29,15636144,79377145,39,Uruguay,7,Entre Ríos,21,ENSALUD
+740,Juan Bautista Morales,Masculino,2022-12-09,15792748,12975926,23,Plottier,6,Neuquén,11,Sancor Salud
+741,Juan Cruz Rodriguez,Femenino,1962-03-06,15030968,85327890,32,Gualeguaychú,7,Entre Ríos,8,Jerárquico
+742,Ciro Pereyra,Femenino,1997-03-14,15917260,93079731,9,Godoy Cruz,3,Mendoza,12,Prevención Salud
+743,Valentina  Cabrera,Femenino,1975-06-28,15988730,83282768,6,San Justo,2,Córdoba,11,Sancor Salud
+744,Emiliano Acosta,Otro,1982-02-08,15780028,57924405,23,Plottier,6,Neuquén,25,Medical´s
+745,Juan Ignacio Sosa,Femenino,2007-04-18,15474034,81094303,36,Paraná,7,Entre Ríos,27,Asistencia Sanitaria Integral
+746,Santino Flores,Otro,2013-07-20,15806832,96288039,32,Gualeguaychú,7,Entre Ríos,21,ENSALUD
+747,Juan Bautista Escobar,Otro,1959-05-23,15452254,56929966,33,Islas del Ibicuy,7,Entre Ríos,24,Programa de Salud
+748,Isabella Martinez,Femenino,1949-07-23,15633974,28651502,2,Avellaneda,1,Buenos Aires,5,Galeno
+749,Lautaro Benjamin Cruz,Masculino,2014-03-07,15533412,44239210,33,Islas del Ibicuy,7,Entre Ríos,3,Medicus
+750,Elena Alvarez,Otro,1995-09-08,15483048,21078728,10,Guaymallén,3,Mendoza,11,Sancor Salud
+751,Catalina Perez,Femenino,2006-12-12,15566778,72911446,3,General Pueyrredón,1,Buenos Aires,25,Medical´s
+752,Lucio Correa,Femenino,1952-06-22,15350738,91385890,10,Guaymallén,3,Mendoza,17,Círculo Médico de Lomas de Zamora
+753,Santino Benjamin Vega,Masculino,1986-08-06,15966962,59944647,37,San Salvador,7,Entre Ríos,19,OPDEA
+754,Morena Carrizo,Femenino,2021-11-02,15236067,36804636,21,Capital,6,Neuquén,20,OSDEPYM
+755,Maximo Lopez,Otro,1968-07-16,15284432,34315029,15,Pocito,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+756,Bruno Sanchez,Femenino,1981-12-30,15333746,61715259,35,Nogoyá,7,Entre Ríos,12,Prevención Salud
+757,Martina Martinez,Masculino,1982-07-15,15533543,38966479,36,Paraná,7,Entre Ríos,12,Prevención Salud
+758,Milo Ayala,Otro,1970-09-20,15123210,24413324,10,Guaymallén,3,Mendoza,3,Medicus
+759,Agustina Perez,Femenino,1953-10-01,15237298,20009019,11,Luján de Cuyo,3,Mendoza,25,Medical´s
+760,Juan Pablo Gonzalez,Otro,1958-12-21,15975441,51306902,18,San Martín,5,Salta,13,MET Córdoba
+761,Clara Duarte,Otro,1953-07-07,15142770,80405776,11,Luján de Cuyo,3,Mendoza,16,Hospital Británico
+762,Sofia Belen Navarro,Masculino,2023-11-30,15071924,80423254,2,Avellaneda,1,Buenos Aires,14,Hospital Alemán
+763,Valentina Moyano,Otro,2003-02-14,15678138,80739188,12,San Rafael,3,Mendoza,15,Grupo DDM
+764,Luciano Quiroga,Femenino,1938-07-27,15825360,95758674,28,Federación,7,Entre Ríos,3,Medicus
+765,Matilda Suarez,Masculino,1985-01-27,15799956,13598133,17,Capital,5,Salta,18,Obra Social YPF
+766,Rosario Perez,Masculino,2009-11-19,15764237,85662270,28,Federación,7,Entre Ríos,5,Galeno
+767,Benjamin Diaz,Femenino,1998-11-14,15727344,66673169,1,La Plata,1,Buenos Aires,23,Medin S.A.S.M.A
+768,Santino Herrera,Masculino,1966-07-03,15651960,21763434,41,Villaguay,7,Entre Ríos,6,Medifé
+769,Francesco Paez,Femenino,1981-04-29,15238275,39530456,10,Guaymallén,3,Mendoza,24,Programa de Salud
+770,Lisandro Medina,Femenino,1938-12-10,15564978,60525177,24,Zapala,6,Neuquén,14,Hospital Alemán
+771,Sofia Garcia,Otro,1947-12-19,15250868,82051141,20,Metán,5,Salta,28,Bristol Medicine
+772,Valentino Mansilla,Masculino,1971-05-02,15022201,24683231,23,Plottier,6,Neuquén,7,Hospital Italiano
+773,Martina Moyano,Otro,2018-03-21,15011941,47996923,24,Zapala,6,Neuquén,29,Federación Médica Gremial de la Capital Federal
+774,Juan Bautista Lopez,Masculino,1949-11-12,15549710,86223462,37,San Salvador,7,Entre Ríos,19,OPDEA
+775,Mateo Joaquin Ponce,Femenino,1970-07-29,15500035,19126792,10,Guaymallén,3,Mendoza,26,OSDIPP
+776,Maia Luna,Otro,1972-09-16,15439269,67431910,20,Metán,5,Salta,14,Hospital Alemán
+777,Mateo Castillo,Otro,1964-04-16,15633110,21805458,10,Guaymallén,3,Mendoza,15,Grupo DDM
+778,Mateo Acosta,Otro,1944-02-18,15914386,74513547,28,Federación,7,Entre Ríos,4,Omint
+779,Thiago Paz,Otro,1983-08-22,15164879,93865999,9,Godoy Cruz,3,Mendoza,22,COBENSIL
+780,Ivan Avila,Otro,1950-09-07,15362882,54060421,21,Capital,6,Neuquén,13,MET Córdoba
+781,Martina Moyano,Otro,1975-07-13,15086916,41440135,14,Chimbas,4,San Juan,2,Swiss Medical
+782,Amparo Gimenez,Masculino,1956-08-14,15982157,96217886,35,Nogoyá,7,Entre Ríos,14,Hospital Alemán
+783,Pilar Escobar,Otro,1963-12-01,15971645,36297566,31,Gualeguay,7,Entre Ríos,10,ACA Salud
+784,Joaquina Romero,Masculino,2004-07-23,15887823,48775136,7,Río Cuarto,2,Córdoba,18,Obra Social YPF
+785,Sara Rojas,Femenino,2003-07-14,15972825,11240279,21,Capital,6,Neuquén,24,Programa de Salud
+786,Luz Maria Godoy,Masculino,1972-08-02,15007131,93922305,36,Paraná,7,Entre Ríos,8,Jerárquico
+787,Delfina Morales,Masculino,1961-02-04,15490308,57398408,27,Diamante,7,Entre Ríos,25,Medical´s
+788,Pilar Guzman,Femenino,1944-11-01,15565413,28121697,7,Río Cuarto,2,Córdoba,16,Hospital Británico
+789,Lola Vega,Otro,1995-03-02,15648538,38638057,33,Islas del Ibicuy,7,Entre Ríos,10,ACA Salud
+790,Lucía Vargas,Masculino,2005-08-12,15665619,75884472,11,Luján de Cuyo,3,Mendoza,4,Omint
+791,Santiago Nicolas Moyano,Otro,1936-01-19,15234613,20622350,24,Zapala,6,Neuquén,14,Hospital Alemán
+792,Juan Ignacio Barrios,Femenino,2019-07-25,15964980,86772017,14,Chimbas,4,San Juan,2,Swiss Medical
+793,Catalina Cabrera,Femenino,2004-06-02,15864492,13984187,16,Rawson,4,San Juan,17,Círculo Médico de Lomas de Zamora
+794,Felipe Pereyra,Otro,2021-11-09,15015064,72042423,36,Paraná,7,Entre Ríos,24,Programa de Salud
+795,Martina Perez,Masculino,1959-04-07,15658441,27968055,37,San Salvador,7,Entre Ríos,14,Hospital Alemán
+796,Ian Ezequiel Ramirez,Femenino,2014-01-20,15629165,65218833,2,Avellaneda,1,Buenos Aires,11,Sancor Salud
+797,Mateo Castillo,Masculino,2022-02-17,15702790,28348472,37,San Salvador,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+798,Fausto Sanchez,Femenino,1953-06-01,15538682,20062194,31,Gualeguay,7,Entre Ríos,22,COBENSIL
+799,Pedro Perez,Otro,2021-01-11,15865891,86357312,27,Diamante,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+800,Renata Maidana,Otro,2014-02-21,15277199,31149077,21,Capital,6,Neuquén,15,Grupo DDM
+801,Augusto Juarez,Femenino,1972-03-05,15777925,88317206,2,Avellaneda,1,Buenos Aires,4,Omint
+802,Tiziano Garcia,Otro,2023-05-25,15392335,79142973,30,Feliciano,7,Entre Ríos,25,Medical´s
+803,Facundo Guzman,Femenino,1938-05-29,15681753,46784548,13,Capital,4,San Juan,19,OPDEA
+804,Delfina Maldonado,Femenino,1953-09-29,15880482,78640817,38,Tala,7,Entre Ríos,27,Asistencia Sanitaria Integral
+805,Thiago Daniel Romero,Femenino,2005-12-23,15457618,18415550,41,Villaguay,7,Entre Ríos,16,Hospital Británico
+806,Antonia Gonzalez,Femenino,2008-01-07,15222961,14280326,5,Córdoba Capital,2,Córdoba,7,Hospital Italiano
+807,Franco Paez,Otro,1947-10-31,15339843,80026593,37,San Salvador,7,Entre Ríos,22,COBENSIL
+808,Delfina Correa,Otro,2010-05-07,15724644,12793319,28,Federación,7,Entre Ríos,15,Grupo DDM
+809,Sofia Muñoz,Masculino,1998-09-06,15672984,17624106,11,Luján de Cuyo,3,Mendoza,28,Bristol Medicine
+810,Salvador Navarro,Otro,2020-03-09,15757792,68068145,25,Colón,7,Entre Ríos,10,ACA Salud
+811,Justina Medina,Femenino,2024-03-05,15339423,97275664,20,Metán,5,Salta,27,Asistencia Sanitaria Integral
+812,Mateo Valentin Miranda,Femenino,1965-03-24,15633031,27982530,32,Gualeguaychú,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+813,Maite Rodriguez,Masculino,1976-01-18,15688558,51592969,5,Córdoba Capital,2,Córdoba,3,Medicus
+814,Augusto Gonzalez,Masculino,2008-10-01,15979747,27283578,6,San Justo,2,Córdoba,20,OSDEPYM
+815,Juan Cruz Fernandez,Otro,1947-03-12,15016999,85533074,20,Metán,5,Salta,21,ENSALUD
+816,Sofia Suarez,Femenino,1967-05-01,15846095,55403513,5,Córdoba Capital,2,Córdoba,7,Hospital Italiano
+817,Julieta Rodriguez,Otro,1987-11-10,15025809,35691619,9,Godoy Cruz,3,Mendoza,2,Swiss Medical
+818,Thiago Benjamin Gutierrez,Masculino,1972-02-14,15067036,70219943,20,Metán,5,Salta,28,Bristol Medicine
+819,Tiziano Valentin Gonzalez,Masculino,1979-12-28,15197891,21166797,4,Tandil,1,Buenos Aires,13,MET Córdoba
+820,Valentin Cabrera,Otro,2011-07-10,15286975,10511023,9,Godoy Cruz,3,Mendoza,17,Círculo Médico de Lomas de Zamora
+821,Thiago Perez,Otro,1942-07-23,15803371,78225982,20,Metán,5,Salta,24,Programa de Salud
+822,Ramiro Correa,Otro,1950-07-01,15419410,94963812,17,Capital,5,Salta,3,Medicus
+823,Francesca Sanchez,Masculino,1956-10-13,15416172,22717006,18,San Martín,5,Salta,10,ACA Salud
+824,Thiago Benjamin Miranda,Femenino,1992-06-05,15564244,52235115,31,Gualeguay,7,Entre Ríos,11,Sancor Salud
+825,Catalina Gonzalez,Masculino,1986-05-03,15788648,32713193,32,Gualeguaychú,7,Entre Ríos,4,Omint
+826,Guillermina Paz,Otro,1977-05-07,15743029,85838839,1,La Plata,1,Buenos Aires,10,ACA Salud
+827,Emilia Bustos,Femenino,1942-05-20,15495661,48862020,8,Villa María,2,Córdoba,15,Grupo DDM
+828,Maia Gonzalez,Otro,1981-08-02,15229870,29541193,14,Chimbas,4,San Juan,3,Medicus
+829,Julia Roldan,Otro,1956-08-29,15020013,54399872,17,Capital,5,Salta,8,Jerárquico
+830,Candela Perez,Otro,1984-01-07,15992614,64420634,4,Tandil,1,Buenos Aires,30,Asociación Civil de Estudios Superiores
+831,Lucía Medina,Femenino,1938-05-30,15709772,66961174,37,San Salvador,7,Entre Ríos,13,MET Córdoba
+832,Ian Benjamin Suarez,Otro,1980-07-22,15943057,62364295,36,Paraná,7,Entre Ríos,5,Galeno
+833,Victoria Lopez,Masculino,1977-08-28,15103422,59973984,1,La Plata,1,Buenos Aires,25,Medical´s
+834,Emma Ramirez,Masculino,1966-11-03,15538843,95972729,15,Pocito,4,San Juan,8,Jerárquico
+835,Josefina Vargas,Otro,1989-07-31,15079895,14477581,2,Avellaneda,1,Buenos Aires,7,Hospital Italiano
+836,Sofia Coronel,Otro,1955-11-17,15648208,82116441,15,Pocito,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+837,Martina Martin,Masculino,1971-02-06,15881886,31498139,41,Villaguay,7,Entre Ríos,8,Jerárquico
+838,Thiago Ezequiel Torres,Masculino,1945-04-06,15314805,42573185,41,Villaguay,7,Entre Ríos,21,ENSALUD
+839,Simon Castillo,Masculino,1942-07-13,15925275,16752466,3,General Pueyrredón,1,Buenos Aires,7,Hospital Italiano
+840,Luciana Martin,Masculino,1948-01-26,15995494,63907282,37,San Salvador,7,Entre Ríos,15,Grupo DDM
+841,Alejo Muñoz,Otro,1972-04-06,15294080,14686527,5,Córdoba Capital,2,Córdoba,3,Medicus
+842,Emilia Arias,Femenino,1987-05-08,15205894,26341568,32,Gualeguaychú,7,Entre Ríos,25,Medical´s
+843,Santino Gabriel Garcia,Masculino,1973-08-05,15685908,65614730,33,Islas del Ibicuy,7,Entre Ríos,14,Hospital Alemán
+844,Benicio Muñoz,Otro,2003-08-21,15028685,48431515,3,General Pueyrredón,1,Buenos Aires,15,Grupo DDM
+845,Isabella Flores,Otro,1938-06-06,15971491,82436767,8,Villa María,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
+846,Santino Ezequiel Lopez,Femenino,1945-09-16,15192202,10196628,5,Córdoba Capital,2,Córdoba,20,OSDEPYM
+847,Thiago Joaquin Escobar,Masculino,2001-04-15,15779003,60520423,38,Tala,7,Entre Ríos,21,ENSALUD
+848,Ciro Benitez,Masculino,1971-02-05,15827017,23385808,36,Paraná,7,Entre Ríos,20,OSDEPYM
+849,Santino Barrios,Otro,1989-06-15,15302751,55045227,5,Córdoba Capital,2,Córdoba,13,MET Córdoba
+850,Oriana Gonzalez,Otro,1971-10-18,15070517,58320931,29,Federal,7,Entre Ríos,14,Hospital Alemán
+851,Emma Quiroga,Otro,1935-01-02,15609707,51481759,14,Chimbas,4,San Juan,3,Medicus
+852,Sofía Aguirre,Femenino,1950-07-18,15103421,62558969,35,Nogoyá,7,Entre Ríos,2,Swiss Medical
+853,Santino Ezequiel Peralta,Masculino,2002-08-01,15430584,52285782,3,General Pueyrredón,1,Buenos Aires,3,Medicus
+854,Victoria Romero,Otro,2004-05-11,15570596,14334423,32,Gualeguaychú,7,Entre Ríos,6,Medifé
+855,Luca Sosa,Otro,1944-04-07,15601786,37211029,18,San Martín,5,Salta,2,Swiss Medical
+856,Luisana Coronel,Masculino,2011-01-12,15365821,42728272,18,San Martín,5,Salta,21,ENSALUD
+857,Zoe Silva,Otro,2018-02-05,15303493,75790986,5,Córdoba Capital,2,Córdoba,26,OSDIPP
+858,Dylan Ezequiel Rodriguez,Otro,1945-08-31,15816385,65205254,25,Colón,7,Entre Ríos,8,Jerárquico
+859,Valentino Vera,Femenino,2020-09-03,15770458,59636444,17,Capital,5,Salta,7,Hospital Italiano
+860,Emanuel Dominguez,Otro,1995-12-25,15033762,29365705,21,Capital,6,Neuquén,13,MET Córdoba
+861,Bautista Benjamin Herrera,Femenino,1975-10-15,15943960,70847049,40,Victoria,7,Entre Ríos,27,Asistencia Sanitaria Integral
+862,Catalina Ramirez,Otro,2022-03-13,15613250,65560137,26,Concordia,7,Entre Ríos,19,OPDEA
+863,Victoria Quiroga,Masculino,1979-03-08,15623044,24050295,16,Rawson,4,San Juan,15,Grupo DDM
+864,Valentino Gomez,Femenino,1958-12-17,15515498,57715270,36,Paraná,7,Entre Ríos,18,Obra Social YPF
+865,Olivia Diaz,Masculino,1976-11-16,15030569,89009825,2,Avellaneda,1,Buenos Aires,17,Círculo Médico de Lomas de Zamora
+866,Mateo Benjamin Rivero,Otro,1979-06-06,15768505,28007347,17,Capital,5,Salta,16,Hospital Británico
+867,Emma Ramos,Femenino,2009-01-03,15729066,89673151,1,La Plata,1,Buenos Aires,8,Jerárquico
+868,Emma Campos,Otro,1990-11-05,15214543,55627643,32,Gualeguaychú,7,Entre Ríos,24,Programa de Salud
+869,Santiago Rodriguez,Masculino,2013-07-17,15784535,38812884,24,Zapala,6,Neuquén,19,OPDEA
+870,Thiago Benjamin Perez,Masculino,2016-03-28,15750194,15309622,4,Tandil,1,Buenos Aires,14,Hospital Alemán
+871,Simon Sanchez,Femenino,1956-08-30,15889190,86740200,28,Federación,7,Entre Ríos,25,Medical´s
+872,Fausto Gonzalez,Otro,2018-08-16,15736366,43552686,6,San Justo,2,Córdoba,27,Asistencia Sanitaria Integral
+873,Valentina  Correa,Femenino,1976-04-01,15782909,80442801,25,Colón,7,Entre Ríos,1,OSDE
+874,Emilia Ramirez,Otro,1993-10-13,15772563,48819406,14,Chimbas,4,San Juan,8,Jerárquico
+875,Santino Benjamin Romero,Masculino,2021-04-24,15610604,66102902,14,Chimbas,4,San Juan,2,Swiss Medical
+876,Catalina Gonzalez,Otro,1942-06-21,15086517,20809813,41,Villaguay,7,Entre Ríos,5,Galeno
+877,Lisandro Ayala,Masculino,2025-03-17,15574676,75919995,41,Villaguay,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+878,Alvaro Molina,Masculino,1965-05-05,15575515,25690639,37,San Salvador,7,Entre Ríos,4,Omint
+879,Alma Soria,Otro,1949-08-06,15389692,57691320,22,Centenario,6,Neuquén,19,OPDEA
+880,Joaquin Aguirre,Otro,2024-03-24,15193877,67168162,10,Guaymallén,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
+881,Valentino Romero,Femenino,1991-11-15,15893581,61189764,39,Uruguay,7,Entre Ríos,23,Medin S.A.S.M.A
+882,Santiago Castro,Masculino,1991-12-01,15248297,35020699,19,Orán,5,Salta,13,MET Córdoba
+883,Ignacio Sanchez,Femenino,2013-01-12,15055491,74477488,32,Gualeguaychú,7,Entre Ríos,15,Grupo DDM
+884,Emma Garcia,Masculino,1981-07-07,15014185,52934141,5,Córdoba Capital,2,Córdoba,15,Grupo DDM
+885,Benjamin Peralta,Femenino,1946-09-06,15709024,37704018,33,Islas del Ibicuy,7,Entre Ríos,8,Jerárquico
+886,Felipe Navarro,Masculino,2007-06-11,15048051,71004763,24,Zapala,6,Neuquén,1,OSDE
+887,Juan Cruz Avila,Otro,2002-05-01,15425342,74880128,28,Federación,7,Entre Ríos,5,Galeno
+888,Pedro Molina,Masculino,2013-06-05,15776595,41257874,39,Uruguay,7,Entre Ríos,13,MET Córdoba
+889,Mora Ramos,Otro,1983-07-06,15526833,21083688,35,Nogoyá,7,Entre Ríos,21,ENSALUD
+890,Sofia Gonzalez,Femenino,2008-03-30,15214685,16183142,12,San Rafael,3,Mendoza,19,OPDEA
+891,Bautista Rios,Masculino,1942-02-26,15166240,20927050,36,Paraná,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+892,Benjamin Navarro,Femenino,2011-02-06,15178007,90854132,8,Villa María,2,Córdoba,27,Asistencia Sanitaria Integral
+893,Mateo Benjamin Roldan,Masculino,1976-09-01,15993821,94777773,32,Gualeguaychú,7,Entre Ríos,16,Hospital Británico
+894,Guillermina Garcia,Femenino,1974-07-01,15470016,82804272,26,Concordia,7,Entre Ríos,16,Hospital Británico
+895,Francisco Vega,Masculino,2007-11-03,15432169,68252396,38,Tala,7,Entre Ríos,27,Asistencia Sanitaria Integral
+896,Tiziano Lucero,Femenino,2022-06-24,15018850,99911065,5,Córdoba Capital,2,Córdoba,16,Hospital Británico
+897,Julian Sosa,Femenino,1970-08-28,15318123,23522029,1,La Plata,1,Buenos Aires,29,Federación Médica Gremial de la Capital Federal
+898,Santino Gomez,Masculino,2017-07-24,15137777,29966877,41,Villaguay,7,Entre Ríos,13,MET Córdoba
+899,Ivan Sanchez,Masculino,1949-09-09,15134421,30867821,27,Diamante,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+900,Camila Rojas,Masculino,2008-04-08,15938999,80963909,34,La Paz,7,Entre Ríos,9,Unión Personal
+901,Delfina Herrera,Otro,2000-10-27,15609436,72869315,7,Río Cuarto,2,Córdoba,2,Swiss Medical
+902,Julian Torres,Masculino,1979-01-31,15078419,65490645,20,Metán,5,Salta,12,Prevención Salud
+903,Pilar Rodriguez,Masculino,1938-05-09,15615387,60928457,3,General Pueyrredón,1,Buenos Aires,11,Sancor Salud
+904,Francesca Perez,Masculino,1971-09-16,15169049,24022230,28,Federación,7,Entre Ríos,9,Unión Personal
+905,Sofia Gutierrez,Femenino,1962-03-15,15058009,96696098,32,Gualeguaychú,7,Entre Ríos,25,Medical´s
+906,Juana Perez,Otro,2023-08-01,15872182,39860336,10,Guaymallén,3,Mendoza,7,Hospital Italiano
+907,Maria Paz Velazquez,Otro,2012-05-21,15853676,62176893,20,Metán,5,Salta,17,Círculo Médico de Lomas de Zamora
+908,Valentina Jazmin Acosta,Femenino,2021-06-08,15612739,91939335,6,San Justo,2,Córdoba,24,Programa de Salud
+909,Catalina Gonzalez,Femenino,1949-05-13,15155455,27044529,36,Paraná,7,Entre Ríos,19,OPDEA
+910,Giuliana Garcia,Femenino,1953-04-11,15624011,52236980,15,Pocito,4,San Juan,15,Grupo DDM
+911,Thiago Benjamin Ramirez,Masculino,1999-09-25,15238921,15440262,28,Federación,7,Entre Ríos,18,Obra Social YPF
+912,Isabella Alvarez,Femenino,1973-01-05,15046890,13846606,37,San Salvador,7,Entre Ríos,6,Medifé
+913,Ambar Moreno,Masculino,1939-09-07,15795486,79454875,32,Gualeguaychú,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+914,Ramiro Correa,Femenino,1994-08-04,15977672,96452482,6,San Justo,2,Córdoba,13,MET Córdoba
+915,Máximo Sanchez,Masculino,1963-11-13,15186181,72935944,6,San Justo,2,Córdoba,3,Medicus
+916,Martina Rios,Otro,1959-05-19,15726785,61615104,30,Feliciano,7,Entre Ríos,28,Bristol Medicine
+917,Simon Arias,Otro,1976-12-21,15178846,64251132,13,Capital,4,San Juan,8,Jerárquico
+918,Agostina Gimenez,Femenino,2011-03-02,15926128,49518117,30,Feliciano,7,Entre Ríos,4,Omint
+919,Simon Miranda,Masculino,1986-12-10,15489206,73346738,19,Orán,5,Salta,15,Grupo DDM
+920,Alejo Caceres,Masculino,2017-10-31,15438639,80656409,16,Rawson,4,San Juan,1,OSDE
+921,Jazmin Paez,Masculino,1967-09-21,15015697,13834653,37,San Salvador,7,Entre Ríos,3,Medicus
+922,Thiago Lionel Diaz,Masculino,1969-03-06,15381144,73309258,9,Godoy Cruz,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
+923,Benicio Castro,Masculino,1948-03-07,15038989,56276521,26,Concordia,7,Entre Ríos,18,Obra Social YPF
+924,Valentino Ponce,Masculino,1958-08-15,15497013,77658019,5,Córdoba Capital,2,Córdoba,9,Unión Personal
+925,Luca Lopez,Masculino,1982-03-23,15484500,21516137,16,Rawson,4,San Juan,8,Jerárquico
+926,Valentino Flores,Otro,1970-06-13,15953868,89420875,41,Villaguay,7,Entre Ríos,13,MET Córdoba
+927,Lautaro Nahuel Alvarez,Masculino,2002-12-02,15991660,64312216,33,Islas del Ibicuy,7,Entre Ríos,10,ACA Salud
+928,Alma Romero,Femenino,1966-07-10,15638907,93814210,10,Guaymallén,3,Mendoza,13,MET Córdoba
+929,Guillermina Godoy,Otro,2021-07-04,15267969,38785010,21,Capital,6,Neuquén,5,Galeno
+930,Elena Martinez,Otro,1972-11-11,15236112,66522240,12,San Rafael,3,Mendoza,30,Asociación Civil de Estudios Superiores
+931,Bruno Lopez,Femenino,2001-02-17,15388417,20653814,26,Concordia,7,Entre Ríos,16,Hospital Británico
+932,Mia Morena Perez,Femenino,2004-02-29,15904126,76423479,28,Federación,7,Entre Ríos,4,Omint
+933,Valentin Perez,Otro,1963-07-25,15957175,34126610,31,Gualeguay,7,Entre Ríos,25,Medical´s
+934,Antonia Ledesma,Femenino,2019-10-26,15615662,24934273,35,Nogoyá,7,Entre Ríos,28,Bristol Medicine
+935,Maria Victoria Rodriguez,Femenino,2009-07-24,15151544,15489461,16,Rawson,4,San Juan,29,Federación Médica Gremial de la Capital Federal
+936,Lautaro Garcia,Otro,1967-10-25,15373523,13853447,11,Luján de Cuyo,3,Mendoza,11,Sancor Salud
+937,Santino Diaz,Masculino,2015-01-01,15782666,30732625,6,San Justo,2,Córdoba,30,Asociación Civil de Estudios Superiores
+938,Agustin Gutierrez,Otro,2005-05-07,15481577,39886418,36,Paraná,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+939,Thiago Lionel Ojeda,Femenino,2016-08-25,15598818,70350626,31,Gualeguay,7,Entre Ríos,14,Hospital Alemán
+940,Tomàs Campos,Femenino,1934-10-11,15639696,50872062,14,Chimbas,4,San Juan,9,Unión Personal
+941,Joaquina Ojeda,Femenino,1940-06-27,15302768,75222215,15,Pocito,4,San Juan,4,Omint
+942,Francisco Gomez,Otro,1976-04-16,15829174,86729556,19,Orán,5,Salta,17,Círculo Médico de Lomas de Zamora
+943,Benjamin Gomez,Femenino,1943-02-27,15031925,34611748,18,San Martín,5,Salta,18,Obra Social YPF
+944,Juliana Garcia,Femenino,1953-05-07,15463262,31596070,37,San Salvador,7,Entre Ríos,18,Obra Social YPF
+945,Mora Gonzalez,Femenino,2006-12-17,15984868,49446768,13,Capital,4,San Juan,27,Asistencia Sanitaria Integral
+946,Nicolas Rodriguez,Masculino,2018-01-03,15415587,54636686,31,Gualeguay,7,Entre Ríos,8,Jerárquico
+947,Juan Ignacio Gonzalez,Femenino,1949-05-17,15106634,45434419,8,Villa María,2,Córdoba,15,Grupo DDM
+948,Francisco Martinez,Otro,1961-09-13,15059741,21383216,41,Villaguay,7,Entre Ríos,16,Hospital Británico
+949,Lara Ramirez,Masculino,1941-03-30,15517330,41942027,21,Capital,6,Neuquén,9,Unión Personal
+950,Malena Chavez,Femenino,1960-11-03,15753653,76880758,41,Villaguay,7,Entre Ríos,6,Medifé
+951,Santino Garcia,Masculino,2009-10-24,15944834,38209963,35,Nogoyá,7,Entre Ríos,10,ACA Salud
+952,Sebastian Rodriguez,Otro,1936-11-16,15120621,53135870,16,Rawson,4,San Juan,20,OSDEPYM
+953,Simon Arias,Otro,1965-03-03,15131672,65575516,24,Zapala,6,Neuquén,29,Federación Médica Gremial de la Capital Federal
+954,Juan Ignacio Moreno,Femenino,1942-12-26,15429137,11512301,41,Villaguay,7,Entre Ríos,10,ACA Salud
+955,Agustina Molina,Masculino,1970-02-12,15387098,94643058,37,San Salvador,7,Entre Ríos,30,Asociación Civil de Estudios Superiores
+956,Benjamin Ezequiel Castillo,Femenino,1960-07-09,15836567,56557110,14,Chimbas,4,San Juan,4,Omint
+957,Vicente Gimenez,Femenino,1972-04-29,15435709,85424111,35,Nogoyá,7,Entre Ríos,1,OSDE
+958,Emiliano Castro,Otro,1963-01-25,15459249,25039534,36,Paraná,7,Entre Ríos,5,Galeno
+959,Sofia Fernandez,Femenino,1949-04-15,15422917,84614402,10,Guaymallén,3,Mendoza,21,ENSALUD
+960,Emma Torres,Masculino,2019-09-23,15188474,56298266,1,La Plata,1,Buenos Aires,27,Asistencia Sanitaria Integral
+961,Franco Godoy,Femenino,1959-02-13,15187262,49461523,40,Victoria,7,Entre Ríos,29,Federación Médica Gremial de la Capital Federal
+962,Ignacio Gonzalez,Masculino,1973-10-10,15360301,37415888,3,General Pueyrredón,1,Buenos Aires,5,Galeno
+963,Benjamin Alejandro Roldan,Femenino,1975-06-09,15900918,33723135,14,Chimbas,4,San Juan,11,Sancor Salud
+964,Lucía Silva,Femenino,2015-03-30,15718680,95171975,34,La Paz,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+965,Julian Sanchez,Otro,2005-03-21,15177886,63654648,9,Godoy Cruz,3,Mendoza,2,Swiss Medical
+966,Malena Arias,Femenino,1956-08-25,15401962,64764932,37,San Salvador,7,Entre Ríos,11,Sancor Salud
+967,Lucas Peralta,Femenino,1972-08-19,15608532,97308305,3,General Pueyrredón,1,Buenos Aires,21,ENSALUD
+968,Helena Avila,Masculino,1972-03-12,15971042,53207243,19,Orán,5,Salta,2,Swiss Medical
+969,Felicitas Sosa,Otro,1989-06-03,15721917,77248814,17,Capital,5,Salta,26,OSDIPP
+970,Alma Mia Gutierrez,Femenino,1957-04-11,15789723,44055964,34,La Paz,7,Entre Ríos,18,Obra Social YPF
+971,Ignacio Avila,Femenino,1973-02-22,15693488,17433002,25,Colón,7,Entre Ríos,17,Círculo Médico de Lomas de Zamora
+972,Thiago Leonel Gonzalez,Femenino,1937-05-08,15461611,11940068,4,Tandil,1,Buenos Aires,7,Hospital Italiano
+973,Valentino Pereyra,Masculino,1982-08-26,15977263,55447620,1,La Plata,1,Buenos Aires,8,Jerárquico
+974,Franco Coronel,Masculino,1994-07-15,15409483,22274044,5,Córdoba Capital,2,Córdoba,14,Hospital Alemán
+975,Luana Lopez,Otro,2001-03-07,15303052,42420675,3,General Pueyrredón,1,Buenos Aires,24,Programa de Salud
+976,Santiago Benjamin Mansilla,Femenino,1943-01-16,15829464,27797104,19,Orán,5,Salta,29,Federación Médica Gremial de la Capital Federal
+977,Martina Suarez,Masculino,2004-10-05,15072318,74968757,31,Gualeguay,7,Entre Ríos,1,OSDE
+978,Tiziano Ramirez,Otro,2003-05-20,15211682,42438325,6,San Justo,2,Córdoba,1,OSDE
+979,Emilia Garcia,Otro,1979-07-20,15154528,69109397,25,Colón,7,Entre Ríos,21,ENSALUD
+980,Juan Manuel Medina,Masculino,1963-02-08,15273576,55288699,41,Villaguay,7,Entre Ríos,1,OSDE
+981,Isabella Castillo,Femenino,1959-03-01,15688885,16699939,35,Nogoyá,7,Entre Ríos,25,Medical´s
+982,Juan Cruz Martinez,Masculino,1950-01-03,15555895,97610750,19,Orán,5,Salta,17,Círculo Médico de Lomas de Zamora
+983,Felipe Ledesma,Femenino,1951-01-13,15206967,96147845,14,Chimbas,4,San Juan,21,ENSALUD
+984,Felicitas Ojeda,Femenino,2006-01-07,15762553,62230637,38,Tala,7,Entre Ríos,18,Obra Social YPF
+985,Valentino Gomez,Otro,1967-10-30,15103701,89897013,17,Capital,5,Salta,23,Medin S.A.S.M.A
+986,Thiago Benjamin Moyano,Femenino,2016-03-22,15947602,17741345,11,Luján de Cuyo,3,Mendoza,21,ENSALUD
+987,Francisco Rios,Otro,2024-04-06,15259653,89321125,1,La Plata,1,Buenos Aires,26,OSDIPP
+988,Santiago Castillo,Femenino,1999-08-17,15015116,76607528,9,Godoy Cruz,3,Mendoza,29,Federación Médica Gremial de la Capital Federal
+989,Amparo Fernandez,Femenino,1958-05-26,15866429,89098890,28,Federación,7,Entre Ríos,26,OSDIPP
+990,Agustin Ponce,Masculino,1955-06-01,15563442,91536516,8,Villa María,2,Córdoba,29,Federación Médica Gremial de la Capital Federal
+991,Ciro Garcia,Masculino,1967-01-26,15297720,63718905,5,Córdoba Capital,2,Córdoba,17,Círculo Médico de Lomas de Zamora
+992,Zoe Valentina Gomez,Masculino,2005-12-16,15382546,30246002,36,Paraná,7,Entre Ríos,11,Sancor Salud
+993,Victoria Perez,Otro,2023-08-05,15680846,79998847,1,La Plata,1,Buenos Aires,2,Swiss Medical
+994,Valentin Alvarez,Masculino,1946-07-13,15558806,88325293,28,Federación,7,Entre Ríos,27,Asistencia Sanitaria Integral
+995,Lautaro Molina,Otro,2025-05-27,15408371,29313112,16,Rawson,4,San Juan,14,Hospital Alemán
+996,Benjamin Aguirre,Masculino,1985-06-06,15226314,25173908,39,Uruguay,7,Entre Ríos,8,Jerárquico
+997,Santino Benjamin Ferreyra,Otro,2021-08-27,15916212,43762049,7,Río Cuarto,2,Córdoba,25,Medical´s
+998,Lautaro Ezequiel Gomez,Otro,1988-07-12,15279300,37435023,8,Villa María,2,Córdoba,3,Medicus
+999,Luna Toledo,Masculino,2015-09-19,15988539,93160733,15,Pocito,4,San Juan,3,Medicus
+1000,Maria Victoria Gomez,Masculino,2005-11-02,15960395,12106574,4,Tandil,1,Buenos Aires,13,MET Córdoba
