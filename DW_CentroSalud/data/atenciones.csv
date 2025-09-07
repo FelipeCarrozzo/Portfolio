@@ -1,4 +1,4 @@
-id_atencion,id_paciente,id_medico,id_procedimiento,fecha_atencion,resultado,costo,duracion,observacion
+id,id_paciente,id_medico,id_procedimiento,fecha_atencion,resultado,costo,duracion,observacion
 1,850,41,26,2024-09-22,Normal,11669.62,220,Recetado tratamiento
 2,346,14,19,2024-12-07,Patológico,35195.42,230,Requiere estudios adicionales
 3,567,22,24,2022-06-24,Derivado,31023.07,44,Sin observaciones

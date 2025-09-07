@@ -1,4 +1,4 @@
-id_procedimiento,nombre_procedimiento,id_tipo_procedimiento,nombre_tipo_procedimiento,id_categoria_procedimiento,nombre_categoria_procedimiento,nivel_complejidad
+id,procedimiento,id_tipo_procedimiento,tipo_procedimiento,id_categoria_procedimiento,categoria_procedimiento,nivel_complejidad
 1,Electrocardiograma,1,Consulta,3,Diagnóstico,Baja
 2,Hemograma,4,Terapia,1,Cardiología,Media
 3,Radiografía,1,Consulta,6,Neurología,Alta

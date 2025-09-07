@@ -1,4 +1,4 @@
-id_medico,nombre,id_especialidad,nombre_especialidad,id_area,nombre_area,tipo_contrato
+id,nombre,id_especialidad,especialidad,id_area,area,tipo_contrato
 1,Benjamin Miranda,10,Oftalmología,4,Quirófano,Temporario
 2,Martina Gomez,2,Pediatría,3,Guardia,Temporario
 3,Juliana Paz,4,Traumatología,4,Quirófano,Permanente
