@@ -1,0 +1,42 @@
+id_departamento,nombre_departamento,id_provincia,nombre_provincia
+1,La Plata,1,Buenos Aires
+2,Avellaneda,1,Buenos Aires
+3,General Pueyrredón,1,Buenos Aires
+4,Tandil,1,Buenos Aires
+5,Córdoba Capital,2,Córdoba
+6,San Justo,2,Córdoba
+7,Río Cuarto,2,Córdoba
+8,Villa María,2,Córdoba
+9,Godoy Cruz,3,Mendoza
+10,Guaymallén,3,Mendoza
+11,Luján de Cuyo,3,Mendoza
+12,San Rafael,3,Mendoza
+13,Capital,4,San Juan
+14,Chimbas,4,San Juan
+15,Pocito,4,San Juan
+16,Rawson,4,San Juan
+17,Capital,5,Salta
+18,San Martín,5,Salta
+19,Orán,5,Salta
+20,Metán,5,Salta
+21,Capital,6,Neuquén
+22,Centenario,6,Neuquén
+23,Plottier,6,Neuquén
+24,Zapala,6,Neuquén
+25,Colón,7,Entre Ríos
+26,Concordia,7,Entre Ríos
+27,Diamante,7,Entre Ríos
+28,Federación,7,Entre Ríos
+29,Federal,7,Entre Ríos
+30,Feliciano,7,Entre Ríos
+31,Gualeguay,7,Entre Ríos
+32,Gualeguaychú,7,Entre Ríos
+33,Islas del Ibicuy,7,Entre Ríos
+34,La Paz,7,Entre Ríos
+35,Nogoyá,7,Entre Ríos
+36,Paraná,7,Entre Ríos
+37,San Salvador,7,Entre Ríos
+38,Tala,7,Entre Ríos
+39,Uruguay,7,Entre Ríos
+40,Victoria,7,Entre Ríos
+41,Villaguay,7,Entre Ríos
