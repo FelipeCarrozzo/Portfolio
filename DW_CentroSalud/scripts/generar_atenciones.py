@@ -7,11 +7,12 @@ fake = Faker('es_AR')
 
 class Atencion:
     def __init__(self, id_atencion, id_paciente, id_medico, id_procedimiento,
-                 fecha_atencion, resultado, costo, duracion, observacion):
+                 id_fecha, fecha_atencion, resultado, costo, duracion, observacion):
         self.id_atencion = id_atencion
         self.id_paciente = id_paciente
         self.id_medico = id_medico
         self.id_procedimiento = id_procedimiento
+        self.id_fecha = id_fecha
         self.fecha_atencion = fecha_atencion
         self.resultado = resultado
         self.costo = costo
@@ -24,6 +25,7 @@ class Atencion:
             'id_paciente': self.id_paciente,
             'id_medico': self.id_medico,
             'id_procedimiento': self.id_procedimiento,
+            'id_fecha': self.id_fecha,
             'fecha_atencion': self.fecha_atencion,
             'resultado': self.resultado,
             'costo': self.costo,
@@ -42,10 +44,9 @@ df_medicos = pd.read_csv('data/medicos.csv')
 df_procedimientos = pd.read_csv('data/procedimientos.csv')
 
 resultados_posibles = ['Normal', 'Patológico', 'En tratamiento', 'Derivado', 'Alta médica', 'Pendiente']
-observaciones_posibles = [
-    'Sin observaciones', 'Requiere seguimiento', 'Paciente estable', 'Requiere estudios adicionales',
-    'Se recomienda consulta especializada', 'Recetado tratamiento', 'Paciente derivado'
-]
+observaciones_posibles = ['Sin observaciones', 'Requiere seguimiento', 'Paciente estable', 
+                          'Requiere estudios adicionales','Se recomienda consulta especializada',
+                          'Recetado tratamiento', 'Paciente derivado']
 
 # Generar atenciones
 atenciones = []
@@ -58,6 +59,7 @@ for i in range(1, N_ATENCIONES + 1):
     delta = max_fecha - min_fecha
     fecha_random = min_fecha + timedelta(days=random.randint(0, delta.days))
     fecha_atencion = fecha_random.strftime('%Y-%m-%d')
+    id_fecha = int(fecha_random.strftime('%Y%m%d'))  # clave sustituta AAAAMMDD
 
     resultado = random.choice(resultados_posibles)
     costo = round(random.uniform(1000, 50000), 2)  # Costo simulado en pesos
@@ -69,6 +71,7 @@ for i in range(1, N_ATENCIONES + 1):
         id_paciente=id_paciente,
         id_medico=id_medico,
         id_procedimiento=id_procedimiento,
+        id_fecha=id_fecha,
         fecha_atencion=fecha_atencion,
         resultado=resultado,
         costo=costo,
