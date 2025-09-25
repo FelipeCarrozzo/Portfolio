@@ -34,7 +34,7 @@ class Atencion:
         }
 
 # Parámetros
-N_ATENCIONES = 10000
+N_ATENCIONES = 1000
 min_fecha = datetime(2019, 1, 1)
 max_fecha = datetime(2024, 12, 31)
 
