@@ -7,7 +7,7 @@ from conexion_bd import Base, engine
 
 class Pacientes(Base):
     __tablename__ = 'pacientes'
-    id = Column(Integer, primary_key=True, autoincrement=True)
+    id = Column(Integer, primary_key=True)
     nombre = Column(String)
     genero = Column(String)
     fecha_nacimiento = Column(Date)
@@ -19,8 +19,6 @@ class Pacientes(Base):
     provincia = relationship("Provincias")
     id_obra_social = Column(Integer, ForeignKey('obras_sociales.id'))
     obra_social = relationship("ObrasSociales")
-    direccion = Column(String)
-    email = Column(String)
 
 class Medicos(Base):
     __tablename__ = 'medicos'

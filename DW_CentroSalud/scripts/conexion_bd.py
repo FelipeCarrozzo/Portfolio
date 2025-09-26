@@ -6,7 +6,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 DATABASE_URL = "postgresql+psycopg2://postgres:repasador@localhost:5433/centro_salud"
 
 # Crear engine
-engine = create_engine(DATABASE_URL, echo=True)  # echo=True muestra las queries en consola
+engine = create_engine(DATABASE_URL, echo=False)
 
 Base = declarative_base()
 
