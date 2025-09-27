@@ -1,12 +1,16 @@
 #dependencias
 import pandas as pd
-# from sqlalchemy.exc import IntegrityError
 from sqlalchemy.dialects.postgresql import insert
 from conexion_bd import SessionLocal
 from models import (Pacientes, Provincias, Departamentos, ObrasSociales, 
                     Especialidades, Areas, TiposProcedimientos, CategoriasProcedimientos,
                     Medicos, Procedimientos, Fechas, Pacientes, Atenciones)
 
+"""
+ETL: Extrae, transforma y carga datos desde archivos CSV a la base de datos PostgreSQL.
+Utiliza SQLAlchemy para manejar las operaciones de la base de datos.
+
+"""
 #extraer datos
 df_areas = pd.read_csv("data/areas.csv", encoding="utf-8")
 df_atenciones = pd.read_csv("data/atenciones.csv", encoding="utf-8")
@@ -19,215 +23,303 @@ df_pacientes = pd.read_csv("data/pacientes.csv", encoding="utf-8")
 df_procedimientos = pd.read_csv("data/procedimientos.csv", encoding="utf-8")
 df_tipos_proced = pd.read_csv("data/tipos_procedimientos.csv", encoding="utf-8")
 
-#cargar sesion desde la conexion a la BD
-db = SessionLocal()
 
 #cargo datos de provincias
-def etl_provincias():
+def etl_provincias(df, db):
+    insertadas = 0
     try:
-        for _, row in df_deptos_prov.iterrows():
+        for _, row in df.iterrows():
             stmt = insert(Provincias).values(
                 provincia=row['nombre_provincia']
-            ).on_conflict_do_nothing(index_elements=['provincia'])  # evita duplicados según la columna 'provincia'
-            
-            db.execute(stmt)
+            ).on_conflict_do_nothing(index_elements=['provincia'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
 
         db.commit()
-        print("Datos de provincias cargados correctamente (sin duplicados)")
+        print(f"Provincias cargadas: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en provincias:", e)
+        return 0
+
+#cargo datos de fechas
+def etl_fechas(df, db):
+    insertadas = 0
+    try:
+        fechas_unicas = pd.to_datetime(df['fecha_atencion']).dt.date.unique()
+        for fecha in fechas_unicas:
+            stmt = insert(Fechas).values(
+                fecha=fecha
+            ).on_conflict_do_nothing(index_elements=['fecha'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Fechas cargadas: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en fechas:", e)
+        return 0
+
+#etl departamentos
+def etl_departamentos(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(Departamentos).values(
+                departamento=row['nombre_departamento'],
+                id_provincia=row['id_provincia']
+            ).on_conflict_do_nothing(index_elements=['departamento', 'id_provincia'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Departamentos cargados: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en departamentos:", e)
+        return 0
+
+#etl obras sociales
+def etl_oss(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(ObrasSociales).values(
+                obra_social=row['nombre_obra_social']
+            ).on_conflict_do_nothing(index_elements=['obra_social'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Obras sociales cargadas: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en obras sociales:", e)
+        return 0
+
+#etl especialidades
+def etl_especialidades(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(Especialidades).values(
+                especialidad=row['nombre_especialidad']
+            ).on_conflict_do_nothing(index_elements=['especialidad'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Especialidades cargadas: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en especialidades:", e)
+        return 0
+
+#etl areas
+def etl_areas(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(Areas).values(
+                area=row['nombre_area']
+            ).on_conflict_do_nothing(index_elements=['area'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Áreas cargadas: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en áreas:", e)
+        return 0
+
+#etl tipos procedimientos
+def etl_tipos_procedimientos(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(TiposProcedimientos).values(
+                tipo_procedimiento=row['nombre_tipo_procedimiento']
+            ).on_conflict_do_nothing(index_elements=['tipo_procedimiento'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Tipos de procedimientos cargados: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en tipos de procedimientos:", e)
+        return 0
+
+#etl categorias procedimientos
+def etl_cat_procedimientos(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(CategoriasProcedimientos).values(
+                categoria_procedimiento=row['nombre_categoria_procedimiento']
+            ).on_conflict_do_nothing(index_elements=['categoria_procedimiento'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Categorías de procedimientos cargadas: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en categorías de procedimientos:", e)
+        return 0
+
+#etl medicos
+def etl_medicos(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(Medicos).values(
+                nombre=row['nombre'],
+                id_especialidad=row['id_especialidad'],
+                id_area=row['id_area'],
+                tipo_contrato=row['tipo_contrato']
+            ).on_conflict_do_nothing(index_elements=['nombre', 'id_especialidad', 'id_area'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Médicos cargados: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en médicos:", e)
+        return 0
+
+#etl procedimientos
+def etl_procedimientos(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(Procedimientos).values(
+                nombre_procedimiento=row['nombre_procedimiento'],
+                id_tipo_procedimiento=row['id_tipo_procedimiento'],
+                id_categoria_procedimiento=row['id_categoria_procedimiento'],
+                nivel_complejidad=row['nivel_complejidad']
+            ).on_conflict_do_nothing(index_elements=['nombre_procedimiento', 'id_tipo_procedimiento'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Procedimientos cargados: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en procedimientos:", e)
+        return 0
+
+#cargo datos de pacientes
+def etl_pacientes(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            stmt = insert(Pacientes).values(
+                id=row["id_paciente"],        # ID del CSV
+                nombre=row["nombre"],
+                genero=row["genero"],
+                fecha_nacimiento=row["fecha_nacimiento"],
+                telefono=row["telefono"],
+                dni=row["dni"],
+                id_departamento=row["id_departamento"],
+                id_provincia=row["id_provincia"],
+                id_obra_social=row["id_obra_social"]
+            ).on_conflict_do_nothing(index_elements=['id'])
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Pacientes cargados: {insertadas}")
+        return insertadas
+    except Exception as e:
+        db.rollback()
+        print("Error en pacientes:", e)
+        return 0
+
+#cargo datos de atenciones
+def etl_atenciones(df, db):
+    insertadas = 0
+    try:
+        for _, row in df.iterrows():
+            # Validar que el paciente exista
+            paciente_existe = db.query(Pacientes.id_paciente).filter(
+                Pacientes.id_paciente == row['id_paciente']
+            ).first()
+            if not paciente_existe:
+                print(f"Paciente {row['id_paciente']} no encontrado. Se omite la atención.")
+                continue
+
+            # Buscar id_fecha en la tabla Fechas
+            fecha_obj = db.query(Fechas).filter(
+                Fechas.fecha == row['fecha_atencion']
+            ).first()
+            if not fecha_obj:
+                print(f"Fecha {row['fecha_atencion']} no encontrada en Fechas")
+                continue
+
+            # Insert con control de duplicados
+            stmt = insert(Atenciones).values(
+                id_paciente=row['id_paciente'],
+                id_medico=row['id_medico'],
+                id_procedimiento=row['id_procedimiento'],
+                id_fecha=fecha_obj.id,  # usamos el id real de Fechas
+                resultado=row['resultado'],
+                costo=row['costo'],
+                duracion=row['duracion'],
+                observaciones=row['observacion']
+            ).on_conflict_do_nothing(
+                index_elements=['id_paciente', 'id_medico', 'id_procedimiento', 'id_fecha']
+            )
+
+            result = db.execute(stmt)
+            insertadas += result.rowcount if result.rowcount else 0
+
+        db.commit()
+        print(f"Atenciones cargadas: {insertadas}")
+        return insertadas
 
     except Exception as e:
         db.rollback()
-        print("Error al cargar datos:", e)
+        print("Error al cargar atenciones:", e)
+        return 0
 
-    finally:
-        db.close()
+if __name__ == "__main__":
+    #cargar CSVs
+    df_deptos_prov = pd.read_csv("data/departamentos_provincias.csv", encoding="utf-8")
+    df_atenciones = pd.read_csv("data/atenciones.csv", encoding="utf-8")
+    df_pacientes = pd.read_csv("data/pacientes.csv", encoding="utf-8")
 
-#cargo datos de departamentos
-try:
-    for _, row in df_deptos_prov.iterrows():
-        stmt = insert(Departamentos).values(
-            departamento=row['nombre_departamento'],
-            id_provincia=row['id_provincia']
-        ).on_conflict_do_nothing(index_elements=['departamento', 'id_provincia'])  # evita duplicados por depto+provincia
-        
-        db.execute(stmt)
+    #abrir sesión
+    db = SessionLocal()
 
-    db.commit()
-    print("Datos de departamentos cargados correctamente (sin duplicados)")
+    #ejecutar ETLs
+    etl_provincias(df_deptos_prov, db)
+    etl_fechas(df_atenciones, db)
+    etl_pacientes(df_pacientes, db)
 
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-
-finally:
-    db.close()
-
-#cargo datos de obras sociales
-try:
-    for _, row in df_oss.iterrows():
-        oss = ObrasSociales(
-            obra_social = row['nombre_obra_social']
-        ).on_conflict_do_nothing(index_elements = ['obra_social'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de obra social cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-#cargo datos de especialidades
-try:
-    for _, row in df_especialidades.iterrows():
-        esp = Especialidades(
-            especialidad = row['nombre_especialidad']
-        ).on_conflict_do_nothing(index_elements=['especialidad'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de especialidades cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-#cargo datos de areas
-try:
-    for _, row in df_areas.iterrows():
-        area = Areas(
-            area = row['nombre_area']
-        ).on_conflict_do_nothing(index_elements=['area'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de areas cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-# cargo datos de tipos procedimientos
-try:
-    for _, row in df_tipos_proced.iterrows():
-        tipo_procedimiento = TiposProcedimientos(
-            tipo_procedimiento = row['nombre_tipo_procedimiento']
-        ).on_conflict_do_nothing(index_elements = ['tipo_procedimiento'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de tipos_proced cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-# cargo datos de cat procedimientos
-try:
-    for _, row in df_cat_procedimientos.iterrows():
-        categoria_procedimiento = CategoriasProcedimientos(
-            categoria_procedimiento = row['nombre_categoria_procedimiento']
-        ).on_conflict_do_nothing(index_elements=['categoria_procedimiento'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de categoria_procedimiento cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-# cargo datos de medicos
-try:
-    for _, row in df_medicos.iterrows():
-        medicos = Medicos(
-            nombre = row['nombre'],
-            id_especialidad = row['id_especialidad'],
-            id_area = row['id_area'],
-            tipo_contrato = row['tipo_contrato']
-        ).on_conflict_do_nothing(index_elements=['nombre','id_especialidad','id_area'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de medicos cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-#cargo datos de procedimientos
-try:
-    for _, row in df_procedimientos.iterrows():
-        procedimientos = Procedimientos(
-            nombre_procedimiento = row['nombre_procedimiento'],
-            id_tipo_procedimiento = row['id_tipo_procedimiento'],
-            id_categoria_procedimiento = row['id_categoria_procedimiento'],
-            nivel_complejidad = row['nivel_complejidad']
-        ).on_conflict_do_nothing(index_elements=['nombre_procedimiento','id_tipo_procedimiento'])
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de procedimientos cargados correctamente")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar datos:", e)
-finally:
-    db.close()
-
-#cargo datos de pacientes
-try:
-    for _, row in df_pacientes.iterrows():
-        stmt = insert(Pacientes).values(
-            id=row["id_paciente"],        # ID del CSV
-            nombre=row["nombre"],
-            genero=row["genero"],
-            fecha_nacimiento=row["fecha_nacimiento"],
-            telefono=row["telefono"],
-            dni=row["dni"],
-            id_departamento=row["id_departamento"],
-            id_provincia=row["id_provincia"],
-            id_obra_social=row["id_obra_social"]
-        ).on_conflict_do_nothing(index_elements=['id']) # evita duplicados por ID
-        db.execute(stmt)
-
-    db.commit()
-    print("Datos de pacientes cargados correctamente (sin duplicados)")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar pacientes:", e)
-
-#cargo datos de atenciones
-paciente_ids = set(df_pacientes["id_paciente"])
-
-try:
-    for _, row in df_atenciones.iterrows():
-        # Buscamos el id de la fecha en la tabla Fechas
-        fecha_obj = db.query(Fechas).filter(Fechas.fecha == row['fecha_atencion']).first()
-        if not fecha_obj:
-            print(f"Fecha {row['fecha_atencion']} no encontrada en Fechas")
-            continue
-
-        atencion = Atenciones(
-            id_paciente=row['id_paciente'],
-            id_medico=row['id_medico'],
-            id_procedimiento=row['id_procedimiento'],
-            id_fecha=fecha_obj.id,  # <-- usamos el id autoincremental real
-            resultado=row['resultado'],
-            costo=row['costo'],
-            duracion=row['duracion'],
-            observaciones=row['observacion']
-        )
-        db.add(atencion)
-    db.commit()
-    print("Datos de atenciones cargados correctamente (sin duplicados)")
-except Exception as e:
-    db.rollback()
-    print("Error al cargar atenciones:", e)
-finally:
+    #cerrar sesión
     db.close()

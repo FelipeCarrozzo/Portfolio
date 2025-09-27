@@ -1,6 +1,7 @@
+#dependencias
 from conexion_bd import Base, engine
-import models  # importa para que se registren los modelos
 
+"""Script para crear las tablas en la base de datos"""
 print("Creando tablas...")
 Base.metadata.create_all(bind=engine)
 print("Tablas creadas exitosamente")

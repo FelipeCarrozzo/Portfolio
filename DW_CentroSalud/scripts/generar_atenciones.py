@@ -3,6 +3,8 @@ import random
 from faker import Faker
 from datetime import datetime, timedelta
 
+"""Genera datos sintéticos para la tabla de atenciones y los guarda en un archivo CSV."""
+
 fake = Faker('es_AR')
 
 class Atencion:

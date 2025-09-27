@@ -1,6 +1,9 @@
+#dependencias
 import pandas as pd
 import random
 from faker import Faker
+
+"""Genera datos sintéticos para la tabla 'procedimientos' y los guarda en un archivo CSV."""
 
 fake = Faker('es_AR')
 

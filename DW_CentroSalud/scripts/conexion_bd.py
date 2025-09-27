@@ -5,12 +5,11 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 
 DATABASE_URL = "postgresql+psycopg2://postgres:repasador@localhost:5433/centro_salud"
 
-# Crear engine
+#engine
 engine = create_engine(DATABASE_URL, echo=False)
-
 Base = declarative_base()
 
-# Crear sesiones
+#sesiones
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 try:
