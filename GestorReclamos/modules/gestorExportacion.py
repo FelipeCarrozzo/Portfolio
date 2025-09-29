@@ -21,7 +21,8 @@ class ExportadorPDF(GestorExportacion):
     Utiliza ReportLab para generar el PDF con los datos del reporte.
     """
     def exportar(self, datosReporte, departamento=None):
-        nombre = f"reporte_{departamento or 'todos'}"
+        fecha_hora = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        nombre = f"reporte_{departamento or 'todos'}_{fecha_hora}"
         ruta = os.path.join("data", f"{nombre}.pdf")
 
         doc = SimpleDocTemplate(ruta, pagesize=letter, title="Reporte de reclamos")
