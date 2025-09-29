@@ -95,8 +95,8 @@ class ExportadorHTML(GestorExportacion):
     """
     def exportar(self, datosReporte, departamento=None):
         import shutil
-
-        nombre = f"reporte_{departamento or 'todos'}"
+        fecha_hora = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        nombre = f"reporte_{departamento or 'todos'}_{fecha_hora}"
         carpeta = "data"
         os.makedirs(carpeta, exist_ok=True)
 
