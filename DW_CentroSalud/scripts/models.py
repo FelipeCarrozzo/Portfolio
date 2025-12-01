@@ -1,7 +1,7 @@
 #dependencias
 from sqlalchemy import create_engine, Column, Integer, String, Date, Float, ForeignKey
 from sqlalchemy.orm import declarative_base, relationship
-from conexion_bd import Base
+from DW_CentroSalud.scripts.conexion_bd import Base
 
 """Definición de modelos para las tablas en la base de datos PostgreSQL usando SQLAlchemy ORM."""
 
