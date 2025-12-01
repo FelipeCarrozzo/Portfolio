@@ -1,5 +1,5 @@
 #dependencias
-from conexion_bd import Base, engine
+from DW_CentroSalud.scripts.conexion_bd import Base, engine
 
 """Script para crear las tablas en la base de datos"""
 print("Creando tablas...")
