@@ -1,0 +1,3 @@
+[submodule "chatbot-nodered"]
+	path = chatbot-nodered
+	url = https://github.com/FelipeCarrozzo/ChatBotCarrozzoVidrios
